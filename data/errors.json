@@ -1,0 +1,811 @@
+[
+    {
+        "id": "e001",
+        "code": "E1",
+        "brandId": "daikin",
+        "titleAr": "عطل في حساس درجة حرارة الغرفة",
+        "titleEn": "Room Temperature Sensor Error",
+        "severity": "medium",
+        "category": "sensors",
+        "symptoms": ["لا يعمل التكييف", "توقف المروحة", "إشارة E1 على الشاشة"],
+        "causes": ["تلف الثرمستور", "قطع في الكابل", "تآكل الموصلات", "تلوث الحساس"],
+        "parts": ["ثرمستور الغرفة", "كابل الحساس", "موصلات PCB"],
+        "checkSteps": [
+            "فحص مقاومة الحساس بالأوم متر (يجب أن تكون 5-15kΩ عند 25°C)",
+            "فحص استمرارية الكابل بين الحساس ولوحة التحكم",
+            "تنظيف الموصلات بالكحول",
+            "فحص جهد التغذية على الحساس (DC 5V)"
+        ],
+        "repairSteps": [
+            "استبدال الثرمستور بجديد من نفس النوع (NTC 10kΩ)",
+            "إعادة توصيل الكابل المقطوع",
+            "تنظيف الموصلات وإعادة تركيبها",
+            "برمجة لوحة التحكم إذا لزم الأمر"
+        ],
+        "tools": ["أوم متر", "لحام", "كحول إيزوبروبيل", "فرشاة"],
+        "duration": "30-60 دقيقة",
+        "cost": "50-150 ريال",
+        "needsTechnician": false,
+        "diyPossible": true,
+        "references": ["Daikin Service Manual FTXS-K Series", "Daikin Error Code List 2023"]
+    },
+    {
+        "id": "e002",
+        "code": "E2",
+        "brandId": "daikin",
+        "titleAr": "عطل في حساس درجة حرارة المبخر",
+        "titleEn": "Evaporator Temperature Sensor Error",
+        "severity": "medium",
+        "category": "sensors",
+        "symptoms": ["تجميد المبخر", "تساقط ماء", "توقف الضاغط"],
+        "causes": ["تلف حساس المبخر", "تسرب فريون", "انسداد فلتر الهواء", "تلف صمام التمدد"],
+        "parts": ["ثرمستور المبخر", "فلتر هواء", "صمام تمدد"],
+        "checkSteps": [
+            "قياس مقاومة حساس المبخر",
+            "فحص ضغط الفريون",
+            "تنظيف أو استبدال الفلتر",
+            "فحص صمام التمدد"
+        ],
+        "repairSteps": [
+            "استبدال حساس المبخر",
+            "تنظيف الفلتر",
+            "شحن الفريون إذا كان منخفضاً",
+            "استبدال صمام التمدد إذا تلف"
+        ],
+        "tools": ["أوم متر", "مانومتر", "مقياس ضغط الفريون"],
+        "duration": "45-90 دقيقة",
+        "cost": "100-300 ريال",
+        "needsTechnician": true,
+        "diyPossible": false,
+        "references": ["Daikin Service Manual RXS-K Series"]
+    },
+    {
+        "id": "e003",
+        "code": "U4",
+        "brandId": "daikin",
+        "titleAr": "عطل في الاتصال بين الوحدات الداخلية والخارجية",
+        "titleEn": "Communication Error Between Units",
+        "severity": "high",
+        "category": "communication",
+        "symptoms": ["لا يعمل التكييف نهائياً", "وميض ضوء المؤشر", "رسالة U4"],
+        "causes": ["قطع في كابل الاتصال", "تلف PCB", "تداخل كهرومغناطيسي", "خلل في التوصيل"],
+        "parts": ["كابل الاتصال", "PCB داخلي", "PCB خارجي", "موصلات"],
+        "checkSteps": [
+            "فحص استمرارية كابل الاتصال بين الوحدتين",
+            "فحص جهد الإشارة على كابل الاتصال",
+            "فحص PCB الداخلي والخارجي",
+            "التأكد من عدم وجود مصادر تداخل"
+        ],
+        "repairSteps": [
+            "استبدال كابل الاتصال",
+            "إعادة برمجة الوحدات",
+            "استبدال PCB المعطوب",
+            "فصل مصادر التداخل"
+        ],
+        "tools": ["أوم متر", "أوسيلوسكوب", "مفكات"],
+        "duration": "1-3 ساعات",
+        "cost": "200-800 ريال",
+        "needsTechnician": true,
+        "diyPossible": false,
+        "references": ["Daikin VRV Service Manual", "Daikin Communication Troubleshooting Guide"]
+    },
+    {
+        "id": "e004",
+        "code": "CH01",
+        "brandId": "lg",
+        "titleAr": "عطل في حساس درجة حرارة المبخر",
+        "titleEn": "Indoor Coil Thermistor Error",
+        "severity": "medium",
+        "category": "sensors",
+        "symptoms": ["توقف الجهاز", "وميض المؤشر", "لا يبرد"],
+        "causes": ["تلف الثرمستور", "قطع في السلك", "تآكل الموصلات"],
+        "parts": ["ثرمستور المبخر", "كابل", "موصلات"],
+        "checkSteps": [
+            "قياس مقاومة الثرمستور (10kΩ ±5% عند 25°C)",
+            "فحص استمرارية الأسلاك",
+            "تنظيف الموصلات"
+        ],
+        "repairSteps": [
+            "استبدال الثرمستور",
+            "إصلاح الكابل المقطوع",
+            "تنظيف الموصلات"
+        ],
+        "tools": ["أوم متر", "لحام", "كحول"],
+        "duration": "30-60 دقيقة",
+        "cost": "50-150 ريال",
+        "needsTechnician": false,
+        "diyPossible": true,
+        "references": ["LG Service Manual S12/S18 Series"]
+    },
+    {
+        "id": "e005",
+        "code": "CH02",
+        "brandId": "lg",
+        "titleAr": "عطل في حساس درجة حرارة الغرفة",
+        "titleEn": "Indoor Air Thermistor Error",
+        "severity": "medium",
+        "category": "sensors",
+        "symptoms": ["لا يعمل الجهاز", "قراءة خاطئة للحرارة", "وميض CH02"],
+        "causes": ["تلف حساس الغرفة", "قطع في الكابل", "تلف PCB"],
+        "parts": ["حساس الغرفة", "كابل", "PCB"],
+        "checkSteps": [
+            "قياس مقاومة الحساس",
+            "فحص الكابل",
+            "فحص PCB"
+        ],
+        "repairSteps": [
+            "استبدال حساس الغرفة",
+            "إصلاح الكابل",
+            "استبدال PCB"
+        ],
+        "tools": ["أوم متر", "لحام"],
+        "duration": "30-60 دقيقة",
+        "cost": "50-200 ريال",
+        "needsTechnician": false,
+        "diyPossible": true,
+        "references": ["LG Service Manual"]
+    },
+    {
+        "id": "e006",
+        "code": "CH34",
+        "brandId": "lg",
+        "titleAr": "ضغط عالي في دائرة التبريد",
+        "titleEn": "High Pressure Error",
+        "severity": "high",
+        "category": "compressor",
+        "symptoms": ["توقف الضاغط", "صوت فرقعة", "ارتفاع حرارة الوحدة الخارجية"],
+        "causes": ["انسداد المكثف", "تسرب فريون", "تلف مروحة المكثف", "تلف مفتاح الضغط العالي"],
+        "parts": ["مكثف", "مروحة خارجية", "مفتاح ضغط", "فريون"],
+        "checkSteps": [
+            "فحص ضغط النظام بالمانومتر",
+            "تنظيف المكثف",
+            "فحص سرعة المروحة الخارجية",
+            "فحص مفتاح الضغط العالي"
+        ],
+        "repairSteps": [
+            "تنظيف المكثف بالماء والفرشاة",
+            "إصلاح تسرب الفريون وإعادة الشحن",
+            "استبدال مروحة المكثف",
+            "استبدال مفتاح الضغط"
+        ],
+        "tools": ["مانومتر", "مضخة فراغ", "فرشاة"],
+        "duration": "2-4 ساعات",
+        "cost": "300-1000 ريال",
+        "needsTechnician": true,
+        "diyPossible": false,
+        "references": ["LG HVAC Service Manual", "ASHRAE Fundamentals"]
+    },
+    {
+        "id": "e007",
+        "code": "E101",
+        "brandId": "samsung",
+        "titleAr": "عطل في الاتصال الداخلي-الخارجي",
+        "titleEn": "Indoor-Outdoor Communication Error",
+        "severity": "high",
+        "category": "communication",
+        "symptoms": ["لا يعمل الجهاز", "وميض المؤشر", "E101 على الشاشة"],
+        "causes": ["قطع في كابل الاتصال", "تلف PCB", "تداخل كهرومغناطيسي"],
+        "parts": ["كابل الاتصال", "PCB", "موصلات"],
+        "checkSteps": [
+            "فحص كابل الاتصال",
+            "فحص PCB",
+            "فحص مصادر التداخل"
+        ],
+        "repairSteps": [
+            "استبدال كابل الاتصال",
+            "استبدال PCB",
+            "إزالة مصادر التداخل"
+        ],
+        "tools": ["أوم متر", "مفكات"],
+        "duration": "1-3 ساعات",
+        "cost": "200-800 ريال",
+        "needsTechnician": true,
+        "diyPossible": false,
+        "references": ["Samsung Service Manual AR Series"]
+    },
+    {
+        "id": "e008",
+        "code": "E201",
+        "brandId": "samsung",
+        "titleAr": "عطل في ضاغط الانفرتر",
+        "titleEn": "Inverter Compressor Error",
+        "severity": "critical",
+        "category": "inverter",
+        "symptoms": ["لا يبرد نهائياً", "صوت فرقعة", "ارتفاع حرارة الوحدة الخارجية", "E201"],
+        "causes": ["تلف وحدة الانفرتر", "تلف الضاغط", "تلف حساس التيار", "تلف PCB الانفرتر"],
+        "parts": ["وحدة انفرتر", "ضاغط", "حساس التيار", "PCB انفرتر"],
+        "checkSteps": [
+            "فحص جهد وحدة الانفرتر",
+            "فحص مقاومة ملفات الضاغط",
+            "فحص حساس التيار",
+            "فحص PCB الانفرتر"
+        ],
+        "repairSteps": [
+            "استبدال وحدة الانفرتر",
+            "استبدال الضاغط",
+            "استبدال حساس التيار",
+            "استبدال PCB الانفرتر"
+        ],
+        "tools": ["أوم متر", "أوسيلوسكوب", "مفكات"],
+        "duration": "3-6 ساعات",
+        "cost": "1500-4000 ريال",
+        "needsTechnician": true,
+        "diyPossible": false,
+        "references": ["Samsung Inverter Service Manual", "Samsung Diagnostic Guide"]
+    },
+    {
+        "id": "e009",
+        "code": "E5",
+        "brandId": "gree",
+        "titleAr": "عطل في الاتصال بين الوحدات",
+        "titleEn": "Communication Error",
+        "severity": "high",
+        "category": "communication",
+        "symptoms": ["لا يعمل", "وميض E5", "توقف المروحة"],
+        "causes": ["قطع في كابل الاتصال", "تلف PCB", "توصيل خاطئ"],
+        "parts": ["كابل الاتصال", "PCB"],
+        "checkSteps": [
+            "فحص كابل الاتصال",
+            "فحص PCB",
+            "التأكد من التوصيل الصحيح"
+        ],
+        "repairSteps": [
+            "استبدال كابل الاتصال",
+            "استبدال PCB",
+            "إعادة التوصيل"
+        ],
+        "tools": ["أوم متر"],
+        "duration": "1-2 ساعات",
+        "cost": "150-600 ريال",
+        "needsTechnician": true,
+        "diyPossible": false,
+        "references": ["Gree Service Manual"]
+    },
+    {
+        "id": "e010",
+        "code": "H3",
+        "brandId": "gree",
+        "titleAr": "حماية الضاغط من الضغط العالي",
+        "titleEn": "High Pressure Protection",
+        "severity": "high",
+        "category": "compressor",
+        "symptoms": ["توقف الضاغط", "ارتفاع حرارة", "H3 على الشاشة"],
+        "causes": ["انسداد المكثف", "تسرب فريون", "تلف مروحة خارجية"],
+        "parts": ["مكثف", "مروحة خارجية", "فريون"],
+        "checkSteps": [
+            "فحص ضغط النظام",
+            "تنظيف المكثف",
+            "فحص المروحة الخارجية"
+        ],
+        "repairSteps": [
+            "تنظيف المكثف",
+            "إصلاح تسرب الفريون",
+            "استبدال مروحة المكثف"
+        ],
+        "tools": ["مانومتر", "فرشاة"],
+        "duration": "2-4 ساعات",
+        "cost": "300-1000 ريال",
+        "needsTechnician": true,
+        "diyPossible": false,
+        "references": ["Gree Service Manual"]
+    },
+    {
+        "id": "e011",
+        "code": "P0",
+        "brandId": "midea",
+        "titleAr": "حماية من الجهد المنخفض",
+        "titleEn": "Low Voltage Protection",
+        "severity": "medium",
+        "category": "electrical",
+        "symptoms": ["توقف الجهاز", "وميض P0", "لا يعمل عند الجهد المنخفض"],
+        "causes": ["انخفاض جهد الكهرباء", "تلف مكثف التشغيل", "تلف PCB"],
+        "parts": ["مكثف تشغيل", "PCB", "منظم جهد"],
+        "checkSteps": [
+            "قياس جهد الكهرباء",
+            "فحص مكثف التشغيل",
+            "فحص PCB"
+        ],
+        "repairSteps": [
+            "تركيب منظم جهد",
+            "استبدال مكثف التشغيل",
+            "استبدال PCB"
+        ],
+        "tools": ["فولتميتر", "أوم متر"],
+        "duration": "1-2 ساعات",
+        "cost": "100-500 ريال",
+        "needsTechnician": true,
+        "diyPossible": false,
+        "references": ["Midea Service Manual"]
+    },
+    {
+        "id": "e012",
+        "code": "E1",
+        "brandId": "midea",
+        "titleAr": "عطل في حساس درجة حرارة الغرفة",
+        "titleEn": "Room Temperature Sensor Error",
+        "severity": "medium",
+        "category": "sensors",
+        "symptoms": ["لا يعمل", "قراءة خاطئة", "E1"],
+        "causes": ["تلف الحساس", "قطع في الكابل"],
+        "parts": ["حساس الغرفة", "كابل"],
+        "checkSteps": [
+            "قياس مقاومة الحساس",
+            "فحص الكابل"
+        ],
+        "repairSteps": [
+            "استبدال الحساس",
+            "إصلاح الكابل"
+        ],
+        "tools": ["أوم متر"],
+        "duration": "30-60 دقيقة",
+        "cost": "50-150 ريال",
+        "needsTechnician": false,
+        "diyPossible": true,
+        "references": ["Midea Service Manual"]
+    },
+    {
+        "id": "e013",
+        "code": "E1",
+        "brandId": "carrier",
+        "titleAr": "عطل في حساس درجة حرارة الغرفة",
+        "titleEn": "Room Temperature Sensor Malfunction",
+        "severity": "medium",
+        "category": "sensors",
+        "symptoms": ["توقف الجهاز", "E1 على الشاشة"],
+        "causes": ["تلف الحساس", "قطع في السلك"],
+        "parts": ["حساس الغرفة"],
+        "checkSteps": [
+            "قياس مقاومة الحساس",
+            "فحص السلك"
+        ],
+        "repairSteps": [
+            "استبدال الحساس"
+        ],
+        "tools": ["أوم متر"],
+        "duration": "30 دقيقة",
+        "cost": "50-150 ريال",
+        "needsTechnician": false,
+        "diyPossible": true,
+        "references": ["Carrier Service Manual"]
+    },
+    {
+        "id": "e014",
+        "code": "E4",
+        "brandId": "carrier",
+        "titleAr": "حماية الضاغط من الضغط العالي",
+        "titleEn": "High Pressure Switch Trip",
+        "severity": "high",
+        "category": "compressor",
+        "symptoms": ["توقف الضاغط", "E4", "حرارة عالية"],
+        "causes": ["انسداد المكثف", "تسرب فريون", "تلف مروحة"],
+        "parts": ["مكثف", "مروحة", "مفتاح ضغط"],
+        "checkSteps": [
+            "فحص ضغط النظام",
+            "تنظيف المكثف",
+            "فحص المروحة"
+        ],
+        "repairSteps": [
+            "تنظيف المكثف",
+            "إصلاح تسرب الفريون",
+            "استبدال المروحة"
+        ],
+        "tools": ["مانومتر", "فرشاة"],
+        "duration": "2-4 ساعات",
+        "cost": "300-1000 ريال",
+        "needsTechnician": true,
+        "diyPossible": false,
+        "references": ["Carrier Service Manual"]
+    },
+    {
+        "id": "e015",
+        "code": "E6",
+        "brandId": "mitsubishi-electric",
+        "titleAr": "عطل في الاتصال بين الوحدات",
+        "titleEn": "Communication Error",
+        "severity": "high",
+        "category": "communication",
+        "symptoms": ["لا يعمل", "E6", "وميض المؤشر"],
+        "causes": ["قطع في كابل الاتصال", "تلف PCB", "تداخل"],
+        "parts": ["كابل الاتصال", "PCB"],
+        "checkSteps": [
+            "فحص كابل الاتصال",
+            "فحص PCB"
+        ],
+        "repairSteps": [
+            "استبدال كابل الاتصال",
+            "استبدال PCB"
+        ],
+        "tools": ["أوم متر"],
+        "duration": "1-3 ساعات",
+        "cost": "200-800 ريال",
+        "needsTechnician": true,
+        "diyPossible": false,
+        "references": ["Mitsubishi Electric Service Manual"]
+    },
+    {
+        "id": "e016",
+        "code": "E0",
+        "brandId": "mitsubishi-electric",
+        "titleAr": "عطل في وحدة الانفرتر",
+        "titleEn": "Inverter Unit Error",
+        "severity": "critical",
+        "category": "inverter",
+        "symptoms": ["لا يبرد", "E0", "صوت فرقعة"],
+        "causes": ["تلف وحدة الانفرتر", "تلف الضاغط", "تلف PCB"],
+        "parts": ["وحدة انفرتر", "ضاغط", "PCB"],
+        "checkSteps": [
+            "فحص وحدة الانفرتر",
+            "فحص الضاغط",
+            "فحص PCB"
+        ],
+        "repairSteps": [
+            "استبدال وحدة الانفرتر",
+            "استبدال الضاغط",
+            "استبدال PCB"
+        ],
+        "tools": ["أوم متر", "أوسيلوسكوب"],
+        "duration": "3-6 ساعات",
+        "cost": "2000-5000 ريال",
+        "needsTechnician": true,
+        "diyPossible": false,
+        "references": ["Mitsubishi Electric Inverter Manual"]
+    },
+    {
+        "id": "e017",
+        "code": "F11",
+        "brandId": "panasonic",
+        "titleAr": "عطل في حساس درجة حرارة المبخر",
+        "titleEn": "Indoor Coil Sensor Error",
+        "severity": "medium",
+        "category": "sensors",
+        "symptoms": ["توقف", "F11", "تجميد"],
+        "causes": ["تلف الحساس", "قطع في الكابل"],
+        "parts": ["حساس المبخر"],
+        "checkSteps": [
+            "قياس مقاومة الحساس",
+            "فحص الكابل"
+        ],
+        "repairSteps": [
+            "استبدال الحساس"
+        ],
+        "tools": ["أوم متر"],
+        "duration": "30-60 دقيقة",
+        "cost": "50-150 ريال",
+        "needsTechnician": false,
+        "diyPossible": true,
+        "references": ["Panasonic Service Manual"]
+    },
+    {
+        "id": "e018",
+        "code": "F90",
+        "brandId": "panasonic",
+        "titleAr": "عطل في وحدة الانفرتر",
+        "titleEn": "Inverter Compressor Error",
+        "severity": "critical",
+        "category": "inverter",
+        "symptoms": ["لا يبرد", "F90", "صوت فرقعة"],
+        "causes": ["تلف وحدة الانفرتر", "تلف الضاغط"],
+        "parts": ["وحدة انفرتر", "ضاغط"],
+        "checkSteps": [
+            "فحص وحدة الانفرتر",
+            "فحص الضاغط"
+        ],
+        "repairSteps": [
+            "استبدال وحدة الانفرتر",
+            "استبدال الضاغط"
+        ],
+        "tools": ["أوم متر"],
+        "duration": "3-5 ساعات",
+        "cost": "2000-4500 ريال",
+        "needsTechnician": true,
+        "diyPossible": false,
+        "references": ["Panasonic Inverter Manual"]
+    },
+    {
+        "id": "e019",
+        "code": "E1",
+        "brandId": "toshiba",
+        "titleAr": "عطل في حساس درجة حرارة الغرفة",
+        "titleEn": "Room Temperature Sensor Error",
+        "severity": "medium",
+        "category": "sensors",
+        "symptoms": ["توقف", "E1"],
+        "causes": ["تلف الحساس", "قطع في الكابل"],
+        "parts": ["حساس الغرفة"],
+        "checkSteps": [
+            "قياس مقاومة الحساس",
+            "فحص الكابل"
+        ],
+        "repairSteps": [
+            "استبدال الحساس"
+        ],
+        "tools": ["أوم متر"],
+        "duration": "30 دقيقة",
+        "cost": "50-150 ريال",
+        "needsTechnician": false,
+        "diyPossible": true,
+        "references": ["Toshiba Service Manual"]
+    },
+    {
+        "id": "e020",
+        "code": "E04",
+        "brandId": "toshiba",
+        "titleAr": "عطل في الاتصال بين الوحدات",
+        "titleEn": "Communication Error",
+        "severity": "high",
+        "category": "communication",
+        "symptoms": ["لا يعمل", "E04"],
+        "causes": ["قطع في كابل الاتصال", "تلف PCB"],
+        "parts": ["كابل الاتصال", "PCB"],
+        "checkSteps": [
+            "فحص كابل الاتصال",
+            "فحص PCB"
+        ],
+        "repairSteps": [
+            "استبدال كابل الاتصال",
+            "استبدال PCB"
+        ],
+        "tools": ["أوم متر"],
+        "duration": "1-3 ساعات",
+        "cost": "200-800 ريال",
+        "needsTechnician": true,
+        "diyPossible": false,
+        "references": ["Toshiba Service Manual"]
+    },
+    {
+        "id": "e021",
+        "code": "E1",
+        "brandId": "hitachi",
+        "titleAr": "عطل في حساس درجة حرارة الغرفة",
+        "titleEn": "Room Temperature Sensor Error",
+        "severity": "medium",
+        "category": "sensors",
+        "symptoms": ["توقف", "E1"],
+        "causes": ["تلف الحساس", "قطع في الكابل"],
+        "parts": ["حساس الغرفة"],
+        "checkSteps": [
+            "قياس مقاومة الحساس",
+            "فحص الكابل"
+        ],
+        "repairSteps": [
+            "استبدال الحساس"
+        ],
+        "tools": ["أوم متر"],
+        "duration": "30 دقيقة",
+        "cost": "50-150 ريال",
+        "needsTechnician": false,
+        "diyPossible": true,
+        "references": ["Hitachi Service Manual"]
+    },
+    {
+        "id": "e022",
+        "code": "E3",
+        "brandId": "hitachi",
+        "titleAr": "حماية الضاغط من الضغط العالي",
+        "titleEn": "High Pressure Protection",
+        "severity": "high",
+        "category": "compressor",
+        "symptoms": ["توقف الضاغط", "E3", "حرارة عالية"],
+        "causes": ["انسداد المكثف", "تسرب فريون", "تلف مروحة"],
+        "parts": ["مكثف", "مروحة", "فريون"],
+        "checkSteps": [
+            "فحص ضغط النظام",
+            "تنظيف المكثف",
+            "فحص المروحة"
+        ],
+        "repairSteps": [
+            "تنظيف المكثف",
+            "إصلاح تسرب الفريون",
+            "استبدال المروحة"
+        ],
+        "tools": ["مانومتر", "فرشاة"],
+        "duration": "2-4 ساعات",
+        "cost": "300-1000 ريال",
+        "needsTechnician": true,
+        "diyPossible": false,
+        "references": ["Hitachi Service Manual"]
+    },
+    {
+        "id": "e023",
+        "code": "F1",
+        "brandId": "haier",
+        "titleAr": "عطل في حساس درجة حرارة الغرفة",
+        "titleEn": "Room Temperature Sensor Error",
+        "severity": "medium",
+        "category": "sensors",
+        "symptoms": ["توقف", "F1"],
+        "causes": ["تلف الحساس", "قطع في الكابل"],
+        "parts": ["حساس الغرفة"],
+        "checkSteps": [
+            "قياس مقاومة الحساس",
+            "فحص الكابل"
+        ],
+        "repairSteps": [
+            "استبدال الحساس"
+        ],
+        "tools": ["أوم متر"],
+        "duration": "30 دقيقة",
+        "cost": "50-150 ريال",
+        "needsTechnician": false,
+        "diyPossible": true,
+        "references": ["Haier Service Manual"]
+    },
+    {
+        "id": "e024",
+        "code": "E1",
+        "brandId": "hisense",
+        "titleAr": "عطل في حساس درجة حرارة الغرفة",
+        "titleEn": "Room Temperature Sensor Error",
+        "severity": "medium",
+        "category": "sensors",
+        "symptoms": ["توقف", "E1"],
+        "causes": ["تلف الحساس", "قطع في الكابل"],
+        "parts": ["حساس الغرفة"],
+        "checkSteps": [
+            "قياس مقاومة الحساس",
+            "فحص الكابل"
+        ],
+        "repairSteps": [
+            "استبدال الحساس"
+        ],
+        "tools": ["أوم متر"],
+        "duration": "30 دقيقة",
+        "cost": "50-150 ريال",
+        "needsTechnician": false,
+        "diyPossible": true,
+        "references": ["Hisense Service Manual"]
+    },
+    {
+        "id": "e025",
+        "code": "EE",
+        "brandId": "fujitsu",
+        "titleAr": "عطل في وحدة الانفرتر",
+        "titleEn": "Inverter Error",
+        "severity": "critical",
+        "category": "inverter",
+        "symptoms": ["لا يبرد", "EE", "صوت فرقعة"],
+        "causes": ["تلف وحدة الانفرتر", "تلف الضاغط"],
+        "parts": ["وحدة انفرتر", "ضاغط"],
+        "checkSteps": [
+            "فحص وحدة الانفرتر",
+            "فحص الضاغط"
+        ],
+        "repairSteps": [
+            "استبدال وحدة الانفرتر",
+            "استبدال الضاغط"
+        ],
+        "tools": ["أوم متر"],
+        "duration": "3-5 ساعات",
+        "cost": "2000-4500 ريال",
+        "needsTechnician": true,
+        "diyPossible": false,
+        "references": ["Fujitsu Service Manual"]
+    },
+    {
+        "id": "e026",
+        "code": "E1",
+        "brandId": "tcl",
+        "titleAr": "عطل في حساس درجة حرارة الغرفة",
+        "titleEn": "Room Temperature Sensor Error",
+        "severity": "medium",
+        "category": "sensors",
+        "symptoms": ["توقف", "E1"],
+        "causes": ["تلف الحساس", "قطع في الكابل"],
+        "parts": ["حساس الغرفة"],
+        "checkSteps": [
+            "قياس مقاومة الحساس",
+            "فحص الكابل"
+        ],
+        "repairSteps": [
+            "استبدال الحساس"
+        ],
+        "tools": ["أوم متر"],
+        "duration": "30 دقيقة",
+        "cost": "50-150 ريال",
+        "needsTechnician": false,
+        "diyPossible": true,
+        "references": ["TCL Service Manual"]
+    },
+    {
+        "id": "e027",
+        "code": "E1",
+        "brandId": "beko",
+        "titleAr": "عطل في حساس درجة حرارة الغرفة",
+        "titleEn": "Room Temperature Sensor Error",
+        "severity": "medium",
+        "category": "sensors",
+        "symptoms": ["توقف", "E1"],
+        "causes": ["تلف الحساس", "قطع في الكابل"],
+        "parts": ["حساس الغرفة"],
+        "checkSteps": [
+            "قياس مقاومة الحساس",
+            "فحص الكابل"
+        ],
+        "repairSteps": [
+            "استبدال الحساس"
+        ],
+        "tools": ["أوم متر"],
+        "duration": "30 دقيقة",
+        "cost": "50-150 ريال",
+        "needsTechnician": false,
+        "diyPossible": true,
+        "references": ["Beko Service Manual"]
+    },
+    {
+        "id": "e028",
+        "code": "E5",
+        "brandId": "condor",
+        "titleAr": "عطل في الاتصال بين الوحدات",
+        "titleEn": "Communication Error",
+        "severity": "high",
+        "category": "communication",
+        "symptoms": ["لا يعمل", "E5"],
+        "causes": ["قطع في كابل الاتصال", "تلف PCB"],
+        "parts": ["كابل الاتصال", "PCB"],
+        "checkSteps": [
+            "فحص كابل الاتصال",
+            "فحص PCB"
+        ],
+        "repairSteps": [
+            "استبدال كابل الاتصال",
+            "استبدال PCB"
+        ],
+        "tools": ["أوم متر"],
+        "duration": "1-3 ساعات",
+        "cost": "200-800 ريال",
+        "needsTechnician": true,
+        "diyPossible": false,
+        "references": ["Condor Service Manual"]
+    },
+    {
+        "id": "e029",
+        "code": "E1",
+        "brandId": "chigo",
+        "titleAr": "عطل في حساس درجة حرارة الغرفة",
+        "titleEn": "Room Temperature Sensor Error",
+        "severity": "medium",
+        "category": "sensors",
+        "symptoms": ["توقف", "E1"],
+        "causes": ["تلف الحساس", "قطع في الكابل"],
+        "parts": ["حساس الغرفة"],
+        "checkSteps": [
+            "قياس مقاومة الحساس",
+            "فحص الكابل"
+        ],
+        "repairSteps": [
+            "استبدال الحساس"
+        ],
+        "tools": ["أوم متر"],
+        "duration": "30 دقيقة",
+        "cost": "50-150 ريال",
+        "needsTechnician": false,
+        "diyPossible": true,
+        "references": ["Chigo Service Manual"]
+    },
+    {
+        "id": "e030",
+        "code": "E5",
+        "brandId": "aux",
+        "titleAr": "عطل في الاتصال بين الوحدات",
+        "titleEn": "Communication Error",
+        "severity": "high",
+        "category": "communication",
+        "symptoms": ["لا يعمل", "E5"],
+        "causes": ["قطع في كابل الاتصال", "تلف PCB"],
+        "parts": ["كابل الاتصال", "PCB"],
+        "checkSteps": [
+            "فحص كابل الاتصال",
+            "فحص PCB"
+        ],
+        "repairSteps": [
+            "استبدال كابل الاتصال",
+            "استبدال PCB"
+        ],
+        "tools": ["أوم متر"],
+        "duration": "1-3 ساعات",
+        "cost": "200-800 ريال",
+        "needsTechnician": true,
+        "diyPossible": false,
+        "references": ["Aux Service Manual"]
+    }
+]
