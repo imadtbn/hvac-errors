@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دليل أعطال أجهزة التكييف المنزلية | HVAC Error Codes Guide</title>
+  <meta name="description"
+    content="أكبر مرجع عربي لأعطال أجهزة التكييف المنزلية - أكواد الأخطاء، أسباب العطل، خطوات الإصلاح، وتكلفة الصيانة لـ Daikin, LG, Samsung, Gree, Midea, Carrier وغيرها.">
+  <meta name="keywords"
+    content="أعطال المكيفات, أكواد أخطاء التكييف, صيانة المكيفات, ضاغط التكييف, انفرتر, حساسات, ضعف التبريد, تسرب الفريون, Daikin, LG, Samsung, Gree, Midea, Carrier">
+  <link rel="canonical" href="https://hvac-errors.com/">
+  <meta property="og:title" content="دليل أعطال أجهزة التكييف المنزلية">
+  <meta property="og:description" content="أكبر مرجع عربي لأعطال أجهزة التكييف المنزلية">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hvac-errors.com/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="icons/favicon.ico">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "دليل أعطال أجهزة التكييف المنزلية",
+      "url": "https://hvac-errors.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://hvac-errors.com/search.html?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "HVAC Error Codes Guide",
+      "url": "https://hvac-errors.com/",
+      "logo": "https://hvac-errors.com/icons/logo.png",
+      "sameAs": []
+    }
+  </script>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">❄️</div>
+        <span>دليل أعطال التكييف</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link active">الرئيسية</a>
+        <a href="errors.html" class="nav-link">الأعطال</a>
+        <a href="brands.html" class="nav-link">الماركات</a>
+        <a href="about.html" class="nav-link">عن الموقع</a>
+        <a href="contact.html" class="nav-link">اتصل بنا</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn-icon" id="themeToggle" title="تبديل الوضع">🌙</button>
+        <button class="btn-icon mobile-menu-btn" id="mobileMenuBtn">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html">الرئيسية</a>
+    <a href="errors.html">الأعطال</a>
+    <a href="brands.html">الماركات</a>
+    <a href="about.html">عن الموقع</a>
+    <a href="contact.html">اتصل بنا</a>
+    <a href="faq.html">الأسئلة الشائعة</a>
+    <a href="privacy.html">سياسة الخصوصية</a>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-badge">
+        <span>📚</span>
+        <span>أكبر مرجع عربي متخصص</span>
+      </div>
+      <h1>دليل <span>أعطال أجهزة التكييف</span> المنزلية</h1>
+      <p>اعرف معنى رمز الخطأ، سبب العطل، القطعة المتسببة، وخطوات الإصلاح لأكثر من 30 ماركة عالمية</p>
+
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="ابحث برمز الخطأ، اسم العطل، أو الماركة..." autocomplete="off">
+        <button>🔍</button>
+        <div class="search-results" id="searchResults"></div>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number" id="statErrors">30+</span>
+          <span class="stat-label">عطل مسجل</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" id="statBrands">25+</span>
+          <span class="stat-label">ماركة</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" id="statCategories">15</span>
+          <span class="stat-label">تصنيف</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>تصنيفات الأعطال</h2>
+        <p>تصفح الأعطال حسب نوع المشكلة</p>
+      </div>
+      <div class="cat-grid" id="categoriesGrid">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Errors -->
+  <section class="section" style="background: var(--bg);">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>آخر الأعطال المسجلة</h2>
+        <p>أحدث الأعطال التي تمت إضافتها إلى قاعدة البيانات</p>
+      </div>
+      <div class="card-grid" id="latestErrorsGrid">
+        <!-- Filled by JS -->
+      </div>
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="errors.html" class="btn btn-primary">عرض جميع الأعطال →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brands -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>الماركات المدعومة</h2>
+        <p>ابحث عن أعطال جهازك حسب الماركة</p>
+      </div>
+      <div class="card-grid" id="brandsGrid">
+        <!-- Filled by JS -->
+      </div>
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="brands.html" class="btn btn-outline">جميع الماركات</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section" style="background: linear-gradient(135deg, rgba(0,102,204,0.03), rgba(0,174,239,0.03));">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>لماذا دليل أعطال التكييف؟</h2>
+        <p>كل ما تحتاجه لفهم وإصلاح أعطال جهاز التكييف</p>
+      </div>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon" style="background: rgba(0,102,204,0.1); color: var(--primary);">🔍</div>
+          <h3>بحث ذكي</h3>
+          <p>ابحث برمز الخطأ أو اسم العطل أو الماركة وستجد النتيجة فوراً</p>
+        </div>
+        <div class="card">
+          <div class="card-icon" style="background: rgba(211,47,47,0.1); color: var(--danger);">⚠️</div>
+          <h3>تقييم الخطورة</h3>
+          <p>نعرض لك مستوى خطورة كل عطل وهل يحتاج فنياً أم يمكنك إصلاحه بنفسك</p>
+        </div>
+        <div class="card">
+          <div class="card-icon" style="background: rgba(46,125,50,0.1); color: var(--success);">🔧</div>
+          <h3>خطوات الإصلاح</h3>
+          <p>خطوات فحص وإصلاح مفصلة مع الأدوات المطلوبة والتكلفة التقريبية</p>
+        </div>
+        <div class="card">
+          <div class="card-icon" style="background: rgba(255,152,0,0.1); color: var(--warning);">📖</div>
+          <h3>مراجع رسمية</h3>
+          <p>جميع البيانات مبنية على كتيبات Service Manuals الرسمية من الشركات المصنعة</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Disclaimer -->
+  <section class="section" style="padding: 40px 24px;">
+    <div class="section-inner">
+      <div class="warning-box">
+        <span class="icon">⚠️</span>
+        <div>
+          <h4>تنبيه هام</h4>
+          <p>هذا الموقع تعليمي فقط ولا يغني عن الفحص الفني. بعض الأعطال تتطلب فنياً معتمداً. لا تقم بأي إصلاحات كهربائية
+            إذا لم تكن مؤهلاً.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div>
+          <div class="logo" style="margin-bottom: 16px; color: white;">
+            <div class="logo-icon">❄️</div>
+            <span>دليل أعطال التكييف</span>
+          </div>
+          <p>أكبر مرجع عربي لأعطال أجهزة التكييف المنزلية. نقدم شرحاً مفصلاً لأكواد الأخطاء، أسباب العطل، وخطوات الإصلاح
+            بناءً على كتيبات الشركات المصنعة الرسمية.</p>
+        </div>
+        <div>
+          <h4>روابط الموقع</h4>
+          <a href="index.html">الرئيسية</a>
+          <a href="errors.html">الأعطال</a>
+          <a href="brands.html">الماركات</a>
+          <a href="articles.html">المقالات</a>
+          <a href="faq.html">الأسئلة الشائعة</a>
+        </div>
+        <div>
+          <h4>المراجع الفنية</h4>
+          <a href="#">Daikin</a>
+          <a href="#">LG</a>
+          <a href="#">Carrier</a>
+          <a href="#">ASHRAE</a>
+          <a href="#">Mitsubishi</a>
+        </div>
+        <div class="footer-contact">
+          <h4>تواصل معنا</h4>
+          <a href="tel:+213xxxxxxxxx">📞 +213 697000000</a>
+          <a href="mailto:info@hvac-errors.com">✉️ info@hvac-errors.com</a>
+          <a href="https://wa.me/213xxxxxxxxx" target="_blank">💬 واتساب</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 دليل أعطال أجهزة التكييف. جميع الحقوق محفوظة. | <a href="privacy.html" style="display:inline;">سياسة
+            الخصوصية</a> | <a href="disclaimer.html" style="display:inline;">إخلاء المسؤولية</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop">↑</button>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script>
+    // Page-specific logic
+    document.addEventListener('dataLoaded', function (e) {
+      const {
+        brands,
+        errors
+      } = e.detail;
+      // Update stats
+      document.getElementById('statErrors').textContent = errors.length + '+';
+      document.getElementById('statBrands').textContent = brands.length + '+';
+      // Render categories
+      const categories = {};
+      errors.forEach(err => {
+        if (!categories[err.category]) categories[err.category] = 0;
+        categories[err.category]++;
+      });
+      const catGrid = document.getElementById('categoriesGrid');
+      catGrid.innerHTML = Object.entries(categories).map(([cat, count]) => `
+    <a href="errors.html?category=${cat}" class="cat-card">
+      <div class="icon" style="background: rgba(0,102,204,0.1); color: var(--primary);">${getCategoryIcon(cat)}</div>
+      <h4>${getCategoryLabel(cat)}</h4>
+      <span>${count} عطل</span>
+    </a>
+  `).join('');
+      // Render latest errors
+      const latest = [...errors].reverse().slice(0, 8);
+      document.getElementById('latestErrorsGrid').innerHTML = latest.map(err => `
+    <a href="error.html?id=${err.id}" class="card error-card">
+      <span class="error-code ${getSeverityClass(err.severity)}">${err.code}</span>
+      <h3>${err.titleAr}</h3>
+      <div class="brand-tag">🏭 ${getBrandName(err.brandId)}</div>
+      <div class="symptoms">${err.symptoms.slice(0, 2).join(' • ')}</div>
+      <div class="meta-row">
+        <span class="badge badge-${err.diyPossible ? 'diy' : 'tech'}">${err.diyPossible ? '✅ يمكن DIY' : '👨‍🔧 يحتاج فني'}</span>
+        <span class="badge badge-cost">💰 ${err.cost}</span>
+      </div>
+    </a>
+  `).join('');
+      // Render Brands
+      const brandGrid = document.getElementById("brandsGrid");
+      brandGrid.innerHTML = brands.slice(0, 6).map(brand => {
+        const totalErrors = errors.filter(e => e.brandId === brand.id).length;
+        return `
+
+    <a href="errors.html?brand=${brand.id}" class="brand-card">
+
+        <div class="brand-image">
+
+            <img
+                src="${brand.logo}"
+                alt="${brand.name}"
+                loading="lazy"
+                decoding="async"
+                onerror="this.src='images/default-brand.png'">
+
+        </div>
+
+        <div class="brand-body">
+
+            <h3>${brand.nameAr}</h3>
+
+            <span class="brand-en">
+                ${brand.name}
+            </span>
+
+            <div class="brand-footer">
+
+                <span class="brand-country">
+
+                    ${getCountryFlag(brand.country)}
+                    ${brand.country}
+
+                </span>
+
+                <span class="brand-errors">
+
+                    ${totalErrors} عطل
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </a>
+
+    `;
+      }).join('');
+    });
+
+    function getCountryFlag(country) {
+      const flags = {
+        "Japan": "🇯🇵",
+        "South Korea": "🇰🇷",
+        "China": "🇨🇳",
+        "USA": "🇺🇸",
+        "Germany": "🇩🇪",
+        "Turkey": "🇹🇷",
+        "Algeria": "🇩🇿",
+        "Sweden": "🇸🇪"
+      };
+      return flags[country] || "🌍";
+    }
+  </script>
+
+</body>
+
+</html>

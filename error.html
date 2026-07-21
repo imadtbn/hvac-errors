@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تفاصيل العطل | دليل أعطال أجهزة التكييف</title>
+  <meta name="description" content="تفاصيل العطل، أسبابه، خطوات الفحص والإصلاح، والتكلفة التقريبية.">
+  <link rel="canonical" href="https://hvac-errors.com/error.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="icons/favicon.ico">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-icon">❄️</div>
+      <span>دليل أعطال التكييف</span>
+    </a>
+    <nav class="nav">
+      <a href="index.html" class="nav-link">الرئيسية</a>
+      <a href="errors.html" class="nav-link">الأعطال</a>
+      <a href="brands.html" class="nav-link">الماركات</a>
+      <a href="about.html" class="nav-link">عن الموقع</a>
+      <a href="contact.html" class="nav-link">اتصل بنا</a>
+    </nav>
+    <div class="header-actions">
+      <button class="btn-icon" id="themeToggle">🌙</button>
+      <button class="btn-icon mobile-menu-btn" id="mobileMenuBtn">☰</button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-overlay" id="mobileOverlay"></div>
+<nav class="mobile-nav" id="mobileNav">
+  <a href="index.html">الرئيسية</a>
+  <a href="errors.html">الأعطال</a>
+  <a href="brands.html">الماركات</a>
+  <a href="about.html">عن الموقع</a>
+  <a href="contact.html">اتصل بنا</a>
+</nav>
+
+<!-- Error Hero -->
+<section class="error-hero" id="errorHero">
+  <div class="error-hero-inner">
+    <div class="breadcrumb">
+      <a href="index.html">الرئيسية</a>
+      <span>/</span>
+      <a href="errors.html">الأعطال</a>
+      <span>/</span>
+      <span id="breadcrumbTitle">...</span>
+    </div>
+    <div class="code-display" id="errorCode">...</div>
+    <h1 id="errorTitle">...</h1>
+    <div class="badges-row" id="errorBadges"></div>
+  </div>
+</section>
+
+<!-- Main Content -->
+<section class="section" style="padding-top: 40px;">
+  <div class="section-inner">
+    
+    <!-- Quick Info -->
+    <div class="detail-section">
+      <h2><span class="icon">📋</span> معلومات سريعة</h2>
+      <div class="info-grid" id="quickInfo"></div>
+    </div>
+    
+    <!-- Symptoms -->
+    <div class="detail-section">
+      <h2><span class="icon">🔴</span> الأعراض</h2>
+      <ul class="steps-list" id="symptomsList"></ul>
+    </div>
+    
+    <!-- Causes -->
+    <div class="detail-section">
+      <h2><span class="icon">🔍</span> الأسباب المحتملة</h2>
+      <ul class="steps-list" id="causesList"></ul>
+    </div>
+    
+    <!-- Parts -->
+    <div class="detail-section">
+      <h2><span class="icon">🔩</span> القطع المحتملة المتضررة</h2>
+      <div class="parts-grid" id="partsGrid"></div>
+    </div>
+    
+    <!-- Check Steps -->
+    <div class="detail-section">
+      <h2><span class="icon">🛠️</span> خطوات الفحص</h2>
+      <ul class="steps-list" id="checkStepsList"></ul>
+    </div>
+    
+    <!-- Repair Steps -->
+    <div class="detail-section">
+      <h2><span class="icon">🔧</span> خطوات الإصلاح</h2>
+      <ul class="steps-list" id="repairStepsList"></ul>
+    </div>
+    
+    <!-- Tools -->
+    <div class="detail-section">
+      <h2><span class="icon">🧰</span> الأدوات المطلوبة</h2>
+      <div class="parts-grid" id="toolsGrid"></div>
+    </div>
+    
+    <!-- References -->
+    <div class="detail-section">
+      <h2><span class="icon">📚</span> المراجع العلمية</h2>
+      <ul id="referencesList" style="padding-right: 20px; list-style: disc;"></ul>
+    </div>
+    
+    <!-- Warning -->
+    <div class="warning-box" style="margin-bottom: 40px;">
+      <span class="icon">⚠️</span>
+      <div>
+        <h4>تنبيه هام</h4>
+        <p>هذا الموقع تعليمي فقط ولا يغني عن الفحص الفني. بعض الإصلاحات تتطلب فنياً معتمداً. لا تقم بأي إصلاحات كهربائية إذا لم تكن مؤهلاً.</p>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <div class="logo" style="margin-bottom: 16px; color: white;">
+          <div class="logo-icon">❄️</div>
+          <span>دليل أعطال التكييف</span>
+        </div>
+        <p>أكبر مرجع عربي لأعطال أجهزة التكييف المنزلية.</p>
+      </div>
+      <div>
+        <h4>روابط الموقع</h4>
+        <a href="index.html">الرئيسية</a>
+        <a href="errors.html">الأعطال</a>
+        <a href="brands.html">الماركات</a>
+        <a href="about.html">عن الموقع</a>
+      </div>
+      <div>
+        <h4>المراجع الفنية</h4>
+        <a href="#">Daikin</a>
+        <a href="#">LG</a>
+        <a href="#">Carrier</a>
+        <a href="#">ASHRAE</a>
+      </div>
+      <div class="footer-contact">
+        <h4>تواصل معنا</h4>
+        <a href="tel:+213xxxxxxxxx">📞 +213 xx xxx xxxx</a>
+        <a href="mailto:info@hvac-errors.com">✉️ info@hvac-errors.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 دليل أعطال أجهزة التكييف. جميع الحقوق محفوظة.</p>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop">↑</button>
+<script src="js/main.js"></script>
+<script>
+document.addEventListener('dataLoaded', function(e) {
+  const { brands, errors } = e.detail;
+  const params = new URLSearchParams(location.search);
+  const errorId = params.get('id');
+  const err = errors.find(e => e.id === errorId);
+  
+  if (!err) {
+    document.querySelector('.section-inner').innerHTML = '<div class="detail-section"><h2>العطل غير موجود</h2><p>لم يتم العثور على العطل المطلوب. <a href="errors.html">العودة لقائمة الأعطال</a></p></div>';
+    return;
+  }
+  
+  // Update page title
+  document.title = `${err.code} - ${err.titleAr} | دليل أعطال التكييف`;
+  
+  // Hero
+  document.getElementById('breadcrumbTitle').textContent = err.titleAr;
+  document.getElementById('errorCode').textContent = err.code;
+  document.getElementById('errorTitle').textContent = err.titleAr;
+  document.getElementById('errorBadges').innerHTML = `
+    <span class="badge">🏭 ${getBrandName(err.brandId)}</span>
+    <span class="badge">${getCategoryLabel(err.category)}</span>
+    <span class="badge" style="background: rgba(211,47,47,0.2);">⚠️ خطورة: ${getSeverityLabel(err.severity)}</span>
+    <span class="badge badge-${err.diyPossible ? 'diy' : 'tech'}">${err.diyPossible ? '✅ يمكن DIY' : '👨‍🔧 يحتاج فني'}</span>
+  `;
+  
+  // Quick Info
+  document.getElementById('quickInfo').innerHTML = `
+    <div class="info-item"><label>الماركة</label><strong>${getBrandName(err.brandId)}</strong></div>
+    <div class="info-item"><label>رمز الخطأ</label><strong style="font-family:monospace;">${err.code}</strong></div>
+    <div class="info-item"><label>التصنيف</label><strong>${getCategoryLabel(err.category)}</strong></div>
+    <div class="info-item"><label>الخطورة</label><strong>${getSeverityLabel(err.severity)}</strong></div>
+    <div class="info-item"><label>المدة</label><strong>${err.duration}</strong></div>
+    <div class="info-item"><label>التكلفة</label><strong>${err.cost}</strong></div>
+    <div class="info-item"><label>يحتاج فني؟</label><strong>${err.needsTechnician ? 'نعم' : 'لا'}</strong></div>
+    <div class="info-item"><label>يمكن DIY؟</label><strong>${err.diyPossible ? 'نعم' : 'لا'}</strong></div>
+  `;
+  
+  // Symptoms
+  document.getElementById('symptomsList').innerHTML = err.symptoms.map(s => `<li>${s}</li>`).join('');
+  
+  // Causes
+  document.getElementById('causesList').innerHTML = err.causes.map(c => `<li>${c}</li>`).join('');
+  
+  // Parts
+  document.getElementById('partsGrid').innerHTML = err.parts.map(p => `
+    <div class="part-item"><span class="icon">🔩</span>${p}</div>
+  `).join('');
+  
+  // Check Steps
+  document.getElementById('checkStepsList').innerHTML = err.checkSteps.map(s => `<li>${s}</li>`).join('');
+  
+  // Repair Steps
+  document.getElementById('repairStepsList').innerHTML = err.repairSteps.map(s => `<li>${s}</li>`).join('');
+  
+  // Tools
+  document.getElementById('toolsGrid').innerHTML = err.tools.map(t => `
+    <div class="part-item"><span class="icon">🧰</span>${t}</div>
+  `).join('');
+  
+  // References
+  document.getElementById('referencesList').innerHTML = err.references.map(r => `<li>${r}</li>`).join('');
+});
+</script>
+</body>
+</html>
