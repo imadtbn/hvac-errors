@@ -1,82 +1,88 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl" data-theme="light">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>جميع الأعطال | دليل أعطال أجهزة التكييف</title>
-  <meta name="description" content="قائمة شاملة بجميع أعطال أجهزة التكييف المنزلية مرتبة حسب الماركة، التصنيف، ودرجة الخطورة.">
+  <meta name="description"
+    content="قائمة شاملة بجميع أعطال أجهزة التكييف المنزلية مرتبة حسب الماركة، التصنيف، ودرجة الخطورة.">
   <link rel="canonical" href="https://hvac-errors.com/errors.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="icons/favicon.ico">
 </head>
+
 <body>
 
-<header class="header">
-  <div class="header-inner">
-    <a href="index.html" class="logo">
-      <div class="logo-icon">❄️</div>
-      <span>دليل أعطال التكييف</span>
-    </a>
-    <nav class="nav">
-      <a href="index.html" class="nav-link">الرئيسية</a>
-      <a href="errors.html" class="nav-link active">الأعطال</a>
-      <a href="brands.html" class="nav-link">الماركات</a>
-      <a href="about.html" class="nav-link">عن الموقع</a>
-      <a href="contact.html" class="nav-link">اتصل بنا</a>
-    </nav>
-    <div class="header-actions">
-      <button class="btn-icon" id="themeToggle">🌙</button>
-      <button class="btn-icon mobile-menu-btn" id="mobileMenuBtn">☰</button>
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">❄️</div>
+        <span>دليل أعطال التكييف</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link active">الرئيسية</a>
+        <a href="errors.html" class="nav-link">الأعطال</a>
+        <a href="brands.html" class="nav-link">الماركات</a>
+        <a href="articles.html" class="nav-link">المقالات</a>
+        <a href="about.html" class="nav-link">عن الموقع</a>
+        <a href="contact.html" class="nav-link">اتصل بنا</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn-icon" id="themeToggle">🌙</button>
+        <button class="btn-icon mobile-menu-btn" id="mobileMenuBtn">☰</button>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
-<div class="mobile-overlay" id="mobileOverlay"></div>
-<nav class="mobile-nav" id="mobileNav">
-  <a href="index.html">الرئيسية</a>
-  <a href="errors.html">الأعطال</a>
-  <a href="brands.html">الماركات</a>
-  <a href="about.html">عن الموقع</a>
-  <a href="contact.html">اتصل بنا</a>
-</nav>
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html">الرئيسية</a>
+    <a href="errors.html">الأعطال</a>
+    <a href="brands.html">الماركات</a>
+    <a href="about.html">عن الموقع</a>
+    <a href="contact.html">اتصل بنا</a>
+  </nav>
 
-<section class="hero" style="padding: 80px 24px 60px;">
-  <div class="hero-inner">
-    <div class="breadcrumb" style="margin-bottom: 16px;">
-      <a href="index.html">الرئيسية</a>
-      <span>/</span>
-      <span>جميع الأعطال</span>
+  <section class="hero" style="padding: 80px 24px 60px;">
+    <div class="hero-inner">
+      <div class="breadcrumb" style="margin-bottom: 16px;">
+        <a href="index.html">الرئيسية</a>
+        <span>/</span>
+        <span>جميع الأعطال</span>
+      </div>
+      <h1>قاعدة بيانات الأعطال</h1>
+      <p>تصفح وابحث في جميع الأعطال المسجلة</p>
     </div>
-    <h1>قاعدة بيانات الأعطال</h1>
-    <p>تصفح وابحث في جميع الأعطال المسجلة</p>
-  </div>
-</section>
+  </section>
 
-<section class="section">
-  <div class="section-inner">
-    <!-- Filters -->
-    <div class="filters-bar">
-      <button class="filter-chip active" data-filter="all">الكل</button>
-      <button class="filter-chip" data-filter="sensors">🌡️ حساسات</button>
-      <button class="filter-chip" data-filter="compressor">⚙️ ضاغط</button>
-      <button class="filter-chip" data-filter="inverter">🔌 انفرتر</button>
-      <button class="filter-chip" data-filter="communication">📡 اتصال</button>
-      <button class="filter-chip" data-filter="electrical">⚡ كهربائية</button>
+  <section class="section">
+    <div class="section-inner">
+      <!-- Filters -->
+      <div class="filters-bar">
+        <button class="filter-chip active" data-filter="all">الكل</button>
+        <button class="filter-chip" data-filter="sensors">🌡️ حساسات</button>
+        <button class="filter-chip" data-filter="compressor">⚙️ ضاغط</button>
+        <button class="filter-chip" data-filter="inverter">🔌 انفرتر</button>
+        <button class="filter-chip" data-filter="communication">📡 اتصال</button>
+        <button class="filter-chip" data-filter="electrical">⚡ كهربائية</button>
+      </div>
+
+      <!-- Results count -->
+      <p style="margin-bottom: 20px; color: var(--text-muted);">عدد النتائج: <strong id="resultsCount">0</strong></p>
+
+      <!-- Grid -->
+      <div class="card-grid" id="errorsGrid"></div>
+
+      <!-- Pagination -->
+      <div class="pagination" id="pagination"></div>
     </div>
-    
-    <!-- Results count -->
-    <p style="margin-bottom: 20px; color: var(--text-muted);">عدد النتائج: <strong id="resultsCount">0</strong></p>
-    
-    <!-- Grid -->
-    <div class="card-grid" id="errorsGrid"></div>
-    
-    <!-- Pagination -->
-    <div class="pagination" id="pagination"></div>
-  </div>
-</section>
+  </section>
 
   <!-- Footer -->
   <footer class="footer">
@@ -96,15 +102,14 @@
           <a href="errors.html">الأعطال</a>
           <a href="brands.html">الماركات</a>
           <a href="articles.html">المقالات</a>
-          <a href="faq.html">الأسئلة الشائعة</a>
+          <a href="contact.html">اتصل بنا</a>
         </div>
         <div>
-          <h4>المراجع الفنية</h4>
-          <a href="#">Daikin</a>
-          <a href="#">LG</a>
-          <a href="#">Carrier</a>
-          <a href="#">ASHRAE</a>
-          <a href="#">Mitsubishi</a>
+          <h4>معلومات قانونية</h4>
+          <a href="about.html">من نحن</a>
+          <a href="disclaimer.html">إخلاء المسؤولية</a>
+          <a href="privacy.html">سياسة الخصوصية</a>
+          <a href="faq.html">الأسئلة الشائعة</a>
         </div>
         <div class="footer-contact">
           <h4>تواصل معنا</h4>
@@ -120,37 +125,38 @@
     </div>
   </footer>
 
-<button class="back-to-top" id="backToTop">↑</button>
-<script src="js/main.js"></script>
-<script>
-document.addEventListener('dataLoaded', function(e) {
-  const { brands, errors } = e.detail;
-  let filtered = [...errors];
-  let currentPage = 1;
-  const perPage = 12;
-  
-  // URL params
-  const params = new URLSearchParams(location.search);
-  const brandFilter = params.get('brand');
-  const catFilter = params.get('category');
-  
-  if (brandFilter) {
-    filtered = filtered.filter(err => err.brandId === brandFilter);
-    document.querySelector('.hero h1').textContent = `أعطال ${getBrandName(brandFilter)}`;
-  }
-  if (catFilter) {
-    filtered = filtered.filter(err => err.category === catFilter);
-    document.querySelector('.hero h1').textContent = getCategoryLabel(catFilter);
-  }
-  
-  function render() {
-    const grid = document.getElementById('errorsGrid');
-    const start = (currentPage - 1) * perPage;
-    const pageItems = filtered.slice(start, start + perPage);
-    
-    document.getElementById('resultsCount').textContent = filtered.length;
-    
-    grid.innerHTML = pageItems.map(err => `
+
+  <button class="back-to-top" id="backToTop">↑</button>
+  <script src="js/main.js"></script>
+  <script>
+    document.addEventListener('dataLoaded', function (e) {
+      const { brands, errors } = e.detail;
+      let filtered = [...errors];
+      let currentPage = 1;
+      const perPage = 12;
+
+      // URL params
+      const params = new URLSearchParams(location.search);
+      const brandFilter = params.get('brand');
+      const catFilter = params.get('category');
+
+      if (brandFilter) {
+        filtered = filtered.filter(err => err.brandId === brandFilter);
+        document.querySelector('.hero h1').textContent = `أعطال ${getBrandName(brandFilter)}`;
+      }
+      if (catFilter) {
+        filtered = filtered.filter(err => err.category === catFilter);
+        document.querySelector('.hero h1').textContent = getCategoryLabel(catFilter);
+      }
+
+      function render() {
+        const grid = document.getElementById('errorsGrid');
+        const start = (currentPage - 1) * perPage;
+        const pageItems = filtered.slice(start, start + perPage);
+
+        document.getElementById('resultsCount').textContent = filtered.length;
+
+        grid.innerHTML = pageItems.map(err => `
       <a href="error.html?id=${err.id}" class="card error-card">
         <span class="error-code ${getSeverityClass(err.severity)}">${err.code}</span>
         <h3>${err.titleAr}</h3>
@@ -163,37 +169,38 @@ document.addEventListener('dataLoaded', function(e) {
         </div>
       </a>
     `).join('');
-    
-    // Pagination
-    const totalPages = Math.ceil(filtered.length / perPage);
-    const pag = document.getElementById('pagination');
-    let pagHtml = '';
-    for (let i = 1; i <= totalPages; i++) {
-      pagHtml += `<button class="${i === currentPage ? 'active' : ''}" onclick="goToPage(${i})">${i}</button>`;
-    }
-    pag.innerHTML = pagHtml;
-  }
-  
-  window.goToPage = function(p) {
-    currentPage = p;
-    render();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-  
-  render();
-  
-  // Filter buttons
-  document.querySelectorAll('.filter-chip').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.filter-chip').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      const f = btn.dataset.filter;
-      filtered = f === 'all' ? [...errors] : errors.filter(err => err.category === f);
-      currentPage = 1;
+
+        // Pagination
+        const totalPages = Math.ceil(filtered.length / perPage);
+        const pag = document.getElementById('pagination');
+        let pagHtml = '';
+        for (let i = 1; i <= totalPages; i++) {
+          pagHtml += `<button class="${i === currentPage ? 'active' : ''}" onclick="goToPage(${i})">${i}</button>`;
+        }
+        pag.innerHTML = pagHtml;
+      }
+
+      window.goToPage = function (p) {
+        currentPage = p;
+        render();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+
       render();
+
+      // Filter buttons
+      document.querySelectorAll('.filter-chip').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.filter-chip').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const f = btn.dataset.filter;
+          filtered = f === 'all' ? [...errors] : errors.filter(err => err.category === f);
+          currentPage = 1;
+          render();
+        });
+      });
     });
-  });
-});
-</script>
+  </script>
 </body>
+
 </html>

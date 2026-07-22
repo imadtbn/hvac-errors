@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>اتصل بنا | دليل أعطال أجهزة التكييف</title>
-  <meta name="description" content="تواصل مع فريق دليل أعطال أجهزة التكييف للاستفسارات والاقتراحات.">
-  <link rel="canonical" href="https://hvac-errors.com/contact.html">
+  <title>المقال | دليل أعطال أجهزة التكييف</title>
+  <meta name="description" content="اقرأ المقال الكامل حول أعطال وصيانة أجهزة التكييف.">
+  <link rel="canonical" href="https://hvac-errors.com/article.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
@@ -24,9 +24,9 @@
         <a href="index.html" class="nav-link">الرئيسية</a>
         <a href="errors.html" class="nav-link">الأعطال</a>
         <a href="brands.html" class="nav-link">الماركات</a>
-        <a href="articles.html" class="nav-link">المقالات</a>
+        <a href="articles.html" class="nav-link active">المقالات</a>
         <a href="about.html" class="nav-link">عن الموقع</a>
-        <a href="contact.html" class="nav-link active">اتصل بنا</a>
+        <a href="contact.html" class="nav-link">اتصل بنا</a>
       </nav>
     <div class="header-actions">
       <button class="btn-icon" id="themeToggle">🌙</button>
@@ -40,6 +40,7 @@
   <a href="index.html">الرئيسية</a>
   <a href="errors.html">الأعطال</a>
   <a href="brands.html">الماركات</a>
+  <a href="articles.html">المقالات</a>
   <a href="about.html">عن الموقع</a>
   <a href="contact.html">اتصل بنا</a>
 </nav>
@@ -49,34 +50,25 @@
     <div class="breadcrumb" style="margin-bottom: 16px;">
       <a href="index.html">الرئيسية</a>
       <span>/</span>
-      <span>اتصل بنا</span>
+      <a href="articles.html">المقالات</a>
+      <span>/</span>
+      <span id="breadcrumbTitle">...</span>
     </div>
-    <h1>اتصل بنا</h1>
-    <p>نحن هنا لمساعدتك. تواصل معنا للاستفسارات والاقتراحات.</p>
+    <h1 id="articleTitle">...</h1>
+    <div class="badges-row" id="articleMeta" style="margin-top: 16px;"></div>
   </div>
 </section>
 
-<section class="section">
+<section class="section" style="padding-top: 40px;">
   <div class="section-inner">
-    <div class="card-grid">
-      <div class="card" style="text-align: center;">
-        <div class="card-icon" style="background: rgba(0,102,204,0.1); color: var(--primary); margin: 0 auto 16px;">📞</div>
-        <h3>الهاتف</h3>
-        <p style="margin-top: 8px;"><a href="tel:+213xxxxxxxxx" style="color: var(--primary); font-weight: 700;">+213 xx xxx xxxx</a></p>
-      </div>
-      <div class="card" style="text-align: center;">
-        <div class="card-icon" style="background: rgba(0,174,239,0.1); color: var(--secondary); margin: 0 auto 16px;">✉️</div>
-        <h3>البريد الإلكتروني</h3>
-        <p style="margin-top: 8px;"><a href="mailto:info@hvac-errors.com" style="color: var(--primary); font-weight: 700;">info@hvac-errors.com</a></p>
-      </div>
-      <div class="card" style="text-align: center;">
-        <div class="card-icon" style="background: rgba(46,125,50,0.1); color: var(--success); margin: 0 auto 16px;">💬</div>
-        <h3>واتساب</h3>
-        <p style="margin-top: 8px;"><a href="https://wa.me/213xxxxxxxxx" target="_blank" style="color: var(--primary); font-weight: 700;">راسلنا على واتساب</a></p>
-      </div>
+    <div class="detail-section" id="articleContent" style="font-size: 1.05rem; line-height: 2;"></div>
+    
+    <div style="margin-top: 40px; text-align: center;">
+      <a href="articles.html" class="btn btn-outline">← العودة للمقالات</a>
     </div>
   </div>
 </section>
+
 
   <!-- Footer -->
   <footer class="footer">
@@ -122,5 +114,29 @@
 
 <button class="back-to-top" id="backToTop">↑</button>
 <script src="js/main.js"></script>
+<script>
+document.addEventListener('dataLoaded', async function() {
+  const res = await fetch('data/articles.json');
+  const articles = await res.json();
+  const params = new URLSearchParams(location.search);
+  const articleId = params.get('id');
+  const article = articles.find(a => a.id === articleId);
+  
+  if (!article) {
+    document.getElementById('articleContent').innerHTML = '<h2>المقال غير موجود</h2><p><a href="articles.html">العودة للمقالات</a></p>';
+    return;
+  }
+  
+  document.title = article.title + ' | دليل أعطال التكييف';
+  document.getElementById('breadcrumbTitle').textContent = article.title;
+  document.getElementById('articleTitle').textContent = article.title;
+  document.getElementById('articleMeta').innerHTML = `
+    <span class="badge">📅 ${article.date}</span>
+    <span class="badge">⏱️ ${article.readTime}</span>
+    <span class="badge">🏷️ ${article.category}</span>
+  `;
+  document.getElementById('articleContent').innerHTML = article.content;
+});
+</script>
 </body>
 </html>

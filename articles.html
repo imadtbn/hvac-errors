@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>اتصل بنا | دليل أعطال أجهزة التكييف</title>
-  <meta name="description" content="تواصل مع فريق دليل أعطال أجهزة التكييف للاستفسارات والاقتراحات.">
-  <link rel="canonical" href="https://hvac-errors.com/contact.html">
+  <title>المقالات | دليل أعطال أجهزة التكييف</title>
+  <meta name="description" content="مقالات تعليمية وصيانة حول أجهزة التكييف المنزلية: الانفرتر، الفريون، الفلاتر، ودائرة التبريد.">
+  <link rel="canonical" href="https://hvac-errors.com/articles.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
@@ -24,9 +24,9 @@
         <a href="index.html" class="nav-link">الرئيسية</a>
         <a href="errors.html" class="nav-link">الأعطال</a>
         <a href="brands.html" class="nav-link">الماركات</a>
-        <a href="articles.html" class="nav-link">المقالات</a>
+        <a href="articles.html" class="nav-link active">المقالات</a>
         <a href="about.html" class="nav-link">عن الموقع</a>
-        <a href="contact.html" class="nav-link active">اتصل بنا</a>
+        <a href="contact.html" class="nav-link">اتصل بنا</a>
       </nav>
     <div class="header-actions">
       <button class="btn-icon" id="themeToggle">🌙</button>
@@ -40,6 +40,7 @@
   <a href="index.html">الرئيسية</a>
   <a href="errors.html">الأعطال</a>
   <a href="brands.html">الماركات</a>
+  <a href="articles.html">المقالات</a>
   <a href="about.html">عن الموقع</a>
   <a href="contact.html">اتصل بنا</a>
 </nav>
@@ -49,32 +50,23 @@
     <div class="breadcrumb" style="margin-bottom: 16px;">
       <a href="index.html">الرئيسية</a>
       <span>/</span>
-      <span>اتصل بنا</span>
+      <span>المقالات</span>
     </div>
-    <h1>اتصل بنا</h1>
-    <p>نحن هنا لمساعدتك. تواصل معنا للاستفسارات والاقتراحات.</p>
+    <h1>المقالات التعليمية</h1>
+    <p>دليلك الشامل لفهم أجهزة التكييف وصيانتها</p>
   </div>
 </section>
 
 <section class="section">
   <div class="section-inner">
-    <div class="card-grid">
-      <div class="card" style="text-align: center;">
-        <div class="card-icon" style="background: rgba(0,102,204,0.1); color: var(--primary); margin: 0 auto 16px;">📞</div>
-        <h3>الهاتف</h3>
-        <p style="margin-top: 8px;"><a href="tel:+213xxxxxxxxx" style="color: var(--primary); font-weight: 700;">+213 xx xxx xxxx</a></p>
-      </div>
-      <div class="card" style="text-align: center;">
-        <div class="card-icon" style="background: rgba(0,174,239,0.1); color: var(--secondary); margin: 0 auto 16px;">✉️</div>
-        <h3>البريد الإلكتروني</h3>
-        <p style="margin-top: 8px;"><a href="mailto:info@hvac-errors.com" style="color: var(--primary); font-weight: 700;">info@hvac-errors.com</a></p>
-      </div>
-      <div class="card" style="text-align: center;">
-        <div class="card-icon" style="background: rgba(46,125,50,0.1); color: var(--success); margin: 0 auto 16px;">💬</div>
-        <h3>واتساب</h3>
-        <p style="margin-top: 8px;"><a href="https://wa.me/213xxxxxxxxx" target="_blank" style="color: var(--primary); font-weight: 700;">راسلنا على واتساب</a></p>
-      </div>
+    <div class="filters-bar">
+      <button class="filter-chip active" data-filter="all">الكل</button>
+      <button class="filter-chip" data-filter="تعليمي">تعليمي</button>
+      <button class="filter-chip" data-filter="صيانة">صيانة</button>
+      <button class="filter-chip" data-filter="تقنية">تقنية</button>
+      <button class="filter-chip" data-filter="نصائح">نصائح</button>
     </div>
+    <div class="card-grid" id="articlesGrid"></div>
   </div>
 </section>
 
@@ -119,8 +111,45 @@
     </div>
   </footer>
 
-
 <button class="back-to-top" id="backToTop">↑</button>
 <script src="js/main.js"></script>
+<script>
+document.addEventListener('dataLoaded', async function() {
+  const res = await fetch('data/articles.json');
+  const articles = await res.json();
+  const grid = document.getElementById('articlesGrid');
+  
+  function render(filter) {
+    let list = articles;
+    if (filter !== 'all') list = articles.filter(a => a.category === filter);
+    
+    grid.innerHTML = list.map(a => `
+      <a href="article.html?id=${a.id}" class="card" style="display:flex;flex-direction:column;height:100%;">
+        <div style="display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap;">
+          <span class="badge" style="background:rgba(0,102,204,0.1);color:var(--primary);">${a.category}</span>
+          <span class="badge" style="background:var(--bg);color:var(--text-muted);">⏱️ ${a.readTime}</span>
+        </div>
+        <h3 style="font-size:1.1rem;margin-bottom:8px;">${a.title}</h3>
+        <p style="color:var(--text-muted);font-size:0.9rem;flex:1;">${a.excerpt}</p>
+        <div style="margin-top:16px;font-size:0.8rem;color:var(--text-muted);border-top:1px solid var(--border);padding-top:12px;">
+          📅 ${a.date} 
+          <span style="margin-right:12px;">🏷️ ${a.tags.slice(0,3).join(', ')}</span>
+        </div>
+      </a>
+    `).join('');
+  }
+  
+  render('all');
+  
+  document.querySelectorAll('.filter-chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-chip').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      render(btn.dataset.filter);
+    });
+  });
+});
+</script>
 </body>
 </html>
+
