@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl" data-theme="light">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +9,37 @@
   <link rel="canonical" href="https://hvac-errors.com/search.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/icon.png" fetchpriority="high">
+
+  <!-- الأيقونة الأساسية للمتصفحات الحديثة (بصيغة PNG وبحجم 32x32) -->
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+
+  <!-- أيقونة إضافية بحجم أصغر لشريط التبويب القديم (بحجم 16x16) -->
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+
+  <!-- أيقونة خاصة بهواتف آيفون وأجهزة آيباد (Apple Touch Icon) -->
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+
+  <!-- لدعم متصفحات Internet Explorer القديمة (اختياري) -->
+  <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico">
+
   <link rel="icon" href="icons/favicon.ico">
 </head>
+
 <body>
 
-<header class="header">
-  <div class="header-inner">
-    <a href="index.html" class="logo">
-      <div class="logo-icon">❄️</div>
-      <span>دليل أعطال التكييف</span>
-    </a>
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">❄️</div>
+        <span>دليل أعطال التكييف</span>
+      </a>
       <nav class="nav">
         <a href="index.html" class="nav-link active">الرئيسية</a>
         <a href="errors.html" class="nav-link">الأعطال</a>
@@ -28,56 +48,77 @@
         <a href="about.html" class="nav-link">عن الموقع</a>
         <a href="contact.html" class="nav-link">اتصل بنا</a>
       </nav>
-    <div class="header-actions">
-      <button class="btn-icon" id="themeToggle">🌙</button>
-      <button class="btn-icon mobile-menu-btn" id="mobileMenuBtn">☰</button>
+      <div class="header-actions">
+        <button class="btn-icon" id="themeToggle">🌙</button>
+        <button class="btn-icon mobile-menu-btn" id="mobileMenuBtn">☰</button>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
-<div class="mobile-overlay" id="mobileOverlay"></div>
-<nav class="mobile-nav" id="mobileNav">
-  <a href="index.html">الرئيسية</a>
-  <a href="errors.html">الأعطال</a>
-  <a href="brands.html">الماركات</a>
-  <a href="articles.html">المقالات</a>
-  <a href="about.html">عن الموقع</a>
-  <a href="contact.html">اتصل بنا</a>
-</nav>
-
-<section class="hero" style="padding: 80px 24px 60px;">
-  <div class="hero-inner">
-    <div class="breadcrumb" style="margin-bottom: 16px;">
-      <a href="index.html">الرئيسية</a>
-      <span>/</span>
-      <span>البحث</span>
-    </div>
-    <h1>البحث المتقدم</h1>
-    <p>ابحث في جميع الأعطال والمقالات</p>
+  <!-- إعلان داخل الخلاصة 01-->
+  <div class="ad-container">
+    <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fr+56+4k-d4+74"
+      data-ad-client="ca-pub-5656416032906373" data-ad-slot="7867079394"></ins>
   </div>
-</section>
 
-<section class="section">
-  <div class="section-inner">
-    <!-- Search Box -->
-    <div class="search-box" style="max-width: 800px; margin-bottom: 40px;">
-      <input type="text" id="advancedSearchInput" placeholder="ابحث برمز الخطأ، اسم العطل، الماركة، أو القطعة..." autocomplete="off" style="padding: 24px 60px 24px 24px;">
-      <button style="width: 56px; height: 56px; font-size: 1.4rem;">🔍</button>
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html">الرئيسية</a>
+    <a href="errors.html">الأعطال</a>
+    <a href="brands.html">الماركات</a>
+    <a href="articles.html">المقالات</a>
+    <a href="about.html">عن الموقع</a>
+    <a href="contact.html">اتصل بنا</a>
+  </nav>
+
+  <section class="hero" style="padding: 80px 24px 60px;">
+    <div class="hero-inner">
+      <div class="breadcrumb" style="margin-bottom: 16px;">
+        <a href="index.html">الرئيسية</a>
+        <span>/</span>
+        <span>البحث</span>
+      </div>
+      <h1>البحث المتقدم</h1>
+      <p>ابحث في جميع الأعطال والمقالات</p>
     </div>
-    
-    <!-- Filters -->
-    <div class="filters-bar" style="margin-bottom: 24px;">
-      <span style="font-weight: 700; color: var(--text-muted);">البحث في:</span>
-      <button class="filter-chip active" data-type="all">الكل</button>
-      <button class="filter-chip" data-type="errors">الأعطال فقط</button>
-      <button class="filter-chip" data-type="articles">المقالات فقط</button>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <!-- Search Box -->
+      <div class="search-box" style="max-width: 800px; margin-bottom: 40px;">
+        <input type="text" id="advancedSearchInput" placeholder="ابحث برمز الخطأ، اسم العطل، الماركة، أو القطعة..."
+          autocomplete="off" style="padding: 24px 60px 24px 24px;">
+        <button style="width: 56px; height: 56px; font-size: 1.4rem;">🔍</button>
+      </div>
+
+      <div class="ad-container">
+        <!-- إعلانات صورية 01 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5656416032906373"
+          data-ad-slot="3143411927" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      </div>
+
+      <!-- Filters -->
+      <div class="filters-bar" style="margin-bottom: 24px;">
+        <span style="font-weight: 700; color: var(--text-muted);">البحث في:</span>
+        <button class="filter-chip active" data-type="all">الكل</button>
+        <button class="filter-chip" data-type="errors">الأعطال فقط</button>
+        <button class="filter-chip" data-type="articles">المقالات فقط</button>
+      </div>
+
+      <!-- Results -->
+      <p style="margin-bottom: 20px; color: var(--text-muted);">عدد النتائج: <strong id="searchResultsCount">0</strong>
+      </p>
+      <div class="card-grid" id="searchResultsGrid"></div>
     </div>
-    
-    <!-- Results -->
-    <p style="margin-bottom: 20px; color: var(--text-muted);">عدد النتائج: <strong id="searchResultsCount">0</strong></p>
-    <div class="card-grid" id="searchResultsGrid"></div>
-  </div>
-</section>
+
+    <!-- إعلان داخل الخلاصة 02-->
+    <div class="ad-container">
+      <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-h9-h+8-jr+r8"
+        data-ad-client="ca-pub-5656416032906373" data-ad-slot="8546947691"></ins>
+    </div>
+
+  </section>
 
   <!-- Footer -->
   <footer class="footer">
@@ -120,82 +161,82 @@
     </div>
   </footer>
 
-<button class="back-to-top" id="backToTop">↑</button>
-<script src="js/main.js"></script>
-<script>
-(async function() {
-  const [errorsRes, articlesRes] = await Promise.all([
-    fetch('data/errors.json'),
-    fetch('data/articles.json')
-  ]);
-  const errors = await errorsRes.json();
-  const articles = await articlesRes.json();
-  
-  const input = document.getElementById('advancedSearchInput');
-  const grid = document.getElementById('searchResultsGrid');
-  const countEl = document.getElementById('searchResultsCount');
-  let searchType = 'all';
-  
-  // URL param
-  const params = new URLSearchParams(location.search);
-  const q = params.get('q');
-  if (q) {
-    input.value = q;
-    doSearch(q);
-  }
-  
-  input.addEventListener('input', (e) => {
-    doSearch(e.target.value);
-  });
-  
-  document.querySelectorAll('[data-type]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('[data-type]').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      searchType = btn.dataset.type;
-      doSearch(input.value);
-    });
-  });
-  
-  function doSearch(query) {
-    if (query.length < 1) {
-      grid.innerHTML = '<div class="detail-section" style="text-align:center;"><p>اكتب كلمة البحث أعلاه...</p></div>';
-      countEl.textContent = '0';
-      return;
-    }
-    const q = query.toLowerCase();
-    let results = [];
-    
-    if (searchType === 'all' || searchType === 'errors') {
-      const errMatches = errors.filter(e =>
-        e.code.toLowerCase().includes(q) ||
-        e.titleAr.includes(q) ||
-        e.titleEn.toLowerCase().includes(q) ||
-        e.parts.some(p => p.includes(q)) ||
-        e.symptoms.some(s => s.includes(q))
-      ).map(e => ({ ...e, _type: 'error' }));
-      results = results.concat(errMatches);
-    }
-    
-    if (searchType === 'all' || searchType === 'articles') {
-      const artMatches = articles.filter(a =>
-        a.title.includes(q) ||
-        a.excerpt.includes(q) ||
-        a.tags.some(t => t.toLowerCase().includes(q))
-      ).map(a => ({ ...a, _type: 'article' }));
-      results = results.concat(artMatches);
-    }
-    
-    countEl.textContent = results.length;
-    
-    if (results.length === 0) {
-      grid.innerHTML = '<div class="detail-section" style="text-align:center;"><p>لا توجد نتائج مطابقة لبحثك.</p></div>';
-      return;
-    }
-    
-    grid.innerHTML = results.map(r => {
-      if (r._type === 'error') {
-        return `
+  <button class="back-to-top" id="backToTop">↑</button>
+  <script src="js/main.js"></script>
+  <script>
+    (async function () {
+      const [errorsRes, articlesRes] = await Promise.all([
+        fetch('data/errors.json'),
+        fetch('data/articles.json')
+      ]);
+      const errors = await errorsRes.json();
+      const articles = await articlesRes.json();
+
+      const input = document.getElementById('advancedSearchInput');
+      const grid = document.getElementById('searchResultsGrid');
+      const countEl = document.getElementById('searchResultsCount');
+      let searchType = 'all';
+
+      // URL param
+      const params = new URLSearchParams(location.search);
+      const q = params.get('q');
+      if (q) {
+        input.value = q;
+        doSearch(q);
+      }
+
+      input.addEventListener('input', (e) => {
+        doSearch(e.target.value);
+      });
+
+      document.querySelectorAll('[data-type]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('[data-type]').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          searchType = btn.dataset.type;
+          doSearch(input.value);
+        });
+      });
+
+      function doSearch(query) {
+        if (query.length < 1) {
+          grid.innerHTML = '<div class="detail-section" style="text-align:center;"><p>اكتب كلمة البحث أعلاه...</p></div>';
+          countEl.textContent = '0';
+          return;
+        }
+        const q = query.toLowerCase();
+        let results = [];
+
+        if (searchType === 'all' || searchType === 'errors') {
+          const errMatches = errors.filter(e =>
+            e.code.toLowerCase().includes(q) ||
+            e.titleAr.includes(q) ||
+            e.titleEn.toLowerCase().includes(q) ||
+            e.parts.some(p => p.includes(q)) ||
+            e.symptoms.some(s => s.includes(q))
+          ).map(e => ({...e, _type: 'error'}));
+          results = results.concat(errMatches);
+        }
+
+        if (searchType === 'all' || searchType === 'articles') {
+          const artMatches = articles.filter(a =>
+            a.title.includes(q) ||
+            a.excerpt.includes(q) ||
+            a.tags.some(t => t.toLowerCase().includes(q))
+          ).map(a => ({...a, _type: 'article'}));
+          results = results.concat(artMatches);
+        }
+
+        countEl.textContent = results.length;
+
+        if (results.length === 0) {
+          grid.innerHTML = '<div class="detail-section" style="text-align:center;"><p>لا توجد نتائج مطابقة لبحثك.</p></div>';
+          return;
+        }
+
+        grid.innerHTML = results.map(r => {
+          if (r._type === 'error') {
+            return `
           <a href="error.html?id=${r.id}" class="card error-card">
             <span class="error-code ${getSeverityClass(r.severity)}">${r.code}</span>
             <h3>${r.titleAr}</h3>
@@ -207,8 +248,8 @@
             </div>
           </a>
         `;
-      } else {
-        return `
+          } else {
+            return `
           <a href="article.html?id=${r.id}" class="card" style="display:flex;flex-direction:column;height:100%;">
             <span class="badge" style="background:rgba(0,174,239,0.1);color:var(--secondary);margin-bottom:12px;">📄 مقال</span>
             <h3 style="font-size:1.05rem;margin-bottom:8px;">${r.title}</h3>
@@ -216,13 +257,11 @@
             <div style="margin-top:16px;font-size:0.8rem;color:var(--text-muted);">⏱️ ${r.readTime} • 📅 ${r.date}</div>
           </a>
         `;
+          }
+        }).join('');
       }
-    }).join('');
-  }
-})();
-</script>
+    })();
+  </script>
 </body>
+
 </html>
-
-
-

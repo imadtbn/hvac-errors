@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl" data-theme="light">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,27 +9,45 @@
   <link rel="canonical" href="https://github.com/imadtbn/hvac-errorsarticle.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap"
+    rel="stylesheet">
 
-      <!-- Styles -->
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/icon.png" fetchpriority="high">
+
+  <!-- الأيقونة الأساسية للمتصفحات الحديثة (بصيغة PNG وبحجم 32x32) -->
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+
+  <!-- أيقونة إضافية بحجم أصغر لشريط التبويب القديم (بحجم 16x16) -->
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+
+  <!-- أيقونة خاصة بهواتف آيفون وأجهزة آيباد (Apple Touch Icon) -->
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+
+  <!-- لدعم متصفحات Internet Explorer القديمة (اختياري) -->
+  <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico">
+
+  <!-- Styles -->
   <link rel="stylesheet" href="css/style.css">
 
-      <!-- Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5656416032906373"
-        crossorigin="anonymous"></script>
-    <meta name="google-adsense-account" content="ca-pub-5656416032906373">
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5656416032906373"
+    crossorigin="anonymous"></script>
+  <meta name="google-adsense-account" content="ca-pub-5656416032906373">
 
 
   <link rel="icon" href="icons/favicon.ico">
 </head>
+
 <body>
 
-<header class="header">
-  <div class="header-inner">
-    <a href="index.html" class="logo">
-      <div class="logo-icon">❄️</div>
-      <span>دليل أعطال التكييف</span>
-    </a>
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">❄️</div>
+        <span>دليل أعطال التكييف</span>
+      </a>
       <nav class="nav">
         <a href="index.html" class="nav-link">الرئيسية</a>
         <a href="errors.html" class="nav-link">الأعطال</a>
@@ -37,47 +56,64 @@
         <a href="about.html" class="nav-link">عن الموقع</a>
         <a href="contact.html" class="nav-link">اتصل بنا</a>
       </nav>
-    <div class="header-actions">
-      <button class="btn-icon" id="themeToggle">🌙</button>
-      <button class="btn-icon mobile-menu-btn" id="mobileMenuBtn">☰</button>
+      <div class="header-actions">
+        <button class="btn-icon" id="themeToggle">🌙</button>
+        <button class="btn-icon mobile-menu-btn" id="mobileMenuBtn">☰</button>
+      </div>
     </div>
+  </header>
+
+  <!-- إعلان داخل الخلاصة 01-->
+  <div class="ad-container">
+    <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fr+56+4k-d4+74"
+      data-ad-client="ca-pub-5656416032906373" data-ad-slot="7867079394"></ins>
   </div>
-</header>
 
-<div class="mobile-overlay" id="mobileOverlay"></div>
-<nav class="mobile-nav" id="mobileNav">
-  <a href="index.html">الرئيسية</a>
-  <a href="errors.html">الأعطال</a>
-  <a href="brands.html">الماركات</a>
-  <a href="articles.html">المقالات</a>
-  <a href="about.html">عن الموقع</a>
-  <a href="contact.html">اتصل بنا</a>
-</nav>
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html">الرئيسية</a>
+    <a href="errors.html">الأعطال</a>
+    <a href="brands.html">الماركات</a>
+    <a href="articles.html">المقالات</a>
+    <a href="about.html">عن الموقع</a>
+    <a href="contact.html">اتصل بنا</a>
+  </nav>
 
-<section class="hero" style="padding: 80px 24px 60px;">
-  <div class="hero-inner">
-    <div class="breadcrumb" style="margin-bottom: 16px;">
-      <a href="index.html">الرئيسية</a>
-      <span>/</span>
-      <a href="articles.html">المقالات</a>
-      <span>/</span>
-      <span id="breadcrumbTitle">...</span>
+  <section class="hero" style="padding: 80px 24px 60px;">
+    <div class="hero-inner">
+      <div class="breadcrumb" style="margin-bottom: 16px;">
+        <a href="index.html">الرئيسية</a>
+        <span>/</span>
+        <a href="articles.html">المقالات</a>
+        <span>/</span>
+        <span id="breadcrumbTitle">...</span>
+      </div>
+      <h1 id="articleTitle">...</h1>
+      <div class="badges-row" id="articleMeta" style="margin-top: 16px;"></div>
     </div>
-    <h1 id="articleTitle">...</h1>
-    <div class="badges-row" id="articleMeta" style="margin-top: 16px;"></div>
-  </div>
-</section>
+  </section>
 
-<section class="section" style="padding-top: 40px;">
-  <div class="section-inner">
-    <div class="detail-section" id="articleContent" style="font-size: 1.05rem; line-height: 2;"></div>
-    
-    <div style="margin-top: 40px; text-align: center;">
-      <a href="articles.html" class="btn btn-outline">← العودة للمقالات</a>
+  <div class="ad-container">
+    <!-- إعلانات صورية 01 -->
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5656416032906373" data-ad-slot="3143411927"
+      data-ad-format="auto" data-full-width-responsive="true"></ins>
+  </div>
+
+  <section class="section" style="padding-top: 40px;">
+    <div class="section-inner">
+      <div class="detail-section" id="articleContent" style="font-size: 1.05rem; line-height: 2;"></div>
+
+      <div style="margin-top: 40px; text-align: center;">
+        <a href="articles.html" class="btn btn-outline">← العودة للمقالات</a>
+      </div>
     </div>
-  </div>
-</section>
 
+    <!-- إعلان داخل الخلاصة 02-->
+    <div class="ad-container">
+      <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-h9-h+8-jr+r8"
+        data-ad-client="ca-pub-5656416032906373" data-ad-slot="8546947691"></ins>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer class="footer">
@@ -121,31 +157,32 @@
   </footer>
 
 
-<button class="back-to-top" id="backToTop">↑</button>
-<script src="js/main.js"></script>
-<script>
-document.addEventListener('dataLoaded', async function() {
-  const res = await fetch('data/articles.json');
-  const articles = await res.json();
-  const params = new URLSearchParams(location.search);
-  const articleId = params.get('id');
-  const article = articles.find(a => a.id === articleId);
-  
-  if (!article) {
-    document.getElementById('articleContent').innerHTML = '<h2>المقال غير موجود</h2><p><a href="articles.html">العودة للمقالات</a></p>';
-    return;
-  }
-  
-  document.title = article.title + ' | دليل أعطال التكييف';
-  document.getElementById('breadcrumbTitle').textContent = article.title;
-  document.getElementById('articleTitle').textContent = article.title;
-  document.getElementById('articleMeta').innerHTML = `
+  <button class="back-to-top" id="backToTop">↑</button>
+  <script src="js/main.js"></script>
+  <script>
+    document.addEventListener('dataLoaded', async function () {
+      const res = await fetch('data/articles.json');
+      const articles = await res.json();
+      const params = new URLSearchParams(location.search);
+      const articleId = params.get('id');
+      const article = articles.find(a => a.id === articleId);
+
+      if (!article) {
+        document.getElementById('articleContent').innerHTML = '<h2>المقال غير موجود</h2><p><a href="articles.html">العودة للمقالات</a></p>';
+        return;
+      }
+
+      document.title = article.title + ' | دليل أعطال التكييف';
+      document.getElementById('breadcrumbTitle').textContent = article.title;
+      document.getElementById('articleTitle').textContent = article.title;
+      document.getElementById('articleMeta').innerHTML = `
     <span class="badge">📅 ${article.date}</span>
     <span class="badge">⏱️ ${article.readTime}</span>
     <span class="badge">🏷️ ${article.category}</span>
   `;
-  document.getElementById('articleContent').innerHTML = article.content;
-});
-</script>
+      document.getElementById('articleContent').innerHTML = article.content;
+    });
+  </script>
 </body>
+
 </html>

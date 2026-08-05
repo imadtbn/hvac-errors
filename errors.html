@@ -14,16 +14,31 @@
     href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap"
     rel="stylesheet">
 
-    
-      <!-- Styles -->
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/icon.png" fetchpriority="high">
+
+  <!-- الأيقونة الأساسية للمتصفحات الحديثة (بصيغة PNG وبحجم 32x32) -->
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+
+  <!-- أيقونة إضافية بحجم أصغر لشريط التبويب القديم (بحجم 16x16) -->
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+
+  <!-- أيقونة خاصة بهواتف آيفون وأجهزة آيباد (Apple Touch Icon) -->
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+
+  <!-- لدعم متصفحات Internet Explorer القديمة (اختياري) -->
+  <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico">
+
+
+  <!-- Styles -->
   <link rel="stylesheet" href="css/style.css">
 
-      <!-- Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5656416032906373"
-        crossorigin="anonymous"></script>
-    <meta name="google-adsense-account" content="ca-pub-5656416032906373">
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5656416032906373"
+    crossorigin="anonymous"></script>
+  <meta name="google-adsense-account" content="ca-pub-5656416032906373">
 
-    
+
   <link rel="icon" href="icons/favicon.ico">
 </head>
 
@@ -50,6 +65,12 @@
     </div>
   </header>
 
+  <!-- إعلان داخل الخلاصة 01-->
+  <div class="ad-container">
+    <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fr+56+4k-d4+74"
+      data-ad-client="ca-pub-5656416032906373" data-ad-slot="7867079394"></ins>
+  </div>
+
   <div class="mobile-overlay" id="mobileOverlay"></div>
   <nav class="mobile-nav" id="mobileNav">
     <a href="index.html">الرئيسية</a>
@@ -70,6 +91,12 @@
       <p>تصفح وابحث في جميع الأعطال المسجلة</p>
     </div>
   </section>
+
+  <div class="ad-container">
+    <!-- إعلانات صورية 01 -->
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5656416032906373" data-ad-slot="3143411927"
+      data-ad-format="auto" data-full-width-responsive="true"></ins>
+  </div>
 
   <section class="section">
     <div class="section-inner">
@@ -93,6 +120,12 @@
       <div class="pagination" id="pagination"></div>
     </div>
   </section>
+
+  <!-- الإعلانات المتعددة 01-->
+  <div class="ad-container">
+    <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-5656416032906373"
+      data-ad-slot="6528123169"></ins>
+  </div>
 
   <!-- Footer -->
   <footer class="footer">
@@ -140,7 +173,7 @@
   <script src="js/main.js"></script>
   <script>
     document.addEventListener('dataLoaded', function (e) {
-      const { brands, errors } = e.detail;
+      const {brands, errors} = e.detail;
       let filtered = [...errors];
       let currentPage = 1;
       const perPage = 12;
@@ -193,7 +226,7 @@
       window.goToPage = function (p) {
         currentPage = p;
         render();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.scrollTo({top: 0, behavior: 'smooth'});
       };
 
       render();
