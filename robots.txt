@@ -1,11 +1,8 @@
-# ====== robots.txt ======
-robots = """User-agent: *
+# robots.txt for HVAC Error Codes Guide
+User-agent: *
 Allow: /
 Disallow: /data/
 Disallow: /icons/
 Disallow: /images/
 
-Sitemap: https://hvac-errors.com/sitemap.xml
-Sitemap: https://hvac-errors.com/sitemap-brands.xml
-Sitemap: https://hvac-errors.com/sitemap-errors.xml
-Sitemap: https://hvac-errors.com/sitemap-articles.xml
+Sitemap: https://imadtbn.github.io/hvac-errors/sitemap.xml
