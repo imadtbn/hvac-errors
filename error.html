@@ -227,7 +227,10 @@
       document.getElementById('errorCode').textContent = err.code;
       document.getElementById('errorTitle').textContent = err.titleAr;
       document.getElementById('errorBadges').innerHTML = `
-    <span class="badge">🏭 ${getBrandName(err.brandId)}</span>
+    <span class="badge brand-badge-inline">
+      <img src="${getBrandLogo(err.brandId)}" alt="${getBrandName(err.brandId)}" class="brand-icon-inline">
+      ${getBrandName(err.brandId)}
+    </span>
     <span class="badge">${getCategoryLabel(err.category)}</span>
     <span class="badge" style="background: rgba(211,47,47,0.2);">⚠️ خطورة: ${getSeverityLabel(err.severity)}</span>
     <span class="badge badge-${err.diyPossible ? 'diy' : 'tech'}">${err.diyPossible ? '✅ يمكن DIY' : '👨‍🔧 يحتاج فني'}</span>
@@ -235,7 +238,13 @@
 
       // Quick Info
       document.getElementById('quickInfo').innerHTML = `
-    <div class="info-item"><label>الماركة</label><strong>${getBrandName(err.brandId)}</strong></div>
+    <div class="info-item">
+      <label>الماركة</label>
+      <div class="brand-info-detail">
+        <img src="${getBrandLogo(err.brandId)}" alt="${getBrandName(err.brandId)}" class="brand-logo-info">
+        <strong>${getBrandName(err.brandId)}</strong>
+      </div>
+    </div>
     <div class="info-item"><label>رمز الخطأ</label><strong style="font-family:monospace;">${err.code}</strong></div>
     <div class="info-item"><label>التصنيف</label><strong>${getCategoryLabel(err.category)}</strong></div>
     <div class="info-item"><label>الخطورة</label><strong>${getSeverityLabel(err.severity)}</strong></div>

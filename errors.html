@@ -185,9 +185,15 @@
 
         grid.innerHTML = pageItems.map(err => `
       <a href="error.html?id=${err.id}" class="card error-card">
+        <div class="brand-badge-top">
+          <img src="${getBrandLogo(err.brandId)}" alt="${getBrandName(err.brandId)}" onerror="this.src='icons/icon.png'">
+        </div>
         <span class="error-code ${getSeverityClass(err.severity)}">${err.code}</span>
         <h3>${err.titleAr}</h3>
-        <div class="brand-tag">🏭 ${getBrandName(err.brandId)}</div>
+        <div class="brand-tag-new">
+          <img src="${getBrandLogo(err.brandId)}" alt="${getBrandName(err.brandId)}" class="brand-icon-small">
+          <span>${getBrandName(err.brandId)}</span>
+        </div>
         <div class="symptoms">${err.symptoms.slice(0, 2).join(' • ')}</div>
         <div class="meta-row">
           <span class="badge badge-${err.diyPossible ? 'diy' : 'tech'}">${err.diyPossible ? '✅ DIY' : '👨‍🔧 فني'}</span>

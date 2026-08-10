@@ -165,9 +165,14 @@
       } else {
         results.innerHTML = matches.map(e => `
           <a href="error.html?id=${e.id}" class="search-result-item">
-            <span class="code">${e.code}</span>
-            <div>
-              <div class="title">${e.titleAr}</div>
+            <div class="search-brand-logo">
+              <img src="${getBrandLogo(e.brandId)}" alt="${getBrandName(e.brandId)}" onerror="this.src='icons/icon.png'">
+            </div>
+            <div class="search-content">
+              <div class="title-row">
+                <span class="code">${e.code}</span>
+                <span class="title">${e.titleAr}</span>
+              </div>
               <div class="brand">${getBrandName(e.brandId)}</div>
             </div>
           </a>
@@ -203,6 +208,11 @@
   window.getBrandName = function(id) {
     const b = brands.find(x => x.id === id);
     return b ? b.nameAr : id;
+  };
+
+  window.getBrandLogo = function(id) {
+    const b = brands.find(x => x.id === id);
+    return b ? b.logo : 'images/default-brand.png';
   };
 
   window.getSeverityLabel = function(sev) {
