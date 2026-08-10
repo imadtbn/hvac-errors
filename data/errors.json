@@ -24,7 +24,7 @@
         ],
         "tools": ["أوم متر", "لحام", "كحول إيزوبروبيل", "فرشاة"],
         "duration": "30-60 دقيقة",
-        "cost": "50-150 ريال",
+        "cost": "***** دج",
         "needsTechnician": false,
         "diyPossible": true,
         "references": ["Daikin Service Manual FTXS-K Series", "Daikin Error Code List 2023"]
@@ -54,7 +54,7 @@
         ],
         "tools": ["أوم متر", "مانومتر", "مقياس ضغط الفريون"],
         "duration": "45-90 دقيقة",
-        "cost": "100-300 ريال",
+        "cost": "**** دج",
         "needsTechnician": true,
         "diyPossible": false,
         "references": ["Daikin Service Manual RXS-K Series"]
@@ -84,7 +84,7 @@
         ],
         "tools": ["أوم متر", "أوسيلوسكوب", "مفكات"],
         "duration": "1-3 ساعات",
-        "cost": "200-800 ريال",
+        "cost": "**** دج",
         "needsTechnician": true,
         "diyPossible": false,
         "references": ["Daikin VRV Service Manual", "Daikin Communication Troubleshooting Guide"]
@@ -112,7 +112,7 @@
         ],
         "tools": ["أوم متر", "لحام", "كحول"],
         "duration": "30-60 دقيقة",
-        "cost": "50-150 ريال",
+        "cost": "**** دج",
         "needsTechnician": false,
         "diyPossible": true,
         "references": ["LG Service Manual S12/S18 Series"]
@@ -140,7 +140,7 @@
         ],
         "tools": ["أوم متر", "لحام"],
         "duration": "30-60 دقيقة",
-        "cost": "50-200 ريال",
+        "cost": "**** دج",
         "needsTechnician": false,
         "diyPossible": true,
         "references": ["LG Service Manual"]
@@ -170,7 +170,7 @@
         ],
         "tools": ["مانومتر", "مضخة فراغ", "فرشاة"],
         "duration": "2-4 ساعات",
-        "cost": "300-1000 ريال",
+        "cost": "**** دج",
         "needsTechnician": true,
         "diyPossible": false,
         "references": ["LG HVAC Service Manual", "ASHRAE Fundamentals"]
@@ -198,7 +198,7 @@
         ],
         "tools": ["أوم متر", "مفكات"],
         "duration": "1-3 ساعات",
-        "cost": "200-800 ريال",
+        "cost": "**** دج",
         "needsTechnician": true,
         "diyPossible": false,
         "references": ["Samsung Service Manual AR Series"]
@@ -228,7 +228,7 @@
         ],
         "tools": ["أوم متر", "أوسيلوسكوب", "مفكات"],
         "duration": "3-6 ساعات",
-        "cost": "1500-4000 ريال",
+        "cost": "**** دج",
         "needsTechnician": true,
         "diyPossible": false,
         "references": ["Samsung Inverter Service Manual", "Samsung Diagnostic Guide"]
@@ -256,7 +256,7 @@
         ],
         "tools": ["أوم متر"],
         "duration": "1-2 ساعات",
-        "cost": "150-600 ريال",
+        "cost": "**** دج",
         "needsTechnician": true,
         "diyPossible": false,
         "references": ["Gree Service Manual"]
@@ -284,7 +284,7 @@
         ],
         "tools": ["مانومتر", "فرشاة"],
         "duration": "2-4 ساعات",
-        "cost": "300-1000 ريال",
+        "cost": "**** دج",
         "needsTechnician": true,
         "diyPossible": false,
         "references": ["Gree Service Manual"]
@@ -312,7 +312,7 @@
         ],
         "tools": ["فولتميتر", "أوم متر"],
         "duration": "1-2 ساعات",
-        "cost": "100-500 ريال",
+        "cost": "**** دج",
         "needsTechnician": true,
         "diyPossible": false,
         "references": ["Midea Service Manual"]
@@ -338,7 +338,7 @@
         ],
         "tools": ["أوم متر"],
         "duration": "30-60 دقيقة",
-        "cost": "50-150 ريال",
+        "cost": "**** دج",
         "needsTechnician": false,
         "diyPossible": true,
         "references": ["Midea Service Manual"]
@@ -363,7 +363,7 @@
         ],
         "tools": ["أوم متر"],
         "duration": "30 دقيقة",
-        "cost": "50-150 ريال",
+        "cost": "**** دج",
         "needsTechnician": false,
         "diyPossible": true,
         "references": ["Carrier Service Manual"]
@@ -391,7 +391,7 @@
         ],
         "tools": ["مانومتر", "فرشاة"],
         "duration": "2-4 ساعات",
-        "cost": "300-1000 ريال",
+        "cost": "**** دج",
         "needsTechnician": true,
         "diyPossible": false,
         "references": ["Carrier Service Manual"]
@@ -417,7 +417,7 @@
         ],
         "tools": ["أوم متر"],
         "duration": "1-3 ساعات",
-        "cost": "200-800 ريال",
+        "cost": "**** دج",
         "needsTechnician": true,
         "diyPossible": false,
         "references": ["Mitsubishi Electric Service Manual"]
@@ -445,7 +445,7 @@
         ],
         "tools": ["أوم متر", "أوسيلوسكوب"],
         "duration": "3-6 ساعات",
-        "cost": "2000-5000 ريال",
+        "cost": "**** دج",
         "needsTechnician": true,
         "diyPossible": false,
         "references": ["Mitsubishi Electric Inverter Manual"]
@@ -470,7 +470,7 @@
         ],
         "tools": ["أوم متر"],
         "duration": "30-60 دقيقة",
-        "cost": "50-150 ريال",
+        "cost": "**** دج",
         "needsTechnician": false,
         "diyPossible": true,
         "references": ["Panasonic Service Manual"]
@@ -496,7 +496,7 @@
         ],
         "tools": ["أوم متر"],
         "duration": "3-5 ساعات",
-        "cost": "2000-4500 ريال",
+        "cost": "**** دج",
         "needsTechnician": true,
         "diyPossible": false,
         "references": ["Panasonic Inverter Manual"]
@@ -521,7 +521,7 @@
         ],
         "tools": ["أوم متر"],
         "duration": "30 دقيقة",
-        "cost": "50-150 ريال",
+        "cost": "**** دج",
         "needsTechnician": false,
         "diyPossible": true,
         "references": ["Toshiba Service Manual"]
@@ -547,7 +547,7 @@
         ],
         "tools": ["أوم متر"],
         "duration": "1-3 ساعات",
-        "cost": "200-800 ريال",
+        "cost": "**** دج",
         "needsTechnician": true,
         "diyPossible": false,
         "references": ["Toshiba Service Manual"]
@@ -572,7 +572,7 @@
         ],
         "tools": ["أوم متر"],
         "duration": "30 دقيقة",
-        "cost": "50-150 ريال",
+        "cost": "**** دج",
         "needsTechnician": false,
         "diyPossible": true,
         "references": ["Hitachi Service Manual"]
@@ -600,7 +600,7 @@
         ],
         "tools": ["مانومتر", "فرشاة"],
         "duration": "2-4 ساعات",
-        "cost": "300-1000 ريال",
+        "cost": "**** دج",
         "needsTechnician": true,
         "diyPossible": false,
         "references": ["Hitachi Service Manual"]
@@ -625,7 +625,7 @@
         ],
         "tools": ["أوم متر"],
         "duration": "30 دقيقة",
-        "cost": "50-150 ريال",
+        "cost": "**** دج",
         "needsTechnician": false,
         "diyPossible": true,
         "references": ["Haier Service Manual"]
@@ -650,7 +650,7 @@
         ],
         "tools": ["أوم متر"],
         "duration": "30 دقيقة",
-        "cost": "50-150 ريال",
+        "cost": "**** دج",
         "needsTechnician": false,
         "diyPossible": true,
         "references": ["Hisense Service Manual"]
@@ -676,7 +676,7 @@
         ],
         "tools": ["أوم متر"],
         "duration": "3-5 ساعات",
-        "cost": "2000-4500 ريال",
+        "cost": "**** دج",
         "needsTechnician": true,
         "diyPossible": false,
         "references": ["Fujitsu Service Manual"]
@@ -701,7 +701,7 @@
         ],
         "tools": ["أوم متر"],
         "duration": "30 دقيقة",
-        "cost": "50-150 ريال",
+        "cost": "**** دج",
         "needsTechnician": false,
         "diyPossible": true,
         "references": ["TCL Service Manual"]
@@ -726,7 +726,7 @@
         ],
         "tools": ["أوم متر"],
         "duration": "30 دقيقة",
-        "cost": "50-150 ريال",
+        "cost": "**** دج",
         "needsTechnician": false,
         "diyPossible": true,
         "references": ["Beko Service Manual"]
@@ -752,7 +752,7 @@
         ],
         "tools": ["أوم متر"],
         "duration": "1-3 ساعات",
-        "cost": "200-800 ريال",
+        "cost": "**** دج",
         "needsTechnician": true,
         "diyPossible": false,
         "references": ["Condor Service Manual"]
@@ -777,7 +777,7 @@
         ],
         "tools": ["أوم متر"],
         "duration": "30 دقيقة",
-        "cost": "50-150 ريال",
+        "cost": "**** دج",
         "needsTechnician": false,
         "diyPossible": true,
         "references": ["Chigo Service Manual"]
@@ -803,7 +803,7 @@
         ],
         "tools": ["أوم متر"],
         "duration": "1-3 ساعات",
-        "cost": "200-800 ريال",
+        "cost": "**** دج",
         "needsTechnician": true,
         "diyPossible": false,
         "references": ["Aux Service Manual"]
