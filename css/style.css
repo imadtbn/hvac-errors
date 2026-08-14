@@ -1217,158 +1217,121 @@ width:60%;
 }
 
 /* ============================================
-   BRAND LOGO STYLES (Added)
+   PWA Install System Styles
    ============================================ */
-.brand-badge-top {
+.pwa-install-btn {
+  position: relative;
+  animation: pwaPulse 2s ease-in-out 3;
+}
+.pwa-install-btn::after {
+  content: '';
   position: absolute;
-  top: 15px;
-  left: 15px;
-  width: 45px;
-  height: 45px;
-  background: white;
-  border-radius: 10px;
-  padding: 5px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  top: -2px; right: -2px;
+  width: 12px; height: 12px;
+  background: #22c55e;
+  border: 2px solid var(--card);
+  border-radius: 50%;
+}
+@keyframes pwaPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(34, 197, 94, 0); }
+}
+
+/* إشعار التثبيت عند أول زيارة (Banner أسفل الشاشة) */
+.pwa-install-banner {
+  position: fixed;
+  bottom: 0; right: 0; left: 0;
+  z-index: 9999;
+  background: linear-gradient(135deg, var(--primary), #004c99);
+  color: white;
+  padding: 16px 20px;
+  box-shadow: 0 -8px 30px rgba(0,0,0,0.2);
+  animation: pwaSlideUp 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.pwa-install-banner.dismissed {
+  transform: translateY(110%);
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+@keyframes pwaSlideUp {
+  from { transform: translateY(110%); }
+  to { transform: translateY(0); }
+}
+.pwa-banner-content {
+  max-width: 1280px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
-  z-index: 2;
-  border: 1px solid var(--border);
+  gap: 16px;
 }
-
-.brand-badge-top img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-
-.brand-tag-new {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.85rem;
-  padding: 5px 12px;
-  background: var(--bg);
-  border-radius: 8px;
-  color: var(--text);
-  margin-bottom: 12px;
-  border: 1px solid var(--border);
-  font-weight: 600;
-}
-
-.brand-icon-small {
-  width: 18px;
-  height: 18px;
-  object-fit: contain;
-}
-
-.brand-badge-inline {
-  display: inline-flex !important;
-  align-items: center;
-  gap: 8px;
-  background: white !important;
-  color: var(--primary) !important;
-  padding: 6px 14px !important;
-}
-
-.brand-icon-inline {
-  width: 20px;
-  height: 20px;
-  object-fit: contain;
-}
-
-.brand-info-detail {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.brand-logo-info {
-  width: 32px;
-  height: 32px;
-  object-fit: contain;
+.pwa-banner-icon { font-size: 2rem; flex-shrink: 0; }
+.pwa-banner-text { flex: 1; display: flex; flex-direction: column; gap: 4px; }
+.pwa-banner-text strong { font-size: 1rem; }
+.pwa-banner-text span { font-size: 0.85rem; opacity: 0.9; }
+.pwa-banner-actions { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+.pwa-banner-actions .btn {
   background: white;
-  padding: 3px;
-  border-radius: 6px;
-  border: 1px solid var(--border);
-}
-
-/* Dark mode adjustments for brand logos */
-[data-theme="dark"] .brand-badge-top,
-[data-theme="dark"] .brand-logo-info,
-[data-theme="dark"] .brand-badge-inline {
-  background: #ffffff !important; /* Keep white background for logos to look good */
-  border-color: #334155;
-}
-
-[data-theme="dark"] .brand-tag-new {
-  background: #1e293b;
-  color: #f1f5f9;
-}
-
-/* Search Results Styling (Added) */
-.search-result-item {
-  display: flex !important;
-  align-items: center;
-  gap: 12px;
-  padding: 12px 16px;
-  border-bottom: 1px solid var(--border);
+  color: var(--primary);
+  border: none;
+  padding: 10px 20px;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
   transition: var(--transition);
 }
-
-.search-result-item:hover {
-  background: rgba(0,102,204,0.05);
+.pwa-banner-actions .btn:hover { transform: scale(1.05); box-shadow: var(--shadow); }
+.pwa-banner-dismiss {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 4px 8px;
 }
+.pwa-banner-dismiss:hover { opacity: 1; }
 
-.search-brand-logo {
-  width: 40px;
-  height: 40px;
-  background: white;
-  border-radius: 8px;
-  padding: 4px;
+/* شريط التحديث المتاح */
+.pwa-update-banner {
+  position: fixed;
+  top: 80px; right: 16px; left: 16px;
+  z-index: 9999;
+  max-width: 1248px;
+  margin: 0 auto;
+  background: var(--card);
   border: 1px solid var(--border);
-  flex-shrink: 0;
+  border-right: 4px solid #f59e0b;
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 12px;
+  box-shadow: var(--shadow-lg);
+  font-size: 0.9rem;
 }
-
-.search-brand-logo img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-
-.search-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.title-row {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.search-result-item .code {
+.btn-update {
   background: var(--primary);
   color: white;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-size: 0.75rem;
-  font-weight: 800;
-  font-family: monospace;
+  border: none;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  cursor: pointer;
+  flex-shrink: 0;
 }
-
-.search-result-item .title {
-  font-weight: 700;
-  font-size: 0.95rem;
-  color: var(--text);
-}
-
-.search-result-item .brand {
-  font-size: 0.8rem;
+.btn-update-close {
+  background: transparent;
+  border: none;
   color: var(--text-muted);
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .pwa-banner-content { flex-direction: column; align-items: flex-start; gap: 10px; }
+  .pwa-banner-actions { width: 100%; }
+  .pwa-banner-actions .btn { flex: 1; text-align: center; }
+  .pwa-update-banner { top: 72px; font-size: 0.82rem; }
 }

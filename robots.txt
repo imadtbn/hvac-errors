@@ -1,8 +1,31 @@
-# robots.txt for HVAC Error Codes Guide
+# ============================================================
+# robots.txt - دليل أعطال أجهزة التكييف المنزلية
+# HVAC Error Codes Guide - https://imadtbn.github.io/hvac-errors/
+# ============================================================
+
 User-agent: *
 Allow: /
-Disallow: /data/
-Disallow: /icons/
-Disallow: /images/
 
+# منع الفهرسة المباشرة لملفات البيانات الخام (تُعرض ضمن صفحات الموقع)
+Disallow: /data/
+
+# منع فهرسة ملف التحقق من ملكية Google Search Console
+Disallow: /google4e08a8803a39e9f9.html
+
+# ============================================================
+# إعدادات خاصة بزواحف إعلانات جوجل
+# ============================================================
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /icons/
+
+# ============================================================
+# خريطة الموقع
+# ============================================================
 Sitemap: https://imadtbn.github.io/hvac-errors/sitemap.xml
