@@ -7,7 +7,7 @@ User-agent: *
 Allow: /
 
 # منع الفهرسة المباشرة لملفات البيانات الخام (تُعرض ضمن صفحات الموقع)
-Disallow: /data/
+Allow: /data/
 
 # منع فهرسة ملف التحقق من ملكية Google Search Console
 Disallow: /google4e08a8803a39e9f9.html
