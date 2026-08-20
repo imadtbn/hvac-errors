@@ -1335,3 +1335,110 @@ width:60%;
   .pwa-banner-actions .btn { flex: 1; text-align: center; }
   .pwa-update-banner { top: 72px; font-size: 0.82rem; }
 }
+
+
+/* ============================================
+   ADSENSE SYSTEM
+   ============================================ */
+.ad-container {
+  width: min(100%, 1280px);
+  min-height: 100px;
+  margin: 28px auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  contain: layout paint;
+  isolation: isolate;
+}
+
+.ad-container .adsbygoogle {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-height: 90px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.ad-container[data-ad-type="fluid"] .adsbygoogle,
+.ad-container[data-ad-type="in-article"] .adsbygoogle {
+  min-height: 120px;
+}
+
+.ad-container[data-ad-type="in-article"] {
+  margin-block: 30px;
+  padding-inline: 0;
+}
+
+.ad-container[data-ad-type="multiplex"] {
+  min-height: 220px;
+  margin-block: 36px;
+}
+
+.ad-container[data-ad-type="multiplex"] .adsbygoogle {
+  min-height: 220px;
+}
+
+/* Keep an unobtrusive reserved area while AdSense is preparing the iframe. */
+.ad-container[data-ad-state="waiting"],
+.ad-container[data-ad-state="loading"] {
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--border) 22%, transparent), transparent);
+  background-size: 220% 100%;
+  animation: adPlaceholder 1.8s ease-in-out infinite;
+}
+
+.ad-container[data-ad-state="ready"] {
+  background: transparent;
+  animation: none;
+}
+
+.ad-container[data-ad-state="unavailable"] {
+  min-height: 0;
+  height: 0;
+  margin-block: 0;
+  padding-block: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+@keyframes adPlaceholder {
+  0%, 100% { background-position: 200% 0; }
+  50% { background-position: -20% 0; }
+}
+
+[data-theme="dark"] .ad-container[data-ad-state="waiting"],
+[data-theme="dark"] .ad-container[data-ad-state="loading"] {
+  background: linear-gradient(90deg, transparent, rgba(148, 163, 184, 0.08), transparent);
+  background-size: 220% 100%;
+}
+
+@media (max-width: 768px) {
+  .ad-container {
+    min-height: 88px;
+    margin-block: 22px;
+    padding-inline: 12px;
+  }
+
+  .ad-container .adsbygoogle {
+    min-height: 80px;
+  }
+
+  .ad-container[data-ad-type="fluid"] .adsbygoogle,
+  .ad-container[data-ad-type="in-article"] .adsbygoogle {
+    min-height: 100px;
+  }
+
+  .ad-container[data-ad-type="multiplex"],
+  .ad-container[data-ad-type="multiplex"] .adsbygoogle {
+    min-height: 190px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ad-container[data-ad-state="waiting"],
+  .ad-container[data-ad-state="loading"] {
+    animation: none;
+  }
+}
