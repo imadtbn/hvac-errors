@@ -3923,5 +3923,2351 @@
       "EF"
     ],
     "verificationNote": "دليل LG الرسمي يطلب دورة طاقة ثم فحصًا فنيًا إذا استمر الرمز، ويشير إلى اختلاف المحتوى حسب المنتج."
+  },
+  {
+    "id": "e074",
+    "code": "E3",
+    "brandId": "midea",
+    "titleAr": "خطأ حساس درجة حرارة مخرج الماء المركب",
+    "titleEn": "Combined water outlet temperature sensor error",
+    "severity": "high",
+    "category": "sensors",
+    "symptoms": [
+      "توقف الوحدة",
+      "ظهور E3"
+    ],
+    "causes": [
+      "خلل في الحساس أو الضغط",
+      "انقطاع التوصيل",
+      "تلف اللوحة الرئيسية"
+    ],
+    "parts": [
+      "حساس مخرج الماء",
+      "اللوحة الرئيسية",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Midea España — Full DC R32 troubleshooting",
+      "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf"
+    ],
+    "sourceUrl": "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf",
+    "modelScope": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notesAr": "هذا الجدول الرسمي يخص وحدات Midea Full DC R32 التجارية؛ لا يُعمّم على مكيفات Midea المنزلية أو السلاسل الأخرى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e075",
+    "code": "E4",
+    "brandId": "midea",
+    "titleAr": "خطأ حساس درجة حرارة مخرج الماء",
+    "titleEn": "Water outlet temperature sensor error",
+    "severity": "high",
+    "category": "sensors",
+    "symptoms": [
+      "توقف الوحدة",
+      "ظهور E4"
+    ],
+    "causes": [
+      "خلل في الحساس أو الضغط",
+      "انقطاع التوصيل",
+      "تلف اللوحة الرئيسية"
+    ],
+    "parts": [
+      "حساس مخرج الماء",
+      "اللوحة الرئيسية",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Midea España — Full DC R32 troubleshooting",
+      "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf"
+    ],
+    "sourceUrl": "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf",
+    "modelScope": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notesAr": "هذا الجدول الرسمي يخص وحدات Midea Full DC R32 التجارية؛ لا يُعمّم على مكيفات Midea المنزلية أو السلاسل الأخرى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e076",
+    "code": "1E5",
+    "brandId": "midea",
+    "titleAr": "خطأ حساس مخرج وسيط التبريد للمبادل الهوائي",
+    "titleEn": "Air-side heat exchanger refrigerant outlet sensor T3A error",
+    "severity": "high",
+    "category": "sensors",
+    "symptoms": [
+      "توقف الوحدة",
+      "ظهور 1E5"
+    ],
+    "causes": [
+      "خلل في الحساس أو الضغط",
+      "انقطاع التوصيل",
+      "تلف اللوحة الرئيسية"
+    ],
+    "parts": [
+      "حساس T3A",
+      "اللوحة الرئيسية",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Midea España — Full DC R32 troubleshooting",
+      "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf"
+    ],
+    "sourceUrl": "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf",
+    "modelScope": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notesAr": "هذا الجدول الرسمي يخص وحدات Midea Full DC R32 التجارية؛ لا يُعمّم على مكيفات Midea المنزلية أو السلاسل الأخرى."
+    },
+    "aliases": [
+      "E5"
+    ],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e077",
+    "code": "E7",
+    "brandId": "midea",
+    "titleAr": "خطأ حساس درجة الحرارة المحيطة الخارجية",
+    "titleEn": "Outdoor ambient temperature sensor error",
+    "severity": "high",
+    "category": "sensors",
+    "symptoms": [
+      "توقف الوحدة",
+      "ظهور E7"
+    ],
+    "causes": [
+      "خلل في الحساس أو الضغط",
+      "انقطاع التوصيل",
+      "تلف اللوحة الرئيسية"
+    ],
+    "parts": [
+      "حساس الحرارة الخارجية",
+      "اللوحة الرئيسية",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Midea España — Full DC R32 troubleshooting",
+      "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf"
+    ],
+    "sourceUrl": "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf",
+    "modelScope": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notesAr": "هذا الجدول الرسمي يخص وحدات Midea Full DC R32 التجارية؛ لا يُعمّم على مكيفات Midea المنزلية أو السلاسل الأخرى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e078",
+    "code": "2Eb",
+    "brandId": "midea",
+    "titleAr": "خطأ حساس منع تجمد المبادل المائي",
+    "titleEn": "Water-side heat exchanger anti-freezing sensor Taf2 error",
+    "severity": "critical",
+    "category": "freezing",
+    "symptoms": [
+      "توقف الوحدة",
+      "ظهور 2Eb"
+    ],
+    "causes": [
+      "خلل في الحساس أو الضغط",
+      "انقطاع التوصيل",
+      "تلف اللوحة الرئيسية"
+    ],
+    "parts": [
+      "حساس Taf2",
+      "اللوحة الرئيسية",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Midea España — Full DC R32 troubleshooting",
+      "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf"
+    ],
+    "sourceUrl": "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf",
+    "modelScope": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notesAr": "هذا الجدول الرسمي يخص وحدات Midea Full DC R32 التجارية؛ لا يُعمّم على مكيفات Midea المنزلية أو السلاسل الأخرى."
+    },
+    "aliases": [
+      "Eb"
+    ],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e079",
+    "code": "1Ed",
+    "brandId": "midea",
+    "titleAr": "خطأ حساس أنبوب التفريغ للنظام A",
+    "titleEn": "System A discharge pipe temperature sensor error",
+    "severity": "critical",
+    "category": "sensors",
+    "symptoms": [
+      "توقف الوحدة",
+      "ظهور 1Ed"
+    ],
+    "causes": [
+      "خلل في الحساس أو الضغط",
+      "انقطاع التوصيل",
+      "تلف اللوحة الرئيسية"
+    ],
+    "parts": [
+      "حساس أنبوب التفريغ A",
+      "اللوحة الرئيسية",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Midea España — Full DC R32 troubleshooting",
+      "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf"
+    ],
+    "sourceUrl": "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf",
+    "modelScope": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notesAr": "هذا الجدول الرسمي يخص وحدات Midea Full DC R32 التجارية؛ لا يُعمّم على مكيفات Midea المنزلية أو السلاسل الأخرى."
+    },
+    "aliases": [
+      "Ed"
+    ],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e080",
+    "code": "2Ed",
+    "brandId": "midea",
+    "titleAr": "خطأ حساس أنبوب التفريغ للنظام B",
+    "titleEn": "System B discharge pipe temperature sensor error",
+    "severity": "critical",
+    "category": "sensors",
+    "symptoms": [
+      "توقف الوحدة",
+      "ظهور 2Ed"
+    ],
+    "causes": [
+      "خلل في الحساس أو الضغط",
+      "انقطاع التوصيل",
+      "تلف اللوحة الرئيسية"
+    ],
+    "parts": [
+      "حساس أنبوب التفريغ B",
+      "اللوحة الرئيسية",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Midea España — Full DC R32 troubleshooting",
+      "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf"
+    ],
+    "sourceUrl": "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf",
+    "modelScope": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notesAr": "هذا الجدول الرسمي يخص وحدات Midea Full DC R32 التجارية؛ لا يُعمّم على مكيفات Midea المنزلية أو السلاسل الأخرى."
+    },
+    "aliases": [
+      "Ed"
+    ],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e081",
+    "code": "EF",
+    "brandId": "midea",
+    "titleAr": "خطأ حساس درجة حرارة مدخل الماء",
+    "titleEn": "Water inlet temperature sensor error",
+    "severity": "high",
+    "category": "sensors",
+    "symptoms": [
+      "توقف الوحدة",
+      "ظهور EF"
+    ],
+    "causes": [
+      "خلل في الحساس أو الضغط",
+      "انقطاع التوصيل",
+      "تلف اللوحة الرئيسية"
+    ],
+    "parts": [
+      "حساس مدخل الماء",
+      "اللوحة الرئيسية",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Midea España — Full DC R32 troubleshooting",
+      "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf"
+    ],
+    "sourceUrl": "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf",
+    "modelScope": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notesAr": "هذا الجدول الرسمي يخص وحدات Midea Full DC R32 التجارية؛ لا يُعمّم على مكيفات Midea المنزلية أو السلاسل الأخرى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e082",
+    "code": "EP",
+    "brandId": "midea",
+    "titleAr": "إنذار فشل حساس أنبوب التفريغ",
+    "titleEn": "Discharge pipe temperature sensor failure alarm",
+    "severity": "critical",
+    "category": "sensors",
+    "symptoms": [
+      "توقف الوحدة",
+      "ظهور EP"
+    ],
+    "causes": [
+      "خلل في الحساس أو الضغط",
+      "انقطاع التوصيل",
+      "تلف اللوحة الرئيسية"
+    ],
+    "parts": [
+      "حساس أنبوب التفريغ",
+      "اللوحة الرئيسية",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Midea España — Full DC R32 troubleshooting",
+      "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf"
+    ],
+    "sourceUrl": "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf",
+    "modelScope": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notesAr": "هذا الجدول الرسمي يخص وحدات Midea Full DC R32 التجارية؛ لا يُعمّم على مكيفات Midea المنزلية أو السلاسل الأخرى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e083",
+    "code": "EU",
+    "brandId": "midea",
+    "titleAr": "خطأ حساس مخرج المبادل الهوائي الكلي",
+    "titleEn": "Air-side heat exchanger total outlet sensor Tz/7 error",
+    "severity": "high",
+    "category": "sensors",
+    "symptoms": [
+      "توقف الوحدة",
+      "ظهور EU"
+    ],
+    "causes": [
+      "خلل في الحساس أو الضغط",
+      "انقطاع التوصيل",
+      "تلف اللوحة الرئيسية"
+    ],
+    "parts": [
+      "حساس Tz/7",
+      "اللوحة الرئيسية",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Midea España — Full DC R32 troubleshooting",
+      "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf"
+    ],
+    "sourceUrl": "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf",
+    "modelScope": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notesAr": "هذا الجدول الرسمي يخص وحدات Midea Full DC R32 التجارية؛ لا يُعمّم على مكيفات Midea المنزلية أو السلاسل الأخرى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e084",
+    "code": "1F9",
+    "brandId": "midea",
+    "titleAr": "خطأ حساس حرارة وحدة الانفرتر 1",
+    "titleEn": "Inverter module temperature sensor Tfin1 error",
+    "severity": "critical",
+    "category": "inverter",
+    "symptoms": [
+      "توقف الوحدة",
+      "ظهور 1F9"
+    ],
+    "causes": [
+      "خلل في الحساس أو الضغط",
+      "انقطاع التوصيل",
+      "تلف اللوحة الرئيسية"
+    ],
+    "parts": [
+      "حساس Tfin1",
+      "وحدة الانفرتر",
+      "اللوحة الرئيسية"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Midea España — Full DC R32 troubleshooting",
+      "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf"
+    ],
+    "sourceUrl": "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf",
+    "modelScope": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notesAr": "هذا الجدول الرسمي يخص وحدات Midea Full DC R32 التجارية؛ لا يُعمّم على مكيفات Midea المنزلية أو السلاسل الأخرى."
+    },
+    "aliases": [
+      "F9"
+    ],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e085",
+    "code": "2F9",
+    "brandId": "midea",
+    "titleAr": "خطأ حساس حرارة وحدة الانفرتر 2",
+    "titleEn": "Inverter module temperature sensor Tfin2 error",
+    "severity": "critical",
+    "category": "inverter",
+    "symptoms": [
+      "توقف الوحدة",
+      "ظهور 2F9"
+    ],
+    "causes": [
+      "خلل في الحساس أو الضغط",
+      "انقطاع التوصيل",
+      "تلف اللوحة الرئيسية"
+    ],
+    "parts": [
+      "حساس Tfin2",
+      "وحدة الانفرتر",
+      "اللوحة الرئيسية"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Midea España — Full DC R32 troubleshooting",
+      "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf"
+    ],
+    "sourceUrl": "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf",
+    "modelScope": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notesAr": "هذا الجدول الرسمي يخص وحدات Midea Full DC R32 التجارية؛ لا يُعمّم على مكيفات Midea المنزلية أو السلاسل الأخرى."
+    },
+    "aliases": [
+      "F9"
+    ],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e086",
+    "code": "Fb",
+    "brandId": "midea",
+    "titleAr": "خطأ حساس الضغط",
+    "titleEn": "Pressure sensor error",
+    "severity": "critical",
+    "category": "cooling",
+    "symptoms": [
+      "توقف الوحدة",
+      "ظهور Fb"
+    ],
+    "causes": [
+      "تلف حساس الضغط",
+      "انقطاع التوصيل",
+      "تلف اللوحة الرئيسية"
+    ],
+    "parts": [
+      "حساس الضغط",
+      "اللوحة الرئيسية",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Midea España — Full DC R32 troubleshooting",
+      "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf"
+    ],
+    "sourceUrl": "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf",
+    "modelScope": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notesAr": "هذا الجدول الرسمي يخص وحدات Midea Full DC R32 التجارية؛ لا يُعمّم على مكيفات Midea المنزلية أو السلاسل الأخرى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e087",
+    "code": "Fd",
+    "brandId": "midea",
+    "titleAr": "خطأ حساس حرارة شفط الهواء",
+    "titleEn": "Air suction temperature sensor error",
+    "severity": "high",
+    "category": "sensors",
+    "symptoms": [
+      "توقف الوحدة",
+      "ظهور Fd"
+    ],
+    "causes": [
+      "خلل في الحساس أو الضغط",
+      "انقطاع التوصيل",
+      "تلف اللوحة الرئيسية"
+    ],
+    "parts": [
+      "حساس شفط الهواء",
+      "اللوحة الرئيسية",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Midea España — Full DC R32 troubleshooting",
+      "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf"
+    ],
+    "sourceUrl": "https://www.midea.es/wp-content/uploads/2020/10/E3-E4-E5-E7-Eb-Ed-EF-EP-EU-xF9-Fb-Fd_FULL-DC-R32.pdf",
+    "modelScope": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notesAr": "هذا الجدول الرسمي يخص وحدات Midea Full DC R32 التجارية؛ لا يُعمّم على مكيفات Midea المنزلية أو السلاسل الأخرى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e088",
+    "code": "E4",
+    "brandId": "haier",
+    "titleAr": "فشل EEPROM للوحدة الداخلية",
+    "titleEn": "Indoor EEPROM failure",
+    "severity": "high",
+    "category": "pcb",
+    "symptoms": [
+      "توقف الجهاز",
+      "ظهور E4"
+    ],
+    "causes": [
+      "خطأ بيانات الذاكرة",
+      "خلل PCB",
+      "تغذية غير مستقرة"
+    ],
+    "parts": [
+      "PCB الداخلية",
+      "EEPROM",
+      "التغذية"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e089",
+    "code": "E9",
+    "brandId": "haier",
+    "titleAr": "حماية زيادة حمل الوحدة الداخلية في وضع التدفئة",
+    "titleEn": "Indoor unit overload in heating mode",
+    "severity": "high",
+    "category": "heating",
+    "symptoms": [
+      "توقف التدفئة",
+      "ظهور E9"
+    ],
+    "causes": [
+      "تدفق هواء ضعيف",
+      "حمل حراري مرتفع",
+      "خلل حساس أو مروحة"
+    ],
+    "parts": [
+      "مروحة",
+      "حساسات",
+      "المبادل الحراري"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e090",
+    "code": "E14",
+    "brandId": "haier",
+    "titleAr": "عطل محرك مروحة الوحدة الداخلية",
+    "titleEn": "Indoor fan motor malfunction",
+    "severity": "high",
+    "category": "fan",
+    "symptoms": [
+      "توقف المروحة",
+      "ضعف تدفق الهواء",
+      "ظهور E14"
+    ],
+    "causes": [
+      "عطل محرك المروحة",
+      "عائق ميكانيكي",
+      "خلل PCB"
+    ],
+    "parts": [
+      "محرك المروحة",
+      "PCB",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e091",
+    "code": "F1",
+    "brandId": "haier",
+    "titleAr": "حماية IPM",
+    "titleEn": "IPM protection",
+    "severity": "critical",
+    "category": "inverter",
+    "symptoms": [
+      "توقف الضاغط",
+      "ظهور F1"
+    ],
+    "causes": [
+      "ارتفاع تيار أو حرارة IPM",
+      "خلل وحدة القدرة",
+      "خلل الضاغط"
+    ],
+    "parts": [
+      "IPM",
+      "وحدة الانفرتر",
+      "الضاغط"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e092",
+    "code": "F2",
+    "brandId": "haier",
+    "titleAr": "حماية التيار اللحظي الزائد للضاغط",
+    "titleEn": "Instantaneous compressor over-current protection",
+    "severity": "critical",
+    "category": "compressor",
+    "symptoms": [
+      "توقف الضاغط",
+      "ظهور F2"
+    ],
+    "causes": [
+      "تيار بدء مرتفع",
+      "خلل الضاغط",
+      "خلل الانفرتر"
+    ],
+    "parts": [
+      "الضاغط",
+      "وحدة الانفرتر",
+      "الكابلات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e093",
+    "code": "F3",
+    "brandId": "haier",
+    "titleAr": "خطأ اتصال وحدة القدرة مع اللوحة الرئيسية",
+    "titleEn": "Power module to main PCB communication error",
+    "severity": "critical",
+    "category": "communication",
+    "symptoms": [
+      "توقف الجهاز",
+      "ظهور F3"
+    ],
+    "causes": [
+      "انقطاع الاتصال",
+      "خلل وحدة القدرة",
+      "خلل PCB"
+    ],
+    "parts": [
+      "كابل الاتصال",
+      "وحدة القدرة",
+      "PCB"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e094",
+    "code": "F4",
+    "brandId": "haier",
+    "titleAr": "حماية حرارة تفريغ الضاغط",
+    "titleEn": "Compressor discharge temperature protection",
+    "severity": "critical",
+    "category": "compressor",
+    "symptoms": [
+      "توقف الضاغط",
+      "ظهور F4",
+      "ضعف التبريد"
+    ],
+    "causes": [
+      "ارتفاع حرارة التفريغ",
+      "نقص وسيط التبريد",
+      "ضعف تبادل الحرارة"
+    ],
+    "parts": [
+      "حساس التفريغ",
+      "دائرة التبريد",
+      "الضاغط"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e095",
+    "code": "F6",
+    "brandId": "haier",
+    "titleAr": "عطل حساس الحرارة المحيطة الخارجية",
+    "titleEn": "Outdoor ambient sensor failure",
+    "severity": "high",
+    "category": "sensors",
+    "symptoms": [
+      "توقف أو ضعف الأداء",
+      "ظهور F6"
+    ],
+    "causes": [
+      "تلف الحساس",
+      "قطع السلك",
+      "سوء التلامس",
+      "خلل لوحة التحكم"
+    ],
+    "parts": [
+      "حساس الحرارة الخارجية",
+      "الكابل",
+      "PCB"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e096",
+    "code": "F7",
+    "brandId": "haier",
+    "titleAr": "عطل حساس حرارة الشفط",
+    "titleEn": "Suction temperature sensor failure",
+    "severity": "high",
+    "category": "sensors",
+    "symptoms": [
+      "توقف الجهاز",
+      "ظهور F7"
+    ],
+    "causes": [
+      "تلف الحساس",
+      "قطع السلك",
+      "سوء التلامس",
+      "خلل لوحة التحكم"
+    ],
+    "parts": [
+      "حساس الشفط",
+      "الكابل",
+      "PCB"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e097",
+    "code": "F8",
+    "brandId": "haier",
+    "titleAr": "عطل محرك مروحة التيار المستمر",
+    "titleEn": "DC fan motor malfunction",
+    "severity": "high",
+    "category": "fan",
+    "symptoms": [
+      "توقف المروحة",
+      "ظهور F8"
+    ],
+    "causes": [
+      "عطل المحرك",
+      "عائق ميكانيكي",
+      "خلل PCB"
+    ],
+    "parts": [
+      "محرك المروحة",
+      "PCB",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e098",
+    "code": "F9",
+    "brandId": "haier",
+    "titleAr": "إعادة ضبط الوحدة الإلكترونية",
+    "titleEn": "Module reset",
+    "severity": "high",
+    "category": "inverter",
+    "symptoms": [
+      "توقف الجهاز",
+      "ظهور F9"
+    ],
+    "causes": [
+      "حماية وحدة الانفرتر",
+      "تغذية غير مستقرة",
+      "خلل وحدة القدرة"
+    ],
+    "parts": [
+      "وحدة الانفرتر",
+      "PCB",
+      "التغذية"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e099",
+    "code": "F11",
+    "brandId": "haier",
+    "titleAr": "فقدان التزامن",
+    "titleEn": "Loss of synchronism detection",
+    "severity": "critical",
+    "category": "compressor",
+    "symptoms": [
+      "توقف الضاغط",
+      "ظهور F11"
+    ],
+    "causes": [
+      "خلل الانفرتر",
+      "توصيل ضاغط غير صحيح",
+      "خلل الضاغط"
+    ],
+    "parts": [
+      "الضاغط",
+      "الانفرتر",
+      "كابلات الضاغط"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e100",
+    "code": "F12",
+    "brandId": "haier",
+    "titleAr": "فشل EEPROM",
+    "titleEn": "EEPROM failure",
+    "severity": "high",
+    "category": "pcb",
+    "symptoms": [
+      "توقف الجهاز",
+      "ظهور F12"
+    ],
+    "causes": [
+      "خطأ بيانات الذاكرة",
+      "خلل PCB",
+      "تغذية غير مستقرة"
+    ],
+    "parts": [
+      "EEPROM",
+      "PCB",
+      "التغذية"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e101",
+    "code": "F13",
+    "brandId": "haier",
+    "titleAr": "نقص وسيط التبريد",
+    "titleEn": "Lack of refrigerant",
+    "severity": "high",
+    "category": "cooling",
+    "symptoms": [
+      "ضعف التبريد",
+      "ظهور F13",
+      "تشغيل طويل"
+    ],
+    "causes": [
+      "تسرب وسيط التبريد",
+      "شحنة غير كافية",
+      "خلل بدائرة التبريد"
+    ],
+    "parts": [
+      "دائرة التبريد",
+      "الأنابيب",
+      "الصمامات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e102",
+    "code": "F14",
+    "brandId": "haier",
+    "titleAr": "فشل عكس الصمام رباعي الاتجاهات",
+    "titleEn": "4-way valve reverse failure",
+    "severity": "high",
+    "category": "heating",
+    "symptoms": [
+      "ضعف التدفئة أو التبريد",
+      "ظهور F14"
+    ],
+    "causes": [
+      "عطل الصمام",
+      "خلل الملف الكهربائي",
+      "انسداد أو تركيب غير صحيح"
+    ],
+    "parts": [
+      "الصمام الرباعي",
+      "الملف",
+      "دائرة التبريد"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e103",
+    "code": "F19",
+    "brandId": "haier",
+    "titleAr": "حماية زيادة أو انخفاض جهد التغذية",
+    "titleEn": "Power over/under voltage protection",
+    "severity": "critical",
+    "category": "electrical",
+    "symptoms": [
+      "توقف الجهاز",
+      "ظهور F19",
+      "فصل متكرر"
+    ],
+    "causes": [
+      "جهد خارج النطاق",
+      "تغذية غير مستقرة",
+      "خلل دائرة القياس"
+    ],
+    "parts": [
+      "التغذية",
+      "PCB",
+      "وحدة القدرة"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e104",
+    "code": "F20",
+    "brandId": "haier",
+    "titleAr": "حماية الضغط العالي",
+    "titleEn": "High pressure protection",
+    "severity": "critical",
+    "category": "compressor",
+    "symptoms": [
+      "توقف الضاغط",
+      "ظهور F20",
+      "ارتفاع ضغط الدائرة"
+    ],
+    "causes": [
+      "انسداد أو اتساخ المكثف",
+      "زيادة شحنة التبريد",
+      "ضعف المروحة"
+    ],
+    "parts": [
+      "المكثف",
+      "مروحة الوحدة الخارجية",
+      "مفتاح الضغط"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e105",
+    "code": "F21",
+    "brandId": "haier",
+    "titleAr": "عطل حساس حرارة ملف الوحدة الخارجية",
+    "titleEn": "Outdoor coil temperature sensor",
+    "severity": "high",
+    "category": "sensors",
+    "symptoms": [
+      "توقف أو ضعف الأداء",
+      "ظهور F21"
+    ],
+    "causes": [
+      "تلف الحساس",
+      "قطع السلك",
+      "سوء التلامس",
+      "خلل لوحة التحكم"
+    ],
+    "parts": [
+      "حساس ملف الوحدة الخارجية",
+      "الكابل",
+      "PCB"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e106",
+    "code": "F22",
+    "brandId": "haier",
+    "titleAr": "حماية التيار الزائد للتيار المتردد الخارجي",
+    "titleEn": "Outdoor AC over-current protection",
+    "severity": "critical",
+    "category": "electrical",
+    "symptoms": [
+      "توقف الوحدة الخارجية",
+      "ظهور F22"
+    ],
+    "causes": [
+      "تيار مرتفع",
+      "خلل وحدة القدرة",
+      "حمل غير طبيعي"
+    ],
+    "parts": [
+      "وحدة القدرة",
+      "PCB",
+      "الضاغط"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e107",
+    "code": "F23",
+    "brandId": "haier",
+    "titleAr": "حماية التيار الزائد لأطوار الضاغط",
+    "titleEn": "Compressor U/V/W phase over-current protection",
+    "severity": "critical",
+    "category": "compressor",
+    "symptoms": [
+      "توقف الضاغط",
+      "ظهور F23"
+    ],
+    "causes": [
+      "تيار طور مرتفع",
+      "خلل ملفات الضاغط",
+      "خلل الانفرتر"
+    ],
+    "parts": [
+      "الضاغط",
+      "الانفرتر",
+      "الكابلات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e108",
+    "code": "F24",
+    "brandId": "haier",
+    "titleAr": "حماية خلل قياس تيار CT",
+    "titleEn": "CT detection current abnormal protection",
+    "severity": "critical",
+    "category": "electrical",
+    "symptoms": [
+      "توقف الجهاز",
+      "ظهور F24"
+    ],
+    "causes": [
+      "خلل حساس CT",
+      "قطع التوصيل",
+      "خلل PCB"
+    ],
+    "parts": [
+      "حساس CT",
+      "PCB",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e109",
+    "code": "F25",
+    "brandId": "haier",
+    "titleAr": "خلل حساس تفريغ الضاغط",
+    "titleEn": "Compressor discharge sensor abnormality",
+    "severity": "critical",
+    "category": "sensors",
+    "symptoms": [
+      "توقف الضاغط",
+      "ظهور F25"
+    ],
+    "causes": [
+      "تلف الحساس",
+      "قطع السلك",
+      "سوء التلامس",
+      "خلل لوحة التحكم"
+    ],
+    "parts": [
+      "حساس التفريغ",
+      "الكابل",
+      "PCB"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e110",
+    "code": "F27",
+    "brandId": "haier",
+    "titleAr": "خلل دائرة أخذ عينات تيار الضاغط",
+    "titleEn": "Compressor current sampling circuit fault",
+    "severity": "critical",
+    "category": "electrical",
+    "symptoms": [
+      "توقف الضاغط",
+      "ظهور F27"
+    ],
+    "causes": [
+      "خلل دائرة القياس",
+      "خلل حساس التيار",
+      "خلل PCB"
+    ],
+    "parts": [
+      "دائرة أخذ العينات",
+      "حساس التيار",
+      "PCB"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e111",
+    "code": "F28",
+    "brandId": "haier",
+    "titleAr": "خلل دائرة تحديد موضع الضاغط",
+    "titleEn": "Compressor position detection circuit fault",
+    "severity": "critical",
+    "category": "compressor",
+    "symptoms": [
+      "فشل بدء الضاغط",
+      "ظهور F28"
+    ],
+    "causes": [
+      "خلل حساس الموضع",
+      "خلل الانفرتر",
+      "خلل الضاغط"
+    ],
+    "parts": [
+      "دائرة الموضع",
+      "الانفرتر",
+      "الضاغط"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e112",
+    "code": "F35",
+    "brandId": "haier",
+    "titleAr": "عطل لوحة قيادة الضاغط",
+    "titleEn": "Compressor driver board failure",
+    "severity": "critical",
+    "category": "inverter",
+    "symptoms": [
+      "توقف الضاغط",
+      "ظهور F35"
+    ],
+    "causes": [
+      "تلف لوحة القيادة",
+      "خلل وحدة القدرة",
+      "تغذية غير مستقرة"
+    ],
+    "parts": [
+      "لوحة قيادة الضاغط",
+      "وحدة الانفرتر",
+      "الضاغط"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e113",
+    "code": "F43",
+    "brandId": "haier",
+    "titleAr": "خلل مطابقة الطراز",
+    "titleEn": "Model matching abnormality",
+    "severity": "high",
+    "category": "electrical",
+    "symptoms": [
+      "عدم بدء التشغيل",
+      "ظهور F43"
+    ],
+    "causes": [
+      "عدم توافق الوحدتين",
+      "إعداد خاطئ",
+      "استبدال لوحة غير مطابقة"
+    ],
+    "parts": [
+      "بيانات الطراز",
+      "PCB",
+      "الوحدة الداخلية/الخارجية"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
+  },
+  {
+    "id": "e114",
+    "code": "FE",
+    "brandId": "haier",
+    "titleAr": "خلل اكتشاف تسرب وسيط التبريد في التكييف ثابت التردد",
+    "titleEn": "Fixed-frequency AC refrigerant leak detection malfunction",
+    "severity": "high",
+    "category": "cooling",
+    "symptoms": [
+      "ضعف التبريد",
+      "ظهور FE",
+      "توقف متقطع"
+    ],
+    "causes": [
+      "تسرب وسيط التبريد",
+      "خلل دائرة الكشف",
+      "حساس غير موثوق"
+    ],
+    "parts": [
+      "دائرة التبريد",
+      "الحساس",
+      "الوصلات"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز وفصل التغذية عند وجود حماية أو عطل كهربائي",
+      "مطابقة الكود مع رقم الطراز ودليل الخدمة",
+      "فحص الحساس أو التوصيلات بواسطة فني مؤهل"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال القطعة بعد تأكيد العطل بالقياس",
+      "إعادة اختبار الجهاز وفق مواصفات الشركة"
+    ],
+    "tools": [
+      "جهاز قياس متعدد",
+      "مفك",
+      "أجهزة قياس HVAC عند الحاجة"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Haier Malaysia — Air conditioner error codes",
+      "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
+    ],
+    "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
+    "modelScope": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notesAr": "الجدول منشور في دعم Haier Malaysia لمكيفات الهواء؛ يجب مطابقة رقم الطراز قبل اعتماد المعنى."
+    },
+    "aliases": [],
+    "verificationNote": "المعنى مثبت في المصدر الرسمي ضمن نطاق الطراز المذكور، ولا ينبغي تعميمه على كل أجهزة الماركة."
   }
 ]
