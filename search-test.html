@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مختبر البحث في الأكواد | دليل أعطال التكييف</title>
+  <meta name="description" content="واجهة تفاعلية لاختبار البحث في أكواد أعطال أجهزة التكييف حسب الكود والمرادفات والماركة والطراز.">
+  <link rel="canonical" href="https://imadtbn.github.io/hvac-errors/search-test.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/search-test.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">❄️</div>
+        <span>دليل أعطال التكييف</span>
+      </a>
+      <nav class="nav" aria-label="التنقل الرئيسي">
+        <a href="index.html" class="nav-link">الرئيسية</a>
+        <a href="errors.html" class="nav-link">الأعطال</a>
+        <a href="search-test.html" class="nav-link active">مختبر البحث</a>
+        <a href="brands.html" class="nav-link">الماركات</a>
+        <a href="articles.html" class="nav-link">المقالات</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn-icon" id="themeToggle" type="button" aria-label="تبديل الوضع الليلي">🌙</button>
+        <button class="btn-icon mobile-menu-btn" id="mobileMenuBtn" type="button" aria-label="فتح القائمة">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-nav" id="mobileNav" aria-label="قائمة الهاتف">
+    <a href="index.html">الرئيسية</a>
+    <a href="errors.html">الأعطال</a>
+    <a href="search-test.html">مختبر البحث</a>
+    <a href="brands.html">الماركات</a>
+    <a href="articles.html">المقالات</a>
+  </nav>
+
+  <main>
+    <section class="search-lab-hero">
+      <div class="search-lab-hero-inner">
+        <span class="hero-badge">أداة اختبار JSON</span>
+        <h1>مختبر البحث في أكواد الأعطال</h1>
+        <p>اختبر البحث بالكود الأساسي أو المرادفات أو الماركة والطراز، وتحقق من نطاق كل نتيجة قبل اعتمادها.</p>
+        <div class="hero-shortcuts" aria-label="اختصارات البحث">
+          <button class="shortcut-chip" type="button" data-preset="E554">Samsung E554</button>
+          <button class="shortcut-chip" type="button" data-preset="CH53">LG CH53</button>
+          <button class="shortcut-chip" type="button" data-preset="E0">مرادف LG E0</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section search-lab-section">
+      <div class="section-inner">
+        <div class="lab-intro">
+          <div>
+            <span class="section-kicker">LIVE QUERY</span>
+            <h2>ابحث داخل <code>data/errors.json</code></h2>
+            <p>تتم المطابقة مباشرة في المتصفح، وتشمل المرادفات عند تفعيل الخيار أدناه.</p>
+          </div>
+          <div class="data-status" id="dataStatus" role="status" aria-live="polite">
+            <span class="status-dot"></span>
+            جارٍ تحميل البيانات...
+          </div>
+        </div>
+
+        <div class="lab-panel">
+          <div class="query-row">
+            <label class="query-field">
+              <span>كود أو كلمة بحث</span>
+              <div class="query-input-wrap">
+                <span class="query-icon" aria-hidden="true">⌕</span>
+                <input id="searchInput" type="search" autocomplete="off" placeholder="مثال: CH53 أو E0 أو حساس الغرفة" aria-label="كود أو كلمة بحث">
+                <kbd>/</kbd>
+              </div>
+            </label>
+            <label class="select-field">
+              <span>الماركة</span>
+              <select id="brandFilter" aria-label="تصفية حسب الماركة">
+                <option value="">كل الماركات</option>
+              </select>
+            </label>
+            <label class="select-field">
+              <span>التصنيف</span>
+              <select id="categoryFilter" aria-label="تصفية حسب التصنيف">
+                <option value="">كل التصنيفات</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="secondary-filters">
+            <label class="model-field">
+              <span>نطاق الطراز أو السلسلة</span>
+              <input id="modelFilter" type="search" autocomplete="off" placeholder="مثال: Wind-Free أو C-Series">
+            </label>
+            <label class="toggle-control">
+              <input id="aliasToggle" type="checkbox" checked>
+              <span class="toggle-ui" aria-hidden="true"></span>
+              <span>تضمين aliases والمرادفات</span>
+            </label>
+            <button id="clearButton" class="clear-button" type="button">مسح الفلاتر</button>
+          </div>
+
+          <div class="quick-tests" aria-label="اختبارات سريعة">
+            <span>اختبارات سريعة:</span>
+            <button type="button" data-preset="E101">E101</button>
+            <button type="button" data-preset="E0">E0</button>
+            <button type="button" data-preset="CH61">CH61</button>
+            <button type="button" data-preset="E554">E554</button>
+            <button type="button" data-preset="حساس">حساس</button>
+          </div>
+        </div>
+
+        <div class="results-toolbar">
+          <div>
+            <strong id="resultsCount">0</strong>
+            <span>نتيجة مطابقة</span>
+          </div>
+          <div class="results-hint" id="resultsHint">أدخل كودًا أو كلمة لبدء الاختبار</div>
+        </div>
+
+        <div id="emptyState" class="empty-state" hidden>
+          <div class="empty-icon">⌕</div>
+          <h3>لا توجد نتائج مطابقة</h3>
+          <p>جرّب الكود الأساسي أو أحد aliases، أو أزل أحد الفلاتر المحددة.</p>
+        </div>
+
+        <div id="resultsGrid" class="lab-results-grid" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer compact-footer">
+    <div class="footer-inner">
+      <div class="footer-bottom">
+        <p>مختبر بحث محلي لقاعدة بيانات الأعطال | <a href="errors.html">العودة إلى قائمة الأعطال</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/search-test.js"></script>
+</body>
+</html>
