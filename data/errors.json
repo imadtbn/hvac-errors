@@ -40,8 +40,16 @@
       "https://www.daikin.com/products/ac/services/error_codes"
     ],
     "sourceUrl": "https://www.daikin.com/products/ac/services/error_codes",
-    "modelScope": "FTXS/RXS-K أو طراز محدد فقط",
-    "verificationNote": "صفحة دايكن الرسمية توفر بحثًا حسب الكود والطراز؛ لا يُعمّم E1 على كل منتجات دايكن."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "FTXS/RXS-K أو طراز محدد فقط"
+    },
+    "verificationNote": "صفحة دايكن الرسمية توفر بحثًا حسب الكود والطراز؛ لا يُعمّم E1 على كل منتجات دايكن.",
+    "aliases": []
   },
   {
     "id": "e002",
@@ -88,8 +96,16 @@
       "https://www.daikin.com/products/ac/services/error_codes"
     ],
     "sourceUrl": "https://www.daikin.com/products/ac/services/error_codes",
-    "modelScope": "Split/VRV حسب دليل السلسلة",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Split/VRV حسب دليل السلسلة"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e003",
@@ -134,8 +150,16 @@
       "https://www.lg.com/us/support/help-library/lg-air-conditioner-guide-to-error-codes--20155047719306"
     ],
     "sourceUrl": "https://www.lg.com/us/support/help-library/lg-air-conditioner-guide-to-error-codes--20155047719306",
-    "modelScope": "LG split؛ قد يتغير الترقيم حسب السوق والموديل",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "LG split؛ قد يتغير الترقيم حسب السوق والموديل"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e004",
@@ -179,8 +203,16 @@
       "https://www.lg.com/us/support/help-library/lg-air-conditioner-guide-to-error-codes--20155047719306"
     ],
     "sourceUrl": "https://www.lg.com/us/support/help-library/lg-air-conditioner-guide-to-error-codes--20155047719306",
-    "modelScope": "LG split؛ قد يتغير الترقيم حسب السوق والموديل",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "LG split؛ قد يتغير الترقيم حسب السوق والموديل"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e005",
@@ -227,8 +259,16 @@
       "https://www.lg.com/us/support/help-library/lg-air-conditioner-guide-to-error-codes--20155047719306"
     ],
     "sourceUrl": "https://www.lg.com/us/support/help-library/lg-air-conditioner-guide-to-error-codes--20155047719306",
-    "modelScope": "LG split؛ يختلف الوصف حسب الموديل",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "LG split؛ يختلف الوصف حسب الموديل"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e006",
@@ -274,12 +314,20 @@
       "https://www.samsung.com/my/support/home-appliances/check-out-the-displayed-error-codes-on-the-indoor-unit-air-conditioner/"
     ],
     "sourceUrl": "https://www.samsung.com/my/support/home-appliances/check-out-the-displayed-error-codes-on-the-indoor-unit-air-conditioner/",
-    "modelScope": "Samsung؛ السلسلة والسوق يحددان الصيغة الدقيقة",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Samsung؛ السلسلة والسوق يحددان الصيغة الدقيقة"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e007",
-    "code": "E1/21",
+    "code": "E121",
     "brandId": "samsung",
     "titleAr": "عطل حساس حرارة الغرفة",
     "titleEn": "Room temperature sensor fault",
@@ -319,12 +367,23 @@
       "https://www.samsung.com/my/support/home-appliances/check-out-the-displayed-error-codes-on-the-indoor-unit-air-conditioner/"
     ],
     "sourceUrl": "https://www.samsung.com/my/support/home-appliances/check-out-the-displayed-error-codes-on-the-indoor-unit-air-conditioner/",
-    "modelScope": "Samsung indoor unit",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Samsung indoor unit"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": [
+      "E1/21",
+      "E1 or 21"
+    ]
   },
   {
     "id": "e008",
-    "code": "E1/22",
+    "code": "E122",
     "brandId": "samsung",
     "titleAr": "عطل حساس حرارة المبادل الحراري",
     "titleEn": "Heat exchanger temperature sensor fault",
@@ -363,8 +422,19 @@
       "https://www.samsung.com/my/support/home-appliances/check-out-the-displayed-error-codes-on-the-indoor-unit-air-conditioner/"
     ],
     "sourceUrl": "https://www.samsung.com/my/support/home-appliances/check-out-the-displayed-error-codes-on-the-indoor-unit-air-conditioner/",
-    "modelScope": "Samsung indoor unit",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Samsung indoor unit"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": [
+      "E1/22",
+      "E1 or 22"
+    ]
   },
   {
     "id": "e009",
@@ -407,8 +477,16 @@
       "https://www.samsung.com/my/support/home-appliances/check-out-the-displayed-error-codes-on-the-indoor-unit-air-conditioner/"
     ],
     "sourceUrl": "https://www.samsung.com/my/support/home-appliances/check-out-the-displayed-error-codes-on-the-indoor-unit-air-conditioner/",
-    "modelScope": "Samsung indoor unit",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Samsung indoor unit"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e010",
@@ -453,8 +531,16 @@
       "https://www.samsung.com/my/support/home-appliances/check-out-the-displayed-error-codes-on-the-indoor-unit-air-conditioner/"
     ],
     "sourceUrl": "https://www.samsung.com/my/support/home-appliances/check-out-the-displayed-error-codes-on-the-indoor-unit-air-conditioner/",
-    "modelScope": "Samsung indoor unit",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Samsung indoor unit"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e011",
@@ -498,8 +584,16 @@
       "https://www.midea.com/content/dam/midea-aem/ph/product-manuals/air-conditioners/portable/Midea_RAC_Portable_Air_Conditioners.pdf"
     ],
     "sourceUrl": "https://www.midea.com/content/dam/midea-aem/ph/product-manuals/air-conditioners/portable/Midea_RAC_Portable_Air_Conditioners.pdf",
-    "modelScope": "Midea portable manual؛ لا يعمم على السبليت",
-    "verificationNote": "المصدر الرسمي المتحقق منه خاص بمكيف Midea المحمول."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Midea portable manual؛ لا يعمم على السبليت"
+    },
+    "verificationNote": "المصدر الرسمي المتحقق منه خاص بمكيف Midea المحمول.",
+    "aliases": []
   },
   {
     "id": "e012",
@@ -544,8 +638,16 @@
       "https://www.midea.com/content/dam/midea-aem/ph/product-manuals/air-conditioners/portable/Midea_RAC_Portable_Air_Conditioners.pdf"
     ],
     "sourceUrl": "https://www.midea.com/content/dam/midea-aem/ph/product-manuals/air-conditioners/portable/Midea_RAC_Portable_Air_Conditioners.pdf",
-    "modelScope": "Midea portable manual؛ لا يعمم على السبليت",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Midea portable manual؛ لا يعمم على السبليت"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e013",
@@ -589,8 +691,16 @@
       "https://www.midea.com/content/dam/midea-aem/ph/product-manuals/air-conditioners/portable/Midea_RAC_Portable_Air_Conditioners.pdf"
     ],
     "sourceUrl": "https://www.midea.com/content/dam/midea-aem/ph/product-manuals/air-conditioners/portable/Midea_RAC_Portable_Air_Conditioners.pdf",
-    "modelScope": "Midea portable manual؛ لا يعمم على السبليت",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Midea portable manual؛ لا يعمم على السبليت"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e014",
@@ -638,8 +748,16 @@
       "https://www.greecomfort.com/news-and-events/understanding-gree-mini-split-error-codes/"
     ],
     "sourceUrl": "https://www.greecomfort.com/news-and-events/understanding-gree-mini-split-error-codes/",
-    "modelScope": "GREE mini-split حسب السلسلة",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "GREE mini-split حسب السلسلة"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e015",
@@ -684,8 +802,16 @@
       "https://www.greecomfort.com/news-and-events/understanding-gree-mini-split-error-codes/"
     ],
     "sourceUrl": "https://www.greecomfort.com/news-and-events/understanding-gree-mini-split-error-codes/",
-    "modelScope": "GREE mini-split حسب السلسلة",
-    "verificationNote": "تم تصحيح السجل القديم الذي كان يصف E5 كخطأ اتصال."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "GREE mini-split حسب السلسلة"
+    },
+    "verificationNote": "تم تصحيح السجل القديم الذي كان يصف E5 كخطأ اتصال.",
+    "aliases": []
   },
   {
     "id": "e016",
@@ -728,8 +854,16 @@
       "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
     ],
     "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
-    "modelScope": "Haier split حسب السلسلة",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Haier split حسب السلسلة"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e017",
@@ -773,8 +907,16 @@
       "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
     ],
     "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
-    "modelScope": "Haier split حسب السلسلة",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Haier split حسب السلسلة"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e018",
@@ -824,8 +966,16 @@
       "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
     ],
     "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
-    "modelScope": "Haier split حسب السلسلة",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Haier split حسب السلسلة"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e019",
@@ -872,8 +1022,16 @@
       "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml"
     ],
     "sourceUrl": "https://www.haier.com/my/service-support/self-service/20250402_259027.shtml",
-    "modelScope": "Haier split حسب السلسلة",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Haier split حسب السلسلة"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e020",
@@ -919,8 +1077,16 @@
       "https://www.panasonic.com/kh/hvac/learn-more/panasonic-air-conditioner-error-codes-using-the-self-diagnosis-function.html"
     ],
     "sourceUrl": "https://www.panasonic.com/kh/hvac/learn-more/panasonic-air-conditioner-error-codes-using-the-self-diagnosis-function.html",
-    "modelScope": "Panasonic inverter models",
-    "verificationNote": "تم تصحيح السجل القديم: F11 ليس حساس مبخرًا في جدول باناسونيك المتحقق منه."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Panasonic inverter models"
+    },
+    "verificationNote": "تم تصحيح السجل القديم: F11 ليس حساس مبخرًا في جدول باناسونيك المتحقق منه.",
+    "aliases": []
   },
   {
     "id": "e021",
@@ -967,8 +1133,16 @@
       "https://www.panasonic.com/kh/hvac/learn-more/panasonic-air-conditioner-error-codes-using-the-self-diagnosis-function.html"
     ],
     "sourceUrl": "https://www.panasonic.com/kh/hvac/learn-more/panasonic-air-conditioner-error-codes-using-the-self-diagnosis-function.html",
-    "modelScope": "Panasonic inverter models",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Panasonic inverter models"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e022",
@@ -1014,8 +1188,16 @@
       "https://www.panasonic.com/kh/hvac/learn-more/panasonic-air-conditioner-error-codes-using-the-self-diagnosis-function.html"
     ],
     "sourceUrl": "https://www.panasonic.com/kh/hvac/learn-more/panasonic-air-conditioner-error-codes-using-the-self-diagnosis-function.html",
-    "modelScope": "Panasonic inverter models",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Panasonic inverter models"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e023",
@@ -1059,8 +1241,16 @@
       "https://support.tcl.com/portable-ac-codes"
     ],
     "sourceUrl": "https://support.tcl.com/portable-ac-codes",
-    "modelScope": "TCL portable AC",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "TCL portable AC"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e024",
@@ -1104,8 +1294,16 @@
       "https://support.tcl.com/portable-ac-codes"
     ],
     "sourceUrl": "https://support.tcl.com/portable-ac-codes",
-    "modelScope": "TCL portable AC",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "TCL portable AC"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e025",
@@ -1148,8 +1346,16 @@
       "https://support.tcl.com/portable-ac-codes"
     ],
     "sourceUrl": "https://support.tcl.com/portable-ac-codes",
-    "modelScope": "TCL portable AC",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "TCL portable AC"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e026",
@@ -1193,8 +1399,16 @@
       "https://us.auxair.com/error-codes-faq"
     ],
     "sourceUrl": "https://us.auxair.com/error-codes-faq",
-    "modelScope": "AUX High Wall C-Series",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "AUX High Wall C-Series"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e027",
@@ -1238,8 +1452,16 @@
       "https://us.auxair.com/error-codes-faq"
     ],
     "sourceUrl": "https://us.auxair.com/error-codes-faq",
-    "modelScope": "AUX High Wall C-Series",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "AUX High Wall C-Series"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e028",
@@ -1283,8 +1505,16 @@
       "https://us.auxair.com/error-codes-faq"
     ],
     "sourceUrl": "https://us.auxair.com/error-codes-faq",
-    "modelScope": "AUX High Wall C-Series",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "AUX High Wall C-Series"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e029",
@@ -1329,8 +1559,16 @@
       "https://global.sharp/smartapp/air/support/airconerror/"
     ],
     "sourceUrl": "https://global.sharp/smartapp/air/support/airconerror/",
-    "modelScope": "Sharp air-conditioner models covered by the official list",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Sharp air-conditioner models covered by the official list"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e030",
@@ -1374,8 +1612,16 @@
       "https://global.sharp/smartapp/air/support/airconerror/"
     ],
     "sourceUrl": "https://global.sharp/smartapp/air/support/airconerror/",
-    "modelScope": "Sharp air-conditioner models covered by the official list",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Sharp air-conditioner models covered by the official list"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e031",
@@ -1423,8 +1669,16 @@
       "https://global.sharp/smartapp/air/support/airconerror/"
     ],
     "sourceUrl": "https://global.sharp/smartapp/air/support/airconerror/",
-    "modelScope": "Sharp air-conditioner models covered by the official list",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Sharp air-conditioner models covered by the official list"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e032",
@@ -1470,8 +1724,16 @@
       "https://global.sharp/smartapp/air/support/airconerror/"
     ],
     "sourceUrl": "https://global.sharp/smartapp/air/support/airconerror/",
-    "modelScope": "Sharp air-conditioner models covered by the official list",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Sharp air-conditioner models covered by the official list"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e033",
@@ -1516,8 +1778,16 @@
       "https://www.bosch-homecomfort.com/us/en/residential/service-support/technical-support/troubleshooting/troubleshoot-air-to-air-heat-pump-systems/"
     ],
     "sourceUrl": "https://www.bosch-homecomfort.com/us/en/residential/service-support/technical-support/troubleshooting/troubleshoot-air-to-air-heat-pump-systems/",
-    "modelScope": "Bosch BOVA/BOVB/BOVC/BOVD حسب صفحة التشخيص الرسمية",
-    "verificationNote": "صفحة بوش الرسمية تربط ATL بهذه الطرازات وتطلب فحصًا مهنيًا."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Bosch BOVA/BOVB/BOVC/BOVD حسب صفحة التشخيص الرسمية"
+    },
+    "verificationNote": "صفحة بوش الرسمية تربط ATL بهذه الطرازات وتطلب فحصًا مهنيًا.",
+    "aliases": []
   },
   {
     "id": "e034",
@@ -1559,8 +1829,16 @@
       "https://www.mhi-mth.co.jp/en/products/pdf/rkw012a412d_english.pdf"
     ],
     "sourceUrl": "https://www.mhi-mth.co.jp/en/products/pdf/rkw012a412d_english.pdf",
-    "modelScope": "SRK63ZM-S/SRK71ZM-S/SRK80ZM-S في الدليل المتحقق منه",
-    "verificationNote": "لم يتم تعميم كود غير مثبت؛ دليل MHI الرسمي المستخدم هنا مقيد بسلسلة محددة."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "SRK63ZM-S/SRK71ZM-S/SRK80ZM-S في الدليل المتحقق منه"
+    },
+    "verificationNote": "لم يتم تعميم كود غير مثبت؛ دليل MHI الرسمي المستخدم هنا مقيد بسلسلة محددة.",
+    "aliases": []
   },
   {
     "id": "e035",
@@ -1601,8 +1879,16 @@
       "https://docs.johnsoncontrols.com/ductedsystems/r/YORK/en-US/SunPremier-25-Ton-to-80-Ton-Rooftop-Units-R-410A-Start-Up-and-Operation-Guide/2023-12-21/Faults"
     ],
     "sourceUrl": "https://docs.johnsoncontrols.com/ductedsystems/r/YORK/en-US/SunPremier-25-Ton-to-80-Ton-Rooftop-Units-R-410A-Start-Up-and-Operation-Guide/2023-12-21/Faults",
-    "modelScope": "YORK SunPremier التجاري؛ لا يعمم على YHJF/YHJD المنزلية",
-    "verificationNote": "صفحة YORK الرسمية ديناميكية وتعرض قوائم مختلفة حسب المنتج؛ لا يوجد كود عام آمن لكل YORK."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "YORK SunPremier التجاري؛ لا يعمم على YHJF/YHJD المنزلية"
+    },
+    "verificationNote": "صفحة YORK الرسمية ديناميكية وتعرض قوائم مختلفة حسب المنتج؛ لا يوجد كود عام آمن لكل YORK.",
+    "aliases": []
   },
   {
     "id": "e036",
@@ -1651,8 +1937,16 @@
       "https://www.trane.com/residential/en/resources/troubleshooting/air-conditioners/"
     ],
     "sourceUrl": "https://www.trane.com/residential/en/resources/troubleshooting/air-conditioners/",
-    "modelScope": "Trane residential troubleshooting; diagnosis by symptom rather than code",
-    "verificationNote": "Trane لا تنشر جدول كود عام في الصفحة المتحققة، لذلك سُجّل العطل كتشخيص بلا كود."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Trane residential troubleshooting; diagnosis by symptom rather than code"
+    },
+    "verificationNote": "Trane لا تنشر جدول كود عام في الصفحة المتحققة، لذلك سُجّل العطل كتشخيص بلا كود.",
+    "aliases": []
   },
   {
     "id": "e037",
@@ -1698,8 +1992,16 @@
       "https://www.trane.com/residential/en/resources/troubleshooting/air-conditioners/"
     ],
     "sourceUrl": "https://www.trane.com/residential/en/resources/troubleshooting/air-conditioners/",
-    "modelScope": "Trane residential troubleshooting; diagnosis by symptom rather than code",
-    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Trane residential troubleshooting; diagnosis by symptom rather than code"
+    },
+    "verificationNote": "المعنى والوصف النهائيان يعتمدان على رقم الطراز ودليل الخدمة الخاص به.",
+    "aliases": []
   },
   {
     "id": "e038",
@@ -1741,8 +2043,16 @@
       "https://www.generalww.com/th/en/support/faq/split/0084.html"
     ],
     "sourceUrl": "https://www.generalww.com/th/en/support/faq/split/0084.html",
-    "modelScope": "GENERAL/Fujitsu split systems",
-    "verificationNote": "المصدر الرسمي يؤكد أن اللمبات والأكواد تختلف من موديل لآخر."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "GENERAL/Fujitsu split systems"
+    },
+    "verificationNote": "المصدر الرسمي يؤكد أن اللمبات والأكواد تختلف من موديل لآخر.",
+    "aliases": []
   },
   {
     "id": "e039",
@@ -1784,8 +2094,16 @@
       "https://hvac.condor.dz/fr/centre-de-telechargement-de-documents/"
     ],
     "sourceUrl": "https://hvac.condor.dz/fr/centre-de-telechargement-de-documents/",
-    "modelScope": "Condor HVAC catalogue/model dependent",
-    "verificationNote": "مركز Condor الرسمي المتحقق منه يعرض كتالوجات HVAC ولا ينشر جدول أكواد عامًا في الصفحة."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Condor HVAC catalogue/model dependent"
+    },
+    "verificationNote": "مركز Condor الرسمي المتحقق منه يعرض كتالوجات HVAC ولا ينشر جدول أكواد عامًا في الصفحة.",
+    "aliases": []
   },
   {
     "id": "e040",
@@ -1827,8 +2145,16 @@
       "https://www.beko.com/"
     ],
     "sourceUrl": "https://www.beko.com/",
-    "modelScope": "Beko air conditioner model-specific",
-    "verificationNote": "لم يُثبت كود E1 كرمز عام لكل مكيفات Beko؛ أزيل التعميم."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Beko air conditioner model-specific"
+    },
+    "verificationNote": "لم يُثبت كود E1 كرمز عام لكل مكيفات Beko؛ أزيل التعميم.",
+    "aliases": []
   },
   {
     "id": "e041",
@@ -1869,8 +2195,16 @@
       "https://www.chigoaircon.com/"
     ],
     "sourceUrl": "https://www.chigoaircon.com/",
-    "modelScope": "Chigo model-specific",
-    "verificationNote": "لم يُثبت E1 كرمز عام من مصدر رسمي صالح؛ أزيل التعميم."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Chigo model-specific"
+    },
+    "verificationNote": "لم يُثبت E1 كرمز عام من مصدر رسمي صالح؛ أزيل التعميم.",
+    "aliases": []
   },
   {
     "id": "e042",
@@ -1912,8 +2246,16 @@
       "https://uk.hisense.com/support-contact"
     ],
     "sourceUrl": "https://uk.hisense.com/support-contact",
-    "modelScope": "Hisense model-specific",
-    "verificationNote": "لم يُثبت E1 كرمز عام لكل أجهزة Hisense؛ أزيل التعميم."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Hisense model-specific"
+    },
+    "verificationNote": "لم يُثبت E1 كرمز عام لكل أجهزة Hisense؛ أزيل التعميم.",
+    "aliases": []
   },
   {
     "id": "e043",
@@ -1956,8 +2298,16 @@
       "https://www.carrier.com/residential/en/us/products/air-conditioners/"
     ],
     "sourceUrl": "https://www.carrier.com/residential/en/us/products/air-conditioners/",
-    "modelScope": "Carrier model-specific",
-    "verificationNote": "استبدل السجل العام غير الموثق بكود عام زائف بسجل محافظ مرتبط بالطراز."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Carrier model-specific"
+    },
+    "verificationNote": "استبدل السجل العام غير الموثق بكود عام زائف بسجل محافظ مرتبط بالطراز.",
+    "aliases": []
   },
   {
     "id": "e044",
@@ -1999,8 +2349,16 @@
       "https://les.mitsubishielectric.ie/installers/error-code-lookup"
     ],
     "sourceUrl": "https://les.mitsubishielectric.ie/installers/error-code-lookup",
-    "modelScope": "Mitsubishi Electric model-specific",
-    "verificationNote": "صفحة الشركة الرسمية توفر أداة بحث؛ لا يُعمّم E6 أو E0 على كل السلاسل."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Mitsubishi Electric model-specific"
+    },
+    "verificationNote": "صفحة الشركة الرسمية توفر أداة بحث؛ لا يُعمّم E6 أو E0 على كل السلاسل.",
+    "aliases": []
   },
   {
     "id": "e045",
@@ -2042,8 +2400,16 @@
       "https://www.toshiba-aircon.co.uk/"
     ],
     "sourceUrl": "https://www.toshiba-aircon.co.uk/",
-    "modelScope": "Toshiba model-specific",
-    "verificationNote": "رابط E04 الرسمي القديم أعاد 404 أثناء التحقق، لذلك لم يُثبت كودًا عامًا."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Toshiba model-specific"
+    },
+    "verificationNote": "رابط E04 الرسمي القديم أعاد 404 أثناء التحقق، لذلك لم يُثبت كودًا عامًا.",
+    "aliases": []
   },
   {
     "id": "e046",
@@ -2085,7 +2451,1477 @@
       "https://www.hitachiaircon.com/"
     ],
     "sourceUrl": "https://www.hitachiaircon.com/",
-    "modelScope": "Hitachi model-specific",
-    "verificationNote": "لم يُثبت E1/E3 كرموز عامة لكل مكيفات Hitachi."
+    "modelScope": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notesAr": "Hitachi model-specific"
+    },
+    "verificationNote": "لم يُثبت E1/E3 كرموز عامة لكل مكيفات Hitachi.",
+    "aliases": []
+  },
+  {
+    "id": "e047",
+    "code": "E102",
+    "brandId": "samsung",
+    "titleAr": "فشل الاتصال بين الوحدة الداخلية والخارجية",
+    "titleEn": "Indoor-outdoor communication failure",
+    "severity": "high",
+    "category": "communication",
+    "symptoms": [
+      "عدم التشغيل",
+      "ظهور E102"
+    ],
+    "causes": [
+      "انقطاع خط الاتصال",
+      "خلل لوحة التحكم",
+      "سوء التوصيل"
+    ],
+    "parts": [
+      "كابل الاتصال",
+      "PCB",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "مطابقة الكود مع دليل الطراز",
+      "فحص الأسلاك بواسطة فني"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال الكابل",
+      "تشخيص PCB"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e048",
+    "code": "E202",
+    "brandId": "samsung",
+    "titleAr": "فشل الاتصال بين الوحدة الداخلية والخارجية",
+    "titleEn": "Indoor-outdoor communication failure",
+    "severity": "high",
+    "category": "communication",
+    "symptoms": [
+      "عدم التشغيل",
+      "ظهور E202"
+    ],
+    "causes": [
+      "انقطاع خط الاتصال",
+      "خلل لوحة التحكم",
+      "سوء التوصيل"
+    ],
+    "parts": [
+      "كابل الاتصال",
+      "PCB",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "مطابقة الكود مع دليل الطراز",
+      "فحص الأسلاك بواسطة فني"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال الكابل",
+      "تشخيص PCB"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e049",
+    "code": "E154",
+    "brandId": "samsung",
+    "titleAr": "خطأ سرعة مروحة الوحدة الداخلية",
+    "titleEn": "Indoor fan motor speed error",
+    "severity": "high",
+    "category": "fan",
+    "symptoms": [
+      "توقف أو ضعف تدفق الهواء",
+      "ظهور E154"
+    ],
+    "causes": [
+      "عطل محرك المروحة",
+      "عائق ميكانيكي",
+      "خلل PCB"
+    ],
+    "parts": [
+      "محرك المروحة",
+      "PCB",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "فحص دوران المروحة دون لمس الدائرة",
+      "قياس الإشارة بواسطة فني"
+    ],
+    "repairSteps": [
+      "إزالة العائق أو استبدال المحرك/PCB بعد التشخيص"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e050",
+    "code": "E162",
+    "brandId": "samsung",
+    "titleAr": "خطأ EEPROM",
+    "titleEn": "EEPROM error",
+    "severity": "high",
+    "category": "pcb",
+    "symptoms": [
+      "توقف الجهاز",
+      "ظهور E162"
+    ],
+    "causes": [
+      "خطأ بيانات الذاكرة",
+      "خلل لوحة التحكم",
+      "تغذية غير مستقرة"
+    ],
+    "parts": [
+      "PCB",
+      "EEPROM"
+    ],
+    "checkSteps": [
+      "فصل التغذية وإعادة التشغيل مرة واحدة",
+      "مطابقة الكود مع الدليل"
+    ],
+    "repairSteps": [
+      "إعادة برمجة أو استبدال PCB بواسطة فني"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e051",
+    "code": "E186",
+    "brandId": "samsung",
+    "titleAr": "خطأ تغذية راجعة MPI",
+    "titleEn": "MPI feedback error",
+    "severity": "high",
+    "category": "electrical",
+    "symptoms": [
+      "توقف الجهاز",
+      "ظهور E186"
+    ],
+    "causes": [
+      "خلل إشارة MPI",
+      "خلل PCB أو التوصيل"
+    ],
+    "parts": [
+      "PCB",
+      "الأسلاك"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "تشخيص الإشارة بواسطة فني"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال اللوحة بعد القياس"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e052",
+    "code": "E203",
+    "brandId": "samsung",
+    "titleAr": "خطأ اتصال بين لوحة الوحدة الخارجية ووحدة تحكم الانفرتر",
+    "titleEn": "Outdoor PCB to inverter MICOM communication error",
+    "severity": "high",
+    "category": "communication",
+    "symptoms": [
+      "توقف الضاغط",
+      "ظهور E203"
+    ],
+    "causes": [
+      "خلل PCB الخارجية",
+      "خلل وحدة الانفرتر",
+      "قطع الاتصال"
+    ],
+    "parts": [
+      "PCB خارجي",
+      "وحدة الانفرتر",
+      "كابل الاتصال"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "عدم فتح وحدة القدرة",
+      "تشخيص الفني"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال لوحة/وحدة بعد الاختبار"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e053",
+    "code": "E221",
+    "brandId": "samsung",
+    "titleAr": "عطل حساس حرارة الوحدة الخارجية",
+    "titleEn": "Outdoor temperature sensor error",
+    "severity": "medium",
+    "category": "sensors",
+    "symptoms": [
+      "توقف أو ضعف الأداء",
+      "ظهور E221"
+    ],
+    "causes": [
+      "تلف الحساس",
+      "قطع السلك",
+      "خلل PCB"
+    ],
+    "parts": [
+      "حساس خارجي",
+      "الكابل",
+      "PCB"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "فحص الموصل والحساس وفق الدليل"
+    ],
+    "repairSteps": [
+      "استبدال الحساس أو إصلاح الكابل"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e054",
+    "code": "E237",
+    "brandId": "samsung",
+    "titleAr": "عطل حساس حرارة الوحدة الخارجية",
+    "titleEn": "Outdoor temperature sensor error",
+    "severity": "medium",
+    "category": "sensors",
+    "symptoms": [
+      "توقف أو ضعف الأداء",
+      "ظهور E237"
+    ],
+    "causes": [
+      "تلف الحساس",
+      "قطع السلك",
+      "خلل PCB"
+    ],
+    "parts": [
+      "حساس خارجي",
+      "الكابل",
+      "PCB"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "فحص الموصل والحساس وفق الدليل"
+    ],
+    "repairSteps": [
+      "استبدال الحساس أو إصلاح الكابل"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e055",
+    "code": "E251",
+    "brandId": "samsung",
+    "titleAr": "عطل حساس حرارة التفريغ",
+    "titleEn": "Discharge temperature sensor error",
+    "severity": "high",
+    "category": "sensors",
+    "symptoms": [
+      "توقف الضاغط",
+      "ظهور E251"
+    ],
+    "causes": [
+      "تلف حساس التفريغ",
+      "قطع السلك",
+      "ارتفاع حرارة الدائرة"
+    ],
+    "parts": [
+      "حساس التفريغ",
+      "الكابل",
+      "PCB"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "قياس الحساس بواسطة فني",
+      "فحص دائرة التبريد"
+    ],
+    "repairSteps": [
+      "استبدال الحساس وإصلاح السبب المؤكد"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e056",
+    "code": "E416",
+    "brandId": "samsung",
+    "titleAr": "ارتفاع حرارة غاز التفريغ",
+    "titleEn": "Discharge gas overheat error",
+    "severity": "critical",
+    "category": "compressor",
+    "symptoms": [
+      "توقف الضاغط",
+      "ظهور E416",
+      "ارتفاع الحرارة"
+    ],
+    "causes": [
+      "نقص وسيط التبريد",
+      "ضعف تبادل الحرارة",
+      "خلل حساس أو ضاغط"
+    ],
+    "parts": [
+      "دائرة التبريد",
+      "حساس التفريغ",
+      "الضاغط"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز",
+      "قياس الضغوط ودرجات الحرارة بواسطة فني",
+      "كشف التسرب"
+    ],
+    "repairSteps": [
+      "إصلاح التسرب أو السبب المؤكد ثم اختبار النظام"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e057",
+    "code": "E458",
+    "brandId": "samsung",
+    "titleAr": "عطل مروحة الوحدة الخارجية",
+    "titleEn": "Outdoor fan error",
+    "severity": "high",
+    "category": "fan",
+    "symptoms": [
+      "توقف المروحة الخارجية",
+      "ظهور E458"
+    ],
+    "causes": [
+      "عطل المحرك",
+      "عائق ميكانيكي",
+      "خلل PCB"
+    ],
+    "parts": [
+      "محرك المروحة",
+      "PCB",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "فحص العائق والتوصيلات",
+      "قياس المحرك بواسطة فني"
+    ],
+    "repairSteps": [
+      "إزالة العائق أو استبدال المحرك/PCB"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e058",
+    "code": "E461",
+    "brandId": "samsung",
+    "titleAr": "فشل بدء الضاغط",
+    "titleEn": "Compressor start error",
+    "severity": "critical",
+    "category": "compressor",
+    "symptoms": [
+      "عدم التبريد",
+      "ظهور E461",
+      "محاولات تشغيل متكررة"
+    ],
+    "causes": [
+      "خلل الضاغط",
+      "وحدة الانفرتر",
+      "تغذية أو أسلاك الضاغط"
+    ],
+    "parts": [
+      "الضاغط",
+      "وحدة الانفرتر",
+      "PCB"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "عدم إعادة التشغيل المتكرر",
+      "قياس الضاغط والقدرة بواسطة فني"
+    ],
+    "repairSteps": [
+      "إصلاح التغذية أو استبدال المكوّن بعد التشخيص"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e059",
+    "code": "E462",
+    "brandId": "samsung",
+    "titleAr": "حماية زيادة التيار أو خطأ PFC",
+    "titleEn": "I-trip or PFC overcurrent error",
+    "severity": "critical",
+    "category": "inverter",
+    "symptoms": [
+      "توقف الضاغط",
+      "ظهور E462"
+    ],
+    "causes": [
+      "زيادة تيار",
+      "خلل دائرة PFC",
+      "خلل وحدة القدرة"
+    ],
+    "parts": [
+      "وحدة PFC",
+      "PCB الانفرتر",
+      "الضاغط"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "عدم فتح وحدة القدرة",
+      "قياس التيار بواسطة فني"
+    ],
+    "repairSteps": [
+      "إصلاح أو استبدال وحدة القدرة بعد الاختبار"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e060",
+    "code": "E464",
+    "brandId": "samsung",
+    "titleAr": "حماية زيادة تيار IPM",
+    "titleEn": "IPM overcurrent error",
+    "severity": "critical",
+    "category": "inverter",
+    "symptoms": [
+      "توقف الضاغط",
+      "ظهور E464"
+    ],
+    "causes": [
+      "زيادة تيار الوحدة",
+      "تلف IPM",
+      "خلل الضاغط"
+    ],
+    "parts": [
+      "IPM",
+      "PCB الانفرتر",
+      "الضاغط"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "عدم لمس دائرة القدرة",
+      "تشخيص الفني"
+    ],
+    "repairSteps": [
+      "استبدال وحدة القدرة أو الضاغط بعد تأكيد السبب"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e061",
+    "code": "E465",
+    "brandId": "samsung",
+    "titleAr": "تجاوز حد جهد الضاغط",
+    "titleEn": "Compressor voltage limit error",
+    "severity": "critical",
+    "category": "electrical",
+    "symptoms": [
+      "توقف الضاغط",
+      "ظهور E465"
+    ],
+    "causes": [
+      "جهد غير مناسب",
+      "خلل الانفرتر",
+      "تغذية غير مستقرة"
+    ],
+    "parts": [
+      "وحدة الانفرتر",
+      "PCB",
+      "الضاغط"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "قياس التغذية بواسطة فني",
+      "فحص سجل الجهد"
+    ],
+    "repairSteps": [
+      "تصحيح التغذية أو إصلاح وحدة القدرة"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e062",
+    "code": "E467",
+    "brandId": "samsung",
+    "titleAr": "خطأ دوران الضاغط",
+    "titleEn": "Compressor rotation error",
+    "severity": "critical",
+    "category": "compressor",
+    "symptoms": [
+      "عدم التبريد",
+      "ظهور E467"
+    ],
+    "causes": [
+      "توصيل خاطئ",
+      "خلل الضاغط",
+      "خلل الانفرتر"
+    ],
+    "parts": [
+      "الضاغط",
+      "كابلات الضاغط",
+      "الانفرتر"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "فحص ترتيب التوصيل بواسطة فني",
+      "قياس ملفات الضاغط"
+    ],
+    "repairSteps": [
+      "تصحيح التوصيل أو استبدال المكوّن بعد التشخيص"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e063",
+    "code": "E468",
+    "brandId": "samsung",
+    "titleAr": "عطل حساس التيار",
+    "titleEn": "Current sensor error",
+    "severity": "high",
+    "category": "electrical",
+    "symptoms": [
+      "توقف الجهاز",
+      "ظهور E468"
+    ],
+    "causes": [
+      "تلف حساس التيار",
+      "قطع السلك",
+      "خلل PCB"
+    ],
+    "parts": [
+      "حساس التيار",
+      "الكابل",
+      "PCB"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "قياس الحساس بواسطة فني"
+    ],
+    "repairSteps": [
+      "استبدال الحساس أو اللوحة بعد التأكد"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e064",
+    "code": "E469",
+    "brandId": "samsung",
+    "titleAr": "عطل حساس جهد اتصال DC",
+    "titleEn": "DC communication voltage sensor error",
+    "severity": "high",
+    "category": "electrical",
+    "symptoms": [
+      "توقف الانفرتر",
+      "ظهور E469"
+    ],
+    "causes": [
+      "خلل حساس الجهد",
+      "تغذية غير مستقرة",
+      "خلل PCB"
+    ],
+    "parts": [
+      "حساس الجهد",
+      "PCB",
+      "الأسلاك"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "تشخيص دائرة القدرة بواسطة فني"
+    ],
+    "repairSteps": [
+      "إصلاح أو استبدال القطعة بعد القياس"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e065",
+    "code": "E471",
+    "brandId": "samsung",
+    "titleAr": "حماية OTP",
+    "titleEn": "OTP protection error",
+    "severity": "high",
+    "category": "inverter",
+    "symptoms": [
+      "توقف الجهاز",
+      "ظهور E471"
+    ],
+    "causes": [
+      "ارتفاع حرارة أو حماية وحدة القدرة",
+      "خلل IPM/PCB"
+    ],
+    "parts": [
+      "IPM",
+      "PCB",
+      "حساسات الحرارة"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "ترك الوحدة تبرد",
+      "تشخيص السبب بواسطة فني"
+    ],
+    "repairSteps": [
+      "إصلاح سبب الحرارة أو استبدال وحدة القدرة"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e066",
+    "code": "E472",
+    "brandId": "samsung",
+    "titleAr": "خطأ إشارة جهد AC",
+    "titleEn": "AC voltage signal error",
+    "severity": "high",
+    "category": "electrical",
+    "symptoms": [
+      "توقف الجهاز",
+      "ظهور E472"
+    ],
+    "causes": [
+      "تذبذب التغذية",
+      "خلل دائرة قياس الجهد",
+      "خلل PCB"
+    ],
+    "parts": [
+      "PCB",
+      "دائرة قياس الجهد",
+      "الأسلاك"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "فحص التغذية بواسطة كهربائي مؤهل"
+    ],
+    "repairSteps": [
+      "تصحيح التغذية أو إصلاح لوحة التحكم"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e067",
+    "code": "E554",
+    "brandId": "samsung",
+    "titleAr": "اكتشاف تسرب غاز التبريد",
+    "titleEn": "Refrigerant leak error",
+    "severity": "high",
+    "category": "cooling",
+    "symptoms": [
+      "ضعف التبريد",
+      "ظهور E554",
+      "توقف متقطع"
+    ],
+    "causes": [
+      "تسرب وسيط التبريد",
+      "خلل حساس أو دائرة التبريد"
+    ],
+    "parts": [
+      "دائرة التبريد",
+      "الحساسات",
+      "وصلات الأنابيب"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز",
+      "كشف التسرب بواسطة فني",
+      "عدم شحن الغاز عشوائيًا"
+    ],
+    "repairSteps": [
+      "إصلاح التسرب وتفريغ/شحن الدائرة حسب المواصفات"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e068",
+    "code": "E556",
+    "brandId": "samsung",
+    "titleAr": "عدم تطابق السعة",
+    "titleEn": "Capacity mismatch error",
+    "severity": "high",
+    "category": "electrical",
+    "symptoms": [
+      "توقف الجهاز",
+      "ظهور E556"
+    ],
+    "causes": [
+      "عدم تطابق الوحدات",
+      "إعداد أو لوحة غير مناسبة",
+      "خطأ تركيب"
+    ],
+    "parts": [
+      "PCB",
+      "الوحدة الداخلية/الخارجية",
+      "بيانات الطراز"
+    ],
+    "checkSteps": [
+      "تسجيل كل أرقام الطراز",
+      "مطابقة السعة والإعدادات",
+      "فحص الفني"
+    ],
+    "repairSteps": [
+      "تصحيح الإعداد أو استبدال المكوّن غير المطابق"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "Samsung Turkey — Klima hata kodları ve çözümleri",
+      "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/"
+    ],
+    "sourceUrl": "https://www.samsung.com/tr/support/home-appliances/what-are-samsung-air-conditioner-error-codes-and-solutions/",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في صفحة دعم Samsung Turkey؛ يجب مطابقته مع رقم الطراز."
+    },
+    "aliases": [],
+    "verificationNote": "صفحة Samsung الرسمية تؤكد أن الأكواد تختلف حسب موديل التكييف؛ لا يُعمّم خارج نطاق الدليل."
+  },
+  {
+    "id": "e069",
+    "code": "CH05",
+    "brandId": "lg",
+    "titleAr": "خطأ اتصال بين الوحدة الداخلية والخارجية",
+    "titleEn": "Indoor-outdoor communication error",
+    "severity": "high",
+    "category": "communication",
+    "symptoms": [
+      "عدم التشغيل",
+      "وميض المؤشر",
+      "ظهور CH05 أو E0 أو CH53"
+    ],
+    "causes": [
+      "قطع خط الاتصال",
+      "خلل PCB",
+      "سوء التوصيل"
+    ],
+    "parts": [
+      "كابل الاتصال",
+      "PCB الداخلي والخارجي",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "فصل القاطع خمس دقائق",
+      "فحص التوصيل حسب دليل الموديل",
+      "طلب فني عند استمرار الرمز"
+    ],
+    "repairSteps": [
+      "إصلاح التوصيل أو استبدال الكابل/PCB بعد التشخيص"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "LG USA — Guide to Error Codes",
+      "https://www.lg.com/us/support/help-library/lg-air-conditioner-guide-to-error-codes--20155047719306"
+    ],
+    "sourceUrl": "https://www.lg.com/us/support/help-library/lg-air-conditioner-guide-to-error-codes--20155047719306",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Algeria/global listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في دليل LG العام؛ يجب مطابقة صورة/رقم الطراز مع دليل الجهاز."
+    },
+    "aliases": [
+      "E0",
+      "CH53"
+    ],
+    "verificationNote": "دليل LG الرسمي يطلب دورة طاقة ثم فحصًا فنيًا إذا استمر الرمز، ويشير إلى اختلاف المحتوى حسب المنتج."
+  },
+  {
+    "id": "e070",
+    "code": "CH61",
+    "brandId": "lg",
+    "titleAr": "حماية حرارية للوحدة",
+    "titleEn": "Thermal protection error",
+    "severity": "high",
+    "category": "condenser",
+    "symptoms": [
+      "توقف أو ضعف الأداء",
+      "ظهور CH61"
+    ],
+    "causes": [
+      "ارتفاع حرارة الوحدة الخارجية أثناء التبريد",
+      "ارتفاع حرارة الوحدة الداخلية أثناء التدفئة",
+      "ضعف تبادل الحرارة"
+    ],
+    "parts": [
+      "مبادل حراري",
+      "مروحة",
+      "حساسات الحرارة"
+    ],
+    "checkSteps": [
+      "إيقاف الجهاز",
+      "تنظيف الفلتر والعوائق الخارجية",
+      "قياس الحرارة والضغوط بواسطة فني"
+    ],
+    "repairSteps": [
+      "تحسين تدفق الهواء وإصلاح السبب المؤكد"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "LG USA — Guide to Error Codes",
+      "https://www.lg.com/us/support/help-library/lg-air-conditioner-guide-to-error-codes--20155047719306"
+    ],
+    "sourceUrl": "https://www.lg.com/us/support/help-library/lg-air-conditioner-guide-to-error-codes--20155047719306",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Algeria/global listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في دليل LG العام؛ يجب مطابقة صورة/رقم الطراز مع دليل الجهاز."
+    },
+    "aliases": [],
+    "verificationNote": "دليل LG الرسمي يطلب دورة طاقة ثم فحصًا فنيًا إذا استمر الرمز، ويشير إلى اختلاف المحتوى حسب المنتج."
+  },
+  {
+    "id": "e071",
+    "code": "CH66",
+    "brandId": "lg",
+    "titleAr": "مشكلة في خط الاتصال أو توصيل الأنابيب",
+    "titleEn": "Communication line or piping connection error",
+    "severity": "high",
+    "category": "communication",
+    "symptoms": [
+      "توقف الجهاز",
+      "ظهور CH66",
+      "ظهور الرمز بعد التركيب أو النقل"
+    ],
+    "causes": [
+      "خط اتصال غير صحيح",
+      "توصيل أنابيب غير صحيح",
+      "خلل PCB"
+    ],
+    "parts": [
+      "كابل الاتصال",
+      "أنابيب التبريد",
+      "PCB"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "مراجعة التوصيلات مع مخطط التركيب",
+      "عدم فتح دائرة التبريد إلا بواسطة فني"
+    ],
+    "repairSteps": [
+      "تصحيح الأسلاك/الأنابيب وإجراء اختبار تسرب وتشغيل"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "LG USA — Guide to Error Codes",
+      "https://www.lg.com/us/support/help-library/lg-air-conditioner-guide-to-error-codes--20155047719306"
+    ],
+    "sourceUrl": "https://www.lg.com/us/support/help-library/lg-air-conditioner-guide-to-error-codes--20155047719306",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Algeria/global listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في دليل LG العام؛ يجب مطابقة صورة/رقم الطراز مع دليل الجهاز."
+    },
+    "aliases": [],
+    "verificationNote": "دليل LG الرسمي يطلب دورة طاقة ثم فحصًا فنيًا إذا استمر الرمز، ويشير إلى اختلاف المحتوى حسب المنتج."
+  },
+  {
+    "id": "e072",
+    "code": "CH10",
+    "brandId": "lg",
+    "titleAr": "خطأ مروحة الوحدة الداخلية",
+    "titleEn": "Indoor unit fan error",
+    "severity": "high",
+    "category": "fan",
+    "symptoms": [
+      "ضعف تدفق الهواء",
+      "توقف المروحة",
+      "ظهور CH10 أو E6"
+    ],
+    "causes": [
+      "عطل محرك المروحة",
+      "عائق ميكانيكي",
+      "خلل PCB"
+    ],
+    "parts": [
+      "محرك المروحة",
+      "PCB",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "فحص العائق خارجيًا",
+      "قياس المحرك بواسطة فني"
+    ],
+    "repairSteps": [
+      "إزالة العائق أو استبدال المحرك/PCB بعد التشخيص"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "LG USA — Guide to Error Codes",
+      "https://www.lg.com/us/support/help-library/lg-air-conditioner-guide-to-error-codes--20155047719306"
+    ],
+    "sourceUrl": "https://www.lg.com/us/support/help-library/lg-air-conditioner-guide-to-error-codes--20155047719306",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Algeria/global listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في دليل LG العام؛ يجب مطابقة صورة/رقم الطراز مع دليل الجهاز."
+    },
+    "aliases": [
+      "E6"
+    ],
+    "verificationNote": "دليل LG الرسمي يطلب دورة طاقة ثم فحصًا فنيًا إذا استمر الرمز، ويشير إلى اختلاف المحتوى حسب المنتج."
+  },
+  {
+    "id": "e073",
+    "code": "CH67",
+    "brandId": "lg",
+    "titleAr": "خطأ مروحة الوحدة الخارجية",
+    "titleEn": "Outdoor unit fan error",
+    "severity": "high",
+    "category": "fan",
+    "symptoms": [
+      "توقف المروحة الخارجية",
+      "ارتفاع حرارة الوحدة",
+      "ظهور CH67 أو EF"
+    ],
+    "causes": [
+      "عطل محرك المروحة",
+      "عائق ميكانيكي",
+      "خلل PCB"
+    ],
+    "parts": [
+      "محرك المروحة الخارجية",
+      "PCB",
+      "الموصلات"
+    ],
+    "checkSteps": [
+      "فصل القاطع",
+      "فحص العائق والتوصيلات",
+      "قياس المحرك بواسطة فني"
+    ],
+    "repairSteps": [
+      "إزالة العائق أو استبدال المحرك/PCB بعد التشخيص"
+    ],
+    "tools": [
+      "مفك",
+      "جهاز قياس متعدد"
+    ],
+    "duration": "30-180 دقيقة",
+    "cost": "**** دج",
+    "needsTechnician": true,
+    "diyPossible": false,
+    "references": [
+      "LG USA — Guide to Error Codes",
+      "https://www.lg.com/us/support/help-library/lg-air-conditioner-guide-to-error-codes--20155047719306"
+    ],
+    "sourceUrl": "https://www.lg.com/us/support/help-library/lg-air-conditioner-guide-to-error-codes--20155047719306",
+    "modelScope": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Algeria/global listing; model-dependent"
+      ],
+      "notesAr": "الكود منشور في دليل LG العام؛ يجب مطابقة صورة/رقم الطراز مع دليل الجهاز."
+    },
+    "aliases": [
+      "EF"
+    ],
+    "verificationNote": "دليل LG الرسمي يطلب دورة طاقة ثم فحصًا فنيًا إذا استمر الرمز، ويشير إلى اختلاف المحتوى حسب المنتج."
   }
 ]
