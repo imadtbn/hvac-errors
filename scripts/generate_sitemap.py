@@ -1,65 +1,45 @@
 #!/usr/bin/env python3
-"""Generate a complete, professional sitemap.xml including all dynamic
-error detail pages and brand/category listing variants."""
+from __future__ import annotations
 import json
 from datetime import date
+from pathlib import Path
+from xml.sax.saxutils import escape
 
-BASE = "/home/ubuntu/hvac-errors"
-SITE = "https://imadtbn.github.io/hvac-errors/"
+ROOT = Path(__file__).resolve().parents[1]
+SITE = 'https://imadtbn.github.io/hvac-errors/'
 TODAY = date.today().isoformat()
 
-with open(f"{BASE}/data/brands.json") as f:
-    BRANDS = json.load(f)
-with open(f"{BASE}/data/errors.json") as f:
-    ERRORS = json.load(f)
+static_pages = ['index.html', 'errors.html', 'brands.html', 'articles.html', 'about.html', 'contact.html', 'faq.html', 'privacy.html', 'disclaimer.html', 'search.html']
+articles = json.loads((ROOT / 'data' / 'articles.json').read_text(encoding='utf-8'))
+errors = json.loads((ROOT / 'data' / 'errors.json').read_text(encoding='utf-8'))
 
-lines = [
-    '<?xml version="1.0" encoding="UTF-8"?>',
-    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-]
-
-
-def url(loc, priority, changefreq, lastmod=TODAY):
-    return (
-        f"  <url>\n"
-        f"    <loc>{SITE}{loc}</loc>\n"
-        f"    <lastmod>{lastmod}</lastmod>\n"
-        f"    <changefreq>{changefreq}</changefreq>\n"
-        f"    <priority>{priority}</priority>\n"
-        f"  </url>"
-    )
+paths = []
+for page in static_pages:
+    base = '' if page == 'index.html' else page
+    paths.append((base, 'weekly' if page in {'index.html', 'errors.html', 'articles.html'} else 'monthly', '0.9' if page in {'index.html', 'errors.html', 'articles.html'} else '0.6'))
+for article in articles:
+    paths.append((f"article.html?id={article['id']}", 'monthly', '0.7'))
+for error in errors:
+    paths.append((f"error.html?id={error['id']}", 'monthly', '0.7'))
 
 
-# Static pages
-lines.append(url("", "1.0", "weekly"))
-lines.append(url("index.html", "1.0", "weekly"))
-lines.append(url("errors.html", "0.9", "weekly"))
-lines.append(url("brands.html", "0.8", "monthly"))
-lines.append(url("articles.html", "0.8", "weekly"))
-lines.append(url("search.html", "0.7", "monthly"))
-lines.append(url("about.html", "0.6", "monthly"))
-lines.append(url("contact.html", "0.6", "monthly"))
-lines.append(url("faq.html", "0.6", "monthly"))
-lines.append(url("privacy.html", "0.4", "yearly"))
-lines.append(url("disclaimer.html", "0.4", "yearly"))
+def full(path: str, lang: str | None = None) -> str:
+    if not lang:
+        return SITE + path
+    separator = '&' if '?' in path else '?'
+    return SITE + path + separator + 'lang=' + lang
 
-# Dynamic error detail pages (canonical, self-contained content)
-for err in ERRORS:
-    loc = f"error.html?id={err['id']}"
-    lines.append(url(loc, "0.8", "monthly"))
 
-# Brand listing variants (curated entry points, high value for long-tail)
-for b in BRANDS:
-    lines.append(url(f"errors.html?brand={b['id']}", "0.8", "monthly"))
+def entry(path: str, frequency: str, priority: str, lang: str) -> str:
+    url = full(path, lang)
+    alternate_ar = full(path, 'ar')
+    alternate_en = full(path, 'en')
+    return f'''  <url>\n    <loc>{escape(url)}</loc>\n    <lastmod>{TODAY}</lastmod>\n    <changefreq>{frequency}</changefreq>\n    <priority>{priority}</priority>\n    <xhtml:link rel="alternate" hreflang="ar" href="{escape(alternate_ar)}" />\n    <xhtml:link rel="alternate" hreflang="en" href="{escape(alternate_en)}" />\n    <xhtml:link rel="alternate" hreflang="x-default" href="{escape(alternate_ar)}" />\n  </url>'''
 
-# Category listing variants
-categories = sorted({e["category"] for e in ERRORS})
-for cat in categories:
-    lines.append(url(f"errors.html?category={cat}", "0.8", "monthly"))
-
-lines.append("</urlset>")
-
-with open(f"{BASE}/sitemap.xml", "w") as f:
-    f.write("\n".join(lines) + "\n")
-
-print(f"sitemap.xml generated: {len(ERRORS)} errors, {len(BRANDS)} brands, {len(categories)} categories")
+chunks = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
+for path, frequency, priority in paths:
+    chunks.append(entry(path, frequency, priority, 'ar'))
+    chunks.append(entry(path, frequency, priority, 'en'))
+chunks.append('</urlset>')
+(ROOT / 'sitemap.xml').write_text('\n'.join(chunks) + '\n', encoding='utf-8')
+print(f'Generated sitemap with {len(paths) * 2} localized URLs')

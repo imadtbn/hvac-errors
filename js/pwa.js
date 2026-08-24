@@ -14,11 +14,13 @@
   // ============================================
   // 1. REGISTER SERVICE WORKER
   // ============================================
+  const scriptBase = document.currentScript ? new URL('../', document.currentScript.src) : new URL('./', document.baseURI);
+  const pageScope = new URL('./', document.baseURI).pathname;
+
   function registerSW() {
     if (!('serviceWorker' in navigator)) return;
-    // تسجيل من جذر النطاق حتى يعمل الموقع تحت subpath (GitHub Pages)
-    navigator.serviceWorker.register('/hvac-errors/service-worker.js', {
-      scope: '/hvac-errors/'
+    navigator.serviceWorker.register(new URL('service-worker.js', scriptBase), {
+      scope: pageScope
     }).then((reg) => {
       console.log('SW registered:', reg.scope);
       // تحديث فوري عند إصدار جديد من الخدمة
@@ -42,7 +44,8 @@
     const banner = document.createElement('div');
     banner.id = 'hvacUpdateBanner';
     banner.className = 'pwa-update-banner';
-    banner.innerHTML = '<span>🔄 توجد نسخة محدثة من الموقع. أعد تحميل الصفحة للحصول على أحدث الأعطال.</span><button id="hvacUpdateBtn" class="btn-update">إعادة تحميل</button><button class="btn-update-close" id="hvacUpdateClose" title="إغلاق">✕</button>';
+    const en = document.documentElement.lang === 'en';
+    banner.innerHTML = `<span>🔄 ${en ? 'A new version is available. Reload to get the latest updates.' : 'توجد نسخة محدثة من الموقع. أعد تحميل الصفحة للحصول على أحدث الأعطال.'}</span><button id="hvacUpdateBtn" class="btn-update">${en ? 'Reload' : 'إعادة تحميل'}</button><button class="btn-update-close" id="hvacUpdateClose" title="${en ? 'Close' : 'إغلاق'}">✕</button>`;
     document.body.appendChild(banner);
     document.getElementById('hvacUpdateBtn').addEventListener('click', () => location.reload());
     document.getElementById('hvacUpdateClose').addEventListener('click', () => banner.remove());
@@ -133,16 +136,17 @@
     const banner = document.createElement('div');
     banner.id = 'hvacInstallBanner';
     banner.className = 'pwa-install-banner';
+    const en = document.documentElement.lang === 'en';
     banner.innerHTML = `
       <div class="pwa-banner-content">
         <div class="pwa-banner-icon">❄️</div>
         <div class="pwa-banner-text">
-          <strong>ثبّت دليل أعطال التكييف على جهازك!</strong>
-          <span>استخدم الموقع كتطبيق بدون متصفح، مع دعم العمل بدون إنترنت.</span>
+          <strong>${en ? 'Install the HVAC guide on your device' : 'ثبّت دليل أعطال التكييف على جهازك!'}</strong>
+          <span>${en ? 'Use it like an app, with offline support.' : 'استخدم الموقع كتطبيق بدون متصفح، مع دعم العمل بدون إنترنت.'}</span>
         </div>
         <div class="pwa-banner-actions">
-          <button class="btn btn-primary" id="pwaInstallBtn">📲 تثبيت الآن</button>
-          <button class="pwa-banner-dismiss" id="pwaDismissBtn" title="إغلاق">✕</button>
+          <button class="btn btn-primary" id="pwaInstallBtn">📲 ${en ? 'Install now' : 'تثبيت الآن'}</button>
+          <button class="pwa-banner-dismiss" id="pwaDismissBtn" title="${en ? 'Close' : 'إغلاق'}">✕</button>
         </div>
       </div>
     `;
@@ -169,15 +173,16 @@
     const banner = document.createElement('div');
     banner.id = 'hvacInstallBanner';
     banner.className = 'pwa-install-banner';
+    const en = document.documentElement.lang === 'en';
     banner.innerHTML = `
       <div class="pwa-banner-content">
         <div class="pwa-banner-icon">📱</div>
         <div class="pwa-banner-text">
-          <strong>أضف دليل الأعطال إلى شاشتك الرئيسية</strong>
-          <span>من أيقونة المشاركة ⬆️ في الأسفل ثم اختر «إضافة إلى الشاشة الرئيسية».</span>
+          <strong>${en ? 'Add the HVAC guide to your home screen' : 'أضف دليل الأعطال إلى شاشتك الرئيسية'}</strong>
+          <span>${en ? 'Tap the share icon ⬆️, then choose “Add to Home Screen”.' : 'من أيقونة المشاركة ⬆️ في الأسفل ثم اختر «إضافة إلى الشاشة الرئيسية».'}</span>
         </div>
         <div class="pwa-banner-actions">
-          <button class="pwa-banner-dismiss" id="pwaDismissBtn" title="إغلاق">✕</button>
+          <button class="pwa-banner-dismiss" id="pwaDismissBtn" title="${en ? 'Close' : 'إغلاق'}">✕</button>
         </div>
       </div>
     `;

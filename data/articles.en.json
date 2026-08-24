@@ -1,0 +1,180 @@
+[
+  {
+    "id": "a001",
+    "title": "Your Complete Guide to Air Conditioner Error Codes: What They Mean and How to Fix Them",
+    "category": "Educational",
+    "readTime": "8 minutes",
+    "date": "2026-07-15",
+    "excerpt": "Learn the meanings of error codes in residential air conditioners, how to read them on the indoor unit display or from indicator flashes, and what you can do about them.",
+    "tags": [
+      "Error Codes",
+      "Error Code",
+      "Diagnostics",
+      "Educational"
+    ],
+    "content": "<h2>What are Error Codes?</h2><p>Error codes (Error Codes) are symbols displayed by the air conditioner control system to indicate a specific fault within the system. They typically appear on the indoor unit display or as repeated flashes of LED indicators in different colors. Their primary purpose is to simplify fault diagnosis for technicians, but a homeowner can also benefit from them.</p><h2>How do you read an error code?</h2><p>On most residential units, the code appears directly on the unit's display or on the remote's screen (for example E1, E5, U4). On units without a display, the code is read by counting flashes of the power/operation indicator: the number of quick flashes corresponds to the error number.</p><h2>Most common error codes</h2><ul><li><strong>E1 / CH01:</strong> Fault in the room or evaporator temperature sensor (thermistor).</li><li><strong>E5 / U4:</strong> Communication fault between the indoor and outdoor units.</li><li><strong>P0 / CH34:</strong> High-pressure problems or low supply voltage.</li><li><strong>E201:</strong> Inverter compressor fault and requires an authorized technician.</li></ul><h2>When can I repair it myself?</h2><p>Simple faults such as a damaged temperature sensor (thermistor) or clogged air filters can be handled at home with basic tools. Compressor faults, high-voltage electrical circuits, and refrigerant charging always require a certified service technician.</p><p>Browse the <a href='errors.html'>complete list of faults</a> on the site to look up your unit's error code step by step.</p>",
+    "image": "images/articles/a001-error-codes.svg",
+    "imageAlt": "Editorial illustration of an air conditioner display showing an error code and diagnostic tools",
+    "relatedIds": [
+      "a007",
+      "a004",
+      "a005"
+    ]
+  },
+  {
+    "id": "a002",
+    "title": "Difference Between Inverter and Conventional Air Conditioners: Which Saves More?",
+    "category": "Educational",
+    "readTime": "6 minutes",
+    "date": "2026-07-10",
+    "excerpt": "A comprehensive comparison between inverter-system air conditioners and conventional units in terms of consumption, comfort, and service life.",
+    "tags": [
+      "Inverter",
+      "Energy savings",
+      "Comparison",
+      "Electricity"
+    ],
+    "content": "<h2>How an Inverter Works</h2><p>Conventional (ON/OFF) air conditioning operates with a thermostat (Thermostat) that completely stops the compressor when the desired temperature is reached and then restarts it when the temperature rises. The inverter, on the other hand, uses a variable-speed compressor controlled by an electronic control board (IPM), reducing its speed instead of stopping it entirely.</p><h2>Main Differences</h2><ul><li><strong>Energy savings:</strong> Inverters save 30% to 50% of annual electrical consumption.</li><li><strong>Temperature stability:</strong> An inverter maintains a variance of ±0.5° compared to ±2° for conventional units.</li><li><strong>Noise:</strong> The inverter compressor is noticeably quieter because it does not repeatedly start and stop.</li><li><strong>Service life:</strong> Fewer start/stop cycles extend the life of the compressor and capacitors.</li></ul><h2>Drawbacks of Inverters</h2><p>Higher upfront unit cost, greater sensitivity to voltage fluctuations, and higher repair costs for the inverter control board (PCB/IPM) if it is damaged. It is always recommended to install a voltage stabilizer (Stabilizer) for inverter units.</p><p>To look up common inverter faults, see <a href='errors.html?category=inverter'>Inverter faults</a>.</p>",
+    "image": "images/articles/a002-inverter.svg",
+    "imageAlt": "Editorial illustration of inverter compressor control waves",
+    "relatedIds": [
+      "a006",
+      "a005",
+      "a001"
+    ]
+  },
+  {
+    "id": "a003",
+    "title": "How to Tell If an Air Conditioner Needs a Refrigerant Charge: Symptoms and Solutions",
+    "category": "Maintenance",
+    "readTime": "7 minutes",
+    "date": "2026-07-05",
+    "excerpt": "Symptoms of refrigerant (Freon) leakage, methods for detecting leaks, stages of the charging process, and how it differs from routine inspection.",
+    "tags": [
+      "Refrigerant",
+      "Leak",
+      "Recharging",
+      "Pressure"
+    ],
+    "content": "<h2>Signs of Low Refrigerant</h2><ul><li>Noticeable loss of cooling despite the system running at full capacity.</li><li>Frosting of the larger refrigerant line (the thick line) at the outdoor unit or frost on the evaporator.</li><li>Increased electricity consumption with reduced performance.</li><li>Error codes related to sensors or pressure (for example H3, CH34).</li></ul><h2>Why Refrigerant Leaks</h2><p>The refrigeration system is a closed loop; a loss indicates a leak. The most common causes are: vibration of the copper lines, corrosion of the pipes in humid environments, weak soldered joints, and rust on the condenser coil.</p><h2>Correct Repair Steps</h2><p>Charging alone is only a temporary fix. A professional repair includes: (1) leak detection using nitrogen and a soap solution, (2) repairing the leak point, (3) pulling a full vacuum (Vacuum) on the circuit for 30-60 minutes, (4) charging with the refrigerant weight specified by the manufacturer.</p><p>Remember that refrigerant charging requires a certified technician and specialized pressure-measuring tools. Do not perform this yourself.</p>",
+    "image": "images/articles/a003-refrigerant.svg",
+    "imageAlt": "Editorial illustration of a refrigerant drop representing a charging cycle",
+    "relatedIds": [
+      "a008",
+      "a005",
+      "a004"
+    ]
+  },
+  {
+    "id": "a004",
+    "title": "Periodic Air Conditioner Maintenance Schedule: Daily, Monthly, and Annual Tasks",
+    "category": "Maintenance",
+    "readTime": "5 minutes",
+    "date": "2026-06-28",
+    "excerpt": "A comprehensive preventive maintenance plan for residential air conditioners that extends equipment life, maintains efficiency, and prevents unexpected breakdowns.",
+    "tags": [
+      "maintenance",
+      "cleaning",
+      "filter",
+      "routine"
+    ],
+    "content": "<h2>Daily maintenance</h2><ul><li>Clean the air filter every two weeks to once a month: open the front cover, remove the filter, wash it with lukewarm water, and dry it in the shade.</li><li>Do not run the air conditioner with doors and windows open for extended periods.</li></ul><h2>Monthly maintenance</h2><ul><li>Check cleanliness of the evaporator and condenser fins (aluminum fins).</li><li>Ensure the condensate drain hose is clean and water flows freely.</li><li>Wipe the indoor unit casing with a damp cloth to prevent dust buildup.</li></ul><h2>Annual maintenance (before the summer season)</h2><ul><li>Perform deep steam or high-pressure water cleaning for the indoor and outdoor units.</li><li>Check operating pressures and compare them with the manufacturer's chart.</li><li>Inspect the run capacitors and compressor and ensure they are not bulging.</li><li>Tighten screws and inspect the insulation of electrical wiring.</li></ul><p>The vast majority of sensor faults and icing (such as <a href='error.html?id=e002'>Error E2</a>) result from neglecting filter cleaning. Prevention is much cheaper than repair.</p>",
+    "image": "images/articles/a004-maintenance.svg",
+    "imageAlt": "Editorial illustration of cleaning and maintaining an indoor air conditioner",
+    "relatedIds": [
+      "a008",
+      "a007",
+      "a006"
+    ]
+  },
+  {
+    "id": "a005",
+    "title": "Understanding the Refrigeration Circuit: Pressure, Heat, and Refrigerant State Changes",
+    "category": "Technical",
+    "readTime": "10 minutes",
+    "date": "2026-06-20",
+    "excerpt": "A simplified engineering explanation of the four refrigeration cycle stages: compression, condensation, expansion, and evaporation, and why a technician who understands them diagnoses faults faster.",
+    "tags": [
+      "Refrigeration Circuit",
+      "Compressor",
+      "Condenser",
+      "Evaporator",
+      "Technician"
+    ],
+    "content": "<h2>Basic Cycle Components</h2><ul><li><strong>Compressor (Compressor):</strong> The heart of the system; it compresses refrigerant vapor from low pressure to high pressure, increasing its temperature.</li><li><strong>Condenser (Condenser):</strong> Located in the outdoor unit, it rejects heat from the vapor, turning it into a high-pressure liquid.</li><li><strong>Expansion Valve (Expansion Valve):</strong> It suddenly reduces the liquid's pressure, causing a large temperature drop.</li><li><strong>Evaporator (Evaporator):</strong> Inside the indoor unit, the cold refrigerant evaporates while absorbing heat from the room.</li></ul><h2>Why This Understanding Matters</h2><p>Most fault codes on the site are linked to a specific location in this cycle: high-pressure faults (CH34, H3) are read on the condenser side, freezing/frost faults are on the evaporator side, and compressor faults (E201) relate to the inverter unit and the compressor itself.</p><p>Knowing where the fault occurs in the cycle halves the diagnostic time.</p>",
+    "image": "images/articles/a005-refrigeration-cycle.svg",
+    "imageAlt": "Editorial illustration of the refrigeration cycle stages",
+    "relatedIds": [
+      "a003",
+      "a002",
+      "a008"
+    ]
+  },
+  {
+    "id": "a006",
+    "title": "Tips to Reduce Air Conditioning Electricity Use in Summer",
+    "category": "Tips",
+    "readTime": "4 minutes",
+    "date": "2026-06-12",
+    "excerpt": "10 practical tips to lower your summer electricity bill without sacrificing thermal comfort at home.",
+    "tags": [
+      "Savings",
+      "Electricity",
+      "Summer",
+      "Bills"
+    ],
+    "content": "<h2>The Ten Tips</h2><ol><li>Set the temperature to 24-25°C: each degree lower increases consumption by about 6%.</li><li>Clean the air filters regularly; a clogged filter can reduce cooling efficiency by up to 15%.</li><li>Wash the outdoor condenser unit twice per season; dust reduces heat dissipation.</li><li>Use the timer (Timer) at night and turn the unit off half an hour before waking.</li><li>Set the airflow direction upward; cold air is denser and will sink naturally.</li><li>Insulating windows with reflective/thermal curtains noticeably reduces the heat load.</li><li>Keep doors and windows tightly closed and avoid opening them frequently.</li><li>Shield the outdoor unit wiring from direct sunlight if possible.</li><li>Check the refrigerant pressure gauge annually; a low charge increases energy consumption.</li><li>Choose the correct air conditioner size (BTU) for the room area: oversizing wastes energy.</li></ol>",
+    "image": "images/articles/a006-energy-saving.svg",
+    "imageAlt": "Editorial illustration of energy-efficient air conditioner operation",
+    "relatedIds": [
+      "a002",
+      "a004",
+      "a008"
+    ]
+  },
+  {
+    "id": "a007",
+    "title": "Thermistor and Temperature Sensor Failures: Step-by-Step Ohmmeter Testing",
+    "category": "Maintenance",
+    "readTime": "9 minutes",
+    "date": "2026-06-05",
+    "excerpt": "A practical guide to testing temperature sensors (NTC thermistors) with an ohmmeter, reading resistance-versus-temperature tables, and replacing them safely.",
+    "tags": [
+      "thermistor",
+      "sensor",
+      "NTC",
+      "ohmmeter",
+      "testing"
+    ],
+    "content": "<h2>What is a thermistor?</h2><p>A variable resistor whose resistance decreases as temperature rises (NTC). Common values in air conditioners: 10kΩ and 15kΩ at 25°C. The controller measures temperature by reading its voltage divider with a fixed resistor.</p><h2>Practical testing steps</h2><ol><li>Disconnect all power to the unit completely (safety first).</li><li>Open the indoor unit cover and unplug the sensor connector from the control board.</li><li>Set the ohmmeter to resistance and place the probes on the sensor terminals.</li><li>Compare the reading to the manufacturer's table (for example 10kΩ ±5% at 25°C).</li><li>If the reading is infinite (open circuit) or zero (short circuit), the part is defective.</li></ol><h2>When does the sensor fail?</h2><p>Internal moisture, voltage spikes, accumulated dirt on the sensor, or strain on the wiring during maintenance. Replacement is inexpensive (10-30 riyals) and quick (30-60 minutes).</p><p>See related faults: <a href='error.html?id=e001'>Daikin E1 fault</a>, <a href='error.html?id=e004'>LG CH01 fault</a>.</p>",
+    "image": "images/articles/a007-thermistor.svg",
+    "imageAlt": "Editorial illustration of a temperature sensor and thermistor testing",
+    "relatedIds": [
+      "a001",
+      "a008",
+      "a004"
+    ]
+  },
+  {
+    "id": "a008",
+    "title": "Why Is Your Air Conditioner Freezing? Five Causes of Evaporator Freeze-up and Fixes",
+    "category": "Tips",
+    "readTime": "6 minutes",
+    "date": "2026-05-28",
+    "excerpt": "Indoor unit freeze-up is a common summer problem. Learn the main causes—from weak airflow to low refrigerant—and how to fix them.",
+    "tags": [
+      "Freeze-up",
+      "Evaporator",
+      "Refrigerant",
+      "Filter"
+    ],
+    "content": "<h2>The Five Causes</h2><ol><li><strong>Clogged air filter:</strong> Reduced airflow lowers the evaporator temperature below freezing and moisture freezes. Fix: clean the filter immediately.</li><li><strong>Low refrigerant:</strong> Low pressure at the evaporator drops the coil temperature and causes moisture to freeze. Fix: detect the leak then recharge the refrigerant.</li><li><strong>Faulty evaporator sensor:</strong> It reads the wrong temperature and does not run the defrost cycle. Fix: replace the thermistor (see <a href='error.html?id=e002'>Error E2</a>).</li><li><strong>Weak evaporator fan:</strong> It spins slowly and does not move enough air across the coil fins.</li><li><strong>Very low room temperature:</strong> Running the air conditioner at night with a very low setpoint and low fan speed.</li></ol><h2>What to do when the unit freezes?</h2><p>Turn off the air conditioner, let the ice fully melt (about an hour), clean the filter, then restart. If freeze-up repeats over several days, address one of the root causes above.</p>",
+    "image": "images/articles/a008-freezing.svg",
+    "imageAlt": "Editorial illustration of an evaporator freeze-up crystal",
+    "relatedIds": [
+      "a003",
+      "a007",
+      "a004"
+    ]
+  }
+]

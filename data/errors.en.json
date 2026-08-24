@@ -1,0 +1,4994 @@
+[
+  {
+    "id": "e001",
+    "code": "E1",
+    "brandId": "daikin",
+    "titleEn": "Model-specific Daikin diagnosis",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "E1 displayed or unit ceases operation"
+    ],
+    "causesEn": [
+      "Code definition differs between series",
+      "Possible sensor fault or control board fault"
+    ],
+    "partsEn": [
+      "Temperature sensor",
+      "PCB (printed circuit board)"
+    ],
+    "checkStepsEn": [
+      "Record the model number and the code exactly as displayed",
+      "Match the code against the official series manual",
+      "Visually inspect the power supply and connectors"
+    ],
+    "repairStepsEn": [
+      "Perform a reset after safely isolating power",
+      "Repair or replace the component after confirming the diagnosis"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "FTXS/RXS-K or specific model only"
+    },
+    "verificationNoteEn": "Daikin's official site provides lookup by code and model; do not generalize E1 across all Daikin products."
+  },
+  {
+    "id": "e002",
+    "code": "U4",
+    "brandId": "daikin",
+    "titleEn": "Communication failure between indoor and outdoor units",
+    "severityEn": "High",
+    "categoryEn": "Communication",
+    "symptomsEn": [
+      "Unit stops operating",
+      "Indicator flashing",
+      "U4 displayed"
+    ],
+    "causesEn": [
+      "Disconnected communication cable or loose connector",
+      "PCB malfunction",
+      "Unstable power supply"
+    ],
+    "partsEn": [
+      "Communication cable",
+      "Indoor and outdoor PCBs",
+      "Connectors"
+    ],
+    "checkStepsEn": [
+      "Switch off the circuit breaker before inspection",
+      "Inspect connections without touching live circuits",
+      "Compare the U4 code with the model's service manual"
+    ],
+    "repairStepsEn": [
+      "Secure the connection or replace the communication cable",
+      "Have the PCB diagnosed and repaired by a qualified technician"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "Varies by market and model"
+      ],
+      "notes": "Split/VRV as specified in the series service manual"
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e003",
+    "code": "CH01",
+    "brandId": "lg",
+    "titleEn": "Indoor coil thermistor error",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Cooling stops or is reduced",
+      "CH01 indicator flashing"
+    ],
+    "causesEn": [
+      "Thermistor shorted or open",
+      "Cut or broken wiring",
+      "Poor electrical contact"
+    ],
+    "partsEn": [
+      "Indoor coil thermistor",
+      "Wiring",
+      "PCB"
+    ],
+    "checkStepsEn": [
+      "Perform a 5-minute power cycle",
+      "Inspect the thermistor and connectors per the model service manual",
+      "Do not rely on a generic resistance value"
+    ],
+    "repairStepsEn": [
+      "Replace the thermistor or repair the wiring after confirming measurements"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "LG split; numbering may change depending on market and model"
+    },
+    "verificationNoteEn": "Final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e004",
+    "code": "CH02",
+    "brandId": "lg",
+    "titleEn": "Indoor air thermistor error",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Incorrect temperature reading",
+      "Unit stops or CH02 code flashes"
+    ],
+    "causesEn": [
+      "Thermistor shorted or open-circuit",
+      "Wiring cut or disconnected",
+      "PCB (control board) fault"
+    ],
+    "partsEn": [
+      "Indoor air thermistor",
+      "Cable",
+      "PCB (control board)"
+    ],
+    "checkStepsEn": [
+      "Perform a five-minute power cycle",
+      "Inspect wiring, connectors, and thermistor according to the model service manual"
+    ],
+    "repairStepsEn": [
+      "Replace the thermistor or cable after proper diagnosis"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Varies by market and model"
+      ],
+      "notes": "LG split; numbering may vary by market and model"
+    },
+    "verificationNoteEn": "Final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e005",
+    "code": "CH34",
+    "brandId": "lg",
+    "titleEn": "High-pressure protection",
+    "severityEn": "High",
+    "categoryEn": "Compressor",
+    "symptomsEn": [
+      "Compressor shutdown",
+      "Outdoor unit overheating",
+      "CH34 flashing"
+    ],
+    "causesEn": [
+      "Dirty condenser",
+      "Weak or failing outdoor fan",
+      "Problem in the refrigerant circuit"
+    ],
+    "partsEn": [
+      "Condenser",
+      "Outdoor fan",
+      "Pressure switch (high-pressure switch)"
+    ],
+    "checkStepsEn": [
+      "Turn off the unit and the circuit breaker",
+      "Inspect and clean the filter and the external surface of the condenser",
+      "Measure system pressures using a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Clean the condenser",
+      "Repair the refrigerant circuit or replace the faulty component after confirming the cause"
+    ],
+    "toolsEn": [
+      "Brush",
+      "Manifold gauge set"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "LG split; description varies by model."
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e006",
+    "code": "E101",
+    "brandId": "samsung",
+    "titleEn": "Indoor-outdoor communication error",
+    "severityEn": "High",
+    "categoryEn": "Communication",
+    "symptomsEn": [
+      "Unit does not operate",
+      "Status indicator (LED) flashing",
+      "E101"
+    ],
+    "causesEn": [
+      "Faulty communication cable or incorrect connection",
+      "Malfunctioning indoor or outdoor PCB (control board)"
+    ],
+    "partsEn": [
+      "Communication cable",
+      "PCB (printed circuit board)",
+      "Connectors"
+    ],
+    "checkStepsEn": [
+      "Disconnect power supply",
+      "Inspect connections according to the model wiring diagram",
+      "Contact authorized service if the code persists"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the communication cable",
+      "Have a qualified technician inspect the PCB"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Varies by market and model"
+      ],
+      "notes": "Samsung; the series and market determine the exact wording."
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e007",
+    "code": "E121",
+    "brandId": "samsung",
+    "titleEn": "Room temperature sensor fault",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Unit does not operate",
+      "E1/21 displayed"
+    ],
+    "causesEn": [
+      "Room temperature sensor open-circuit or damaged",
+      "Poor connection or PCB fault"
+    ],
+    "partsEn": [
+      "Room temperature sensor",
+      "Cable",
+      "PCB"
+    ],
+    "checkStepsEn": [
+      "Disconnect the power supply",
+      "Inspect the connector and sensor according to the model's service manual"
+    ],
+    "repairStepsEn": [
+      "Replace the sensor or repair the connection",
+      "Refer the PCB to a qualified technician for evaluation/repair"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Samsung indoor unit"
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e008",
+    "code": "E122",
+    "brandId": "samsung",
+    "titleEn": "Heat exchanger temperature sensor fault",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Unit stops operating",
+      "E1/22 fault code displayed"
+    ],
+    "causesEn": [
+      "Heat exchanger sensor open or damaged",
+      "Damaged wiring or PCB"
+    ],
+    "partsEn": [
+      "Heat exchanger sensor",
+      "Cable",
+      "PCB"
+    ],
+    "checkStepsEn": [
+      "Disconnect electrical power",
+      "Inspect the sensor and its connectors according to the service manual"
+    ],
+    "repairStepsEn": [
+      "Replace the heat exchanger sensor or repair the connection/wiring"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Samsung indoor unit"
+    },
+    "verificationNoteEn": "Final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e009",
+    "code": "E5",
+    "brandId": "samsung",
+    "titleEn": "Indoor heat exchanger sensor open/short",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Unit stops or the E5 code flashes"
+    ],
+    "causesEn": [
+      "Sensor short (short circuit)",
+      "Sensor open/disconnected (open circuit)",
+      "Poor electrical contact"
+    ],
+    "partsEn": [
+      "Indoor heat exchanger sensor",
+      "Cable",
+      "PCB"
+    ],
+    "checkStepsEn": [
+      "Disconnect power supply",
+      "Inspect and test the sensor and its connectors without bypassing safety/protection devices"
+    ],
+    "repairStepsEn": [
+      "Replace the sensor or repair/replace the cable"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Varies by market and model"
+      ],
+      "notes": "Samsung indoor unit"
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e010",
+    "code": "E6",
+    "brandId": "samsung",
+    "titleEn": "Outdoor heat exchanger sensor open/short",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Outdoor unit stopped",
+      "E6 displayed"
+    ],
+    "causesEn": [
+      "Sensor short-circuit or open-circuit",
+      "Poor electrical contact",
+      "Faulty outdoor PCB"
+    ],
+    "partsEn": [
+      "Outdoor heat exchanger sensor",
+      "Sensor cable",
+      "PCB"
+    ],
+    "checkStepsEn": [
+      "Turn off the circuit breaker (cut power)",
+      "Inspect connections and the sensor per the model's service manual"
+    ],
+    "repairStepsEn": [
+      "Replace the sensor or repair the wiring/connection",
+      "Have a technician diagnose the PCB"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Samsung indoor unit"
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e011",
+    "code": "E0",
+    "brandId": "midea",
+    "titleEn": "EEPROM error",
+    "severityEn": "High",
+    "categoryEn": "PCB",
+    "symptomsEn": [
+      "Unit stops operating",
+      "E0 displayed"
+    ],
+    "causesEn": [
+      "Corrupted memory data",
+      "Control board malfunction",
+      "Unstable power supply"
+    ],
+    "partsEn": [
+      "PCB",
+      "EEPROM chip"
+    ],
+    "checkStepsEn": [
+      "Power-cycle the unit once (disconnect power and restart)",
+      "Verify the code against the model's manual",
+      "Have a technician check the power supply"
+    ],
+    "repairStepsEn": [
+      "Have a technician reprogram or replace the PCB"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Midea portable unit manual; not applicable to split systems."
+    },
+    "verificationNoteEn": "Verified official source specific to Midea portable air conditioners."
+  },
+  {
+    "id": "e012",
+    "code": "E1",
+    "brandId": "midea",
+    "titleEn": "Room temperature sensor error",
+    "severityEn": "medium",
+    "categoryEn": "sensors",
+    "symptomsEn": [
+      "Incorrect reading",
+      "Unit stops operating",
+      "E1 displayed"
+    ],
+    "causesEn": [
+      "Sensor failure",
+      "Open circuit or poor wire connection",
+      "PCB malfunction"
+    ],
+    "partsEn": [
+      "Room temperature sensor",
+      "Cable",
+      "PCB"
+    ],
+    "checkStepsEn": [
+      "Disconnect power supply",
+      "Inspect/test the sensor and connectors following the model's service manual"
+    ],
+    "repairStepsEn": [
+      "Replace the sensor or the cable as required"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Midea portable manual; not applicable to split units"
+    },
+    "verificationNoteEn": "Final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e013",
+    "code": "E2",
+    "brandId": "midea",
+    "titleEn": "Evaporator temperature sensor error",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Reduced cooling performance",
+      "Unit stops or displays the 'E2' error code"
+    ],
+    "causesEn": [
+      "Damaged evaporator temperature sensor",
+      "Open or broken wiring",
+      "PCB (printed circuit board) malfunction"
+    ],
+    "partsEn": [
+      "Evaporator temperature sensor",
+      "Cable",
+      "PCB (printed circuit board)"
+    ],
+    "checkStepsEn": [
+      "Disconnect mains power before service",
+      "Inspect the sensor and its connections according to the model's service manual"
+    ],
+    "repairStepsEn": [
+      "Replace the evaporator temperature sensor or repair/replace the cable"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "From Midea portable manual; not applicable to split-type models."
+    },
+    "verificationNoteEn": "Final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e014",
+    "code": "H3",
+    "brandId": "gree",
+    "titleEn": "Compressor overload protection",
+    "severityEn": "High",
+    "categoryEn": "Compressor",
+    "symptomsEn": [
+      "Compressor shutdown",
+      "H3 code displayed",
+      "Elevated temperature"
+    ],
+    "causesEn": [
+      "Excessive load",
+      "Dirty condenser",
+      "Issue with the refrigerant circuit or fan"
+    ],
+    "partsEn": [
+      "Compressor",
+      "Condenser",
+      "Outdoor fan (condenser fan)"
+    ],
+    "checkStepsEn": [
+      "Power off the unit",
+      "Inspect condenser cleanliness and fan operation",
+      "Measure system pressures and electrical current by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Clean the condenser",
+      "Repair or replace the fan or address refrigeration circuit faults based on measurement results"
+    ],
+    "toolsEn": [
+      "Brush",
+      "Manifold gauge",
+      "Current clamp (clamp meter)"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "Varies by market and model"
+      ],
+      "notes": "GREE mini-split, depending on series"
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e015",
+    "code": "E5",
+    "brandId": "gree",
+    "titleEn": "Overcurrent protection",
+    "severityEn": "High",
+    "categoryEn": "Electrical",
+    "symptomsEn": [
+      "Unit stops",
+      "E5 indicator flashing"
+    ],
+    "causesEn": [
+      "High operating current",
+      "Low or fluctuating supply voltage",
+      "Power module fault"
+    ],
+    "partsEn": [
+      "Power PCB",
+      "Compressor",
+      "Wiring"
+    ],
+    "checkStepsEn": [
+      "Turn off the circuit breaker",
+      "Do not repeatedly restart the unit",
+      "Have a technician measure supply voltage and current"
+    ],
+    "repairStepsEn": [
+      "Correct the power supply or repair the power module after diagnosis"
+    ],
+    "toolsEn": [
+      "Voltmeter",
+      "Current clamp (clamp meter)"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "GREE mini-split, varies by series"
+    },
+    "verificationNoteEn": "The previous record that described E5 as a communication fault has been corrected."
+  },
+  {
+    "id": "e016",
+    "code": "E1",
+    "brandId": "haier",
+    "titleEn": "Indoor temperature sensor failure",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Unit stops operating",
+      "E1 error code displayed"
+    ],
+    "causesEn": [
+      "Damaged sensor",
+      "Open, broken, or poor wiring connection"
+    ],
+    "partsEn": [
+      "Indoor temperature sensor",
+      "Cable",
+      "PCB (printed circuit board)"
+    ],
+    "checkStepsEn": [
+      "Disconnect electrical power",
+      "Inspect and test the sensor and connector according to the model's service manual"
+    ],
+    "repairStepsEn": [
+      "Replace the sensor or repair the wiring"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "Varies by market and model"
+      ],
+      "notes": "Haier split by series"
+    },
+    "verificationNoteEn": "Final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e017",
+    "code": "E2",
+    "brandId": "haier",
+    "titleEn": "Pipe temperature sensor failure",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Cooling stops or reduced cooling",
+      "E2 error code displayed"
+    ],
+    "causesEn": [
+      "Damaged pipe temperature sensor",
+      "Open or broken wiring",
+      "Poor electrical contact at connector/terminals"
+    ],
+    "partsEn": [
+      "Pipe temperature sensor",
+      "Cable/wiring",
+      "PCB (control board)"
+    ],
+    "checkStepsEn": [
+      "Disconnect power supply",
+      "Inspect/test the sensor and connector"
+    ],
+    "repairStepsEn": [
+      "Replace the sensor or the cable"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Haier split — varies by series"
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e018",
+    "code": "E5",
+    "brandId": "haier",
+    "titleEn": "Indoor anti-freezing protection",
+    "severityEn": "High",
+    "categoryEn": "Freezing",
+    "symptomsEn": [
+      "Frozen coil",
+      "Reduced airflow",
+      "E5 error code displayed"
+    ],
+    "causesEn": [
+      "Dirty filter",
+      "Dust accumulation on the indoor heat exchanger",
+      "Weak or underperforming fan",
+      "Low refrigerant level"
+    ],
+    "partsEn": [
+      "Filter",
+      "Indoor heat exchanger",
+      "Fan",
+      "Sensor"
+    ],
+    "checkStepsEn": [
+      "Turn off the unit",
+      "Clean the external filter",
+      "Check airflow",
+      "Have a qualified technician inspect/measure the refrigeration circuit"
+    ],
+    "repairStepsEn": [
+      "Clean the filter and the heat exchanger",
+      "Repair the confirmed cause; do not recharge refrigerant arbitrarily"
+    ],
+    "toolsEn": [
+      "Brush",
+      "Manifold gauge"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Haier split varies by series"
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e019",
+    "code": "E7",
+    "brandId": "haier",
+    "titleEn": "Indoor/outdoor communication fault",
+    "severityEn": "High",
+    "categoryEn": "Communication",
+    "symptomsEn": [
+      "Unit does not operate",
+      "Indicator flashing",
+      "E7 displayed"
+    ],
+    "causesEn": [
+      "Communication interruption",
+      "PCB failure",
+      "Poor connection"
+    ],
+    "partsEn": [
+      "Communication cable",
+      "PCB",
+      "Connectors"
+    ],
+    "checkStepsEn": [
+      "Turn off the circuit breaker",
+      "Verify wiring/connections according to the model wiring diagram",
+      "Call a technician if the code persists"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the cable",
+      "Diagnose the PCB"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Haier split by series"
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e020",
+    "code": "F11",
+    "brandId": "panasonic",
+    "titleEn": "4-way valve switching abnormality",
+    "severityEn": "High",
+    "categoryEn": "Mechanical",
+    "symptomsEn": [
+      "Reduced heating or cooling performance",
+      "F11 error displayed"
+    ],
+    "causesEn": [
+      "Valve malfunction",
+      "Solenoid coil fault",
+      "Refrigerant circuit issue"
+    ],
+    "partsEn": [
+      "4-way valve",
+      "Valve solenoid coil",
+      "PCB"
+    ],
+    "checkStepsEn": [
+      "Disconnect power",
+      "Verify the code using the unit's self-diagnosis function",
+      "Have a qualified technician inspect the circuit"
+    ],
+    "repairStepsEn": [
+      "Repair or replace the valve or coil after confirming the root cause"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Manifold gauge set",
+      "Clamp meter (current probe)"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Panasonic inverter models"
+    },
+    "verificationNoteEn": "Previous record corrected: F11 does not indicate an evaporator sensor fault according to verified Panasonic documentation."
+  },
+  {
+    "id": "e021",
+    "code": "F90",
+    "brandId": "panasonic",
+    "titleEn": "PFC protection / system-compressor microcomputer communication error",
+    "severityEn": "Critical",
+    "categoryEn": "Inverter",
+    "symptomsEn": [
+      "Compressor shutdown",
+      "F90 displayed",
+      "No cooling"
+    ],
+    "causesEn": [
+      "PFC circuit fault",
+      "Controller-to-compressor communication fault",
+      "Power unit fault"
+    ],
+    "partsEn": [
+      "Inverter unit",
+      "PCB (printed circuit board)",
+      "Compressor"
+    ],
+    "checkStepsEn": [
+      "Turn off the circuit breaker",
+      "Do not open the unit (user)",
+      "Have a technician diagnose the power unit and compressor"
+    ],
+    "repairStepsEn": [
+      "Repair or replace the power unit after testing it"
+    ],
+    "toolsEn": [
+      "Voltmeter",
+      "Current clamp",
+      "Oscilloscope"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Panasonic inverter models"
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e022",
+    "code": "F91",
+    "brandId": "panasonic",
+    "titleEn": "Refrigerant cycle abnormality",
+    "severityEn": "High",
+    "categoryEn": "Cooling",
+    "symptomsEn": [
+      "Reduced cooling performance",
+      "F91 error displayed",
+      "Intermittent shutdowns"
+    ],
+    "causesEn": [
+      "Refrigerant leak or low refrigerant charge",
+      "Blockage or malfunction of a valve",
+      "Sensor malfunction"
+    ],
+    "partsEn": [
+      "Refrigeration circuit",
+      "Valve",
+      "Sensors"
+    ],
+    "checkStepsEn": [
+      "Inspect filters and airflow",
+      "Measure system pressures and perform leak detection by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair leaks, then evacuate and recharge the refrigerant circuit according to manufacturer specifications"
+    ],
+    "toolsEn": [
+      "Manifold gauge",
+      "Vacuum pump",
+      "Leak detector"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Panasonic inverter models"
+    },
+    "verificationNoteEn": "The final interpretation and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e023",
+    "code": "AS",
+    "brandId": "tcl",
+    "titleEn": "Room temperature sensor fault",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "AS displayed",
+      "Operation stops or incorrect reading"
+    ],
+    "causesEn": [
+      "Room temperature sensor failure",
+      "Poor electrical contact",
+      "Cable/wiring fault"
+    ],
+    "partsEn": [
+      "Room temperature sensor",
+      "Cable/wiring"
+    ],
+    "checkStepsEn": [
+      "Power off the unit for five minutes",
+      "Restart the unit once",
+      "Request service if the code persists"
+    ],
+    "repairStepsEn": [
+      "Replace the sensor or have it repaired by service personnel"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "Model-specific",
+      "series": [],
+      "markets": [
+        "Varies by market and model"
+      ],
+      "notes": "TCL portable AC"
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e024",
+    "code": "ES",
+    "brandId": "tcl",
+    "titleEn": "Pipe temperature sensor fault",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "ES code displayed",
+      "Reduced cooling performance"
+    ],
+    "causesEn": [
+      "Damaged pipe temperature sensor",
+      "Cut or broken wiring",
+      "Connector malfunction"
+    ],
+    "partsEn": [
+      "Pipe temperature sensor",
+      "Cable"
+    ],
+    "checkStepsEn": [
+      "Disconnect the unit from power",
+      "Restart the unit once",
+      "Request service if the code persists"
+    ],
+    "repairStepsEn": [
+      "Replace the sensor or the cable"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "TCL portable AC"
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e025",
+    "code": "PF",
+    "brandId": "tcl",
+    "titleEn": "Probe failure",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "PF error displayed",
+      "Unit stops or operates abnormally"
+    ],
+    "causesEn": [
+      "Probe damaged",
+      "Broken wire or poor connection"
+    ],
+    "partsEn": [
+      "Probe",
+      "Cable",
+      "Control board"
+    ],
+    "checkStepsEn": [
+      "Disconnect the unit from power for five minutes",
+      "Contact service if PF persists"
+    ],
+    "repairStepsEn": [
+      "Replace the probe after confirming the fault"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "TCL portable AC"
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e026",
+    "code": "E1",
+    "brandId": "aux",
+    "titleEn": "Room temperature sensor failure",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Unit stops operating",
+      "E1 error displayed"
+    ],
+    "causesEn": [
+      "Room temperature sensor damaged",
+      "Poor contact or damaged wiring",
+      "PCB (control board) fault or damage"
+    ],
+    "partsEn": [
+      "Room temperature sensor",
+      "Cable/wiring",
+      "PCB (control board)"
+    ],
+    "checkStepsEn": [
+      "Disconnect power (ensure safe isolation)",
+      "Inspect the sensor and connectors/wiring according to the C‑Series service documentation"
+    ],
+    "repairStepsEn": [
+      "Replace the room temperature sensor or repair/replace damaged wiring/connectors"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "AUX High Wall C-Series"
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e027",
+    "code": "E3",
+    "brandId": "aux",
+    "titleEn": "Indoor coil sensor failure",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Reduced cooling performance",
+      "E3 error code displayed"
+    ],
+    "causesEn": [
+      "Defective sensor",
+      "Broken or disconnected wiring",
+      "PCB malfunction"
+    ],
+    "partsEn": [
+      "Coil sensor",
+      "Cable",
+      "PCB"
+    ],
+    "checkStepsEn": [
+      "Disconnect power before inspection",
+      "Inspect the sensor and its electrical connections"
+    ],
+    "repairStepsEn": [
+      "Replace the sensor or repair/replace the cable"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver"
+    ],
+    "modelScopeEn": {
+      "unitType": "Model-specific",
+      "series": [],
+      "markets": [
+        "Varies by market and model"
+      ],
+      "notes": "AUX High Wall C-Series"
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e028",
+    "code": "E5",
+    "brandId": "aux",
+    "titleEn": "Internal and external communication failure",
+    "severityEn": "High",
+    "categoryEn": "Communication",
+    "symptomsEn": [
+      "Unit fails to operate",
+      "E5 error code displayed"
+    ],
+    "causesEn": [
+      "Damaged PCB",
+      "Poor/loose connection",
+      "Cut/severed communication cable"
+    ],
+    "partsEn": [
+      "Communication cable",
+      "Indoor and outdoor PCBs"
+    ],
+    "checkStepsEn": [
+      "Isolate power by disconnecting the circuit breaker",
+      "Inspect wiring according to the C‑Series wiring diagram",
+      "Refer the PCBs to a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the communication cable or PCB after proper diagnosis"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "AUX High Wall C-Series"
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e029",
+    "code": "1-0",
+    "brandId": "sharp",
+    "titleEn": "Heat exchanger thermistor short circuit",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Error code '1-0' displayed",
+      "Shutdown or abnormal operation"
+    ],
+    "causesEn": [
+      "Shorted sensor",
+      "Moisture ingress or damaged wiring",
+      "PCB malfunction"
+    ],
+    "partsEn": [
+      "Heat exchanger thermistor",
+      "Cable / wiring",
+      "PCB (printed circuit board)"
+    ],
+    "checkStepsEn": [
+      "Disconnect power (unplug the unit)",
+      "Clean the filter and air inlets",
+      "Have a qualified technician inspect the thermistor/sensor"
+    ],
+    "repairStepsEn": [
+      "Repair the wiring or replace the thermistor/sensor"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Sharp air-conditioner models covered by the official list"
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e030",
+    "code": "5-0",
+    "brandId": "sharp",
+    "titleEn": "Heat exchanger thermistor open circuit",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Display shows 5-0",
+      "Reduced operation or no operation"
+    ],
+    "causesEn": [
+      "Thermistor open circuit",
+      "Broken wire",
+      "Poor connection"
+    ],
+    "partsEn": [
+      "Heat-exchanger thermistor",
+      "Cable/wiring"
+    ],
+    "checkStepsEn": [
+      "Disconnect power",
+      "Inspect air filter and airflow passages",
+      "Measure continuity of thermistor and wiring"
+    ],
+    "repairStepsEn": [
+      "Replace the thermistor or repair/replace the cable/wiring"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Sharp air-conditioner models covered by the official list"
+    },
+    "verificationNoteEn": "Final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e031",
+    "code": "2-0",
+    "brandId": "sharp",
+    "titleEn": "Compressor high temperature error",
+    "severityEn": "high",
+    "categoryEn": "compressor",
+    "symptomsEn": [
+      "Compressor stopped",
+      "High temperature at the outdoor unit",
+      "Display showing \"2-0\""
+    ],
+    "causesEn": [
+      "Dirty outdoor heat exchanger (condenser)",
+      "Weak or malfunctioning fan",
+      "Refrigeration circuit fault"
+    ],
+    "partsEn": [
+      "Compressor",
+      "Fan",
+      "Outdoor heat exchanger (condenser)"
+    ],
+    "checkStepsEn": [
+      "Disconnect power supply",
+      "Inspect the outdoor filter and condenser",
+      "Measure pressure and current by a technician"
+    ],
+    "repairStepsEn": [
+      "Clean the heat exchanger",
+      "Repair the fan or the refrigeration circuit"
+    ],
+    "toolsEn": [
+      "Brush",
+      "Manometer",
+      "Current clamp"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Sharp air-conditioner models covered by the official list"
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e032",
+    "code": "9-4",
+    "brandId": "sharp",
+    "titleEn": "4-way valve error or gas leak",
+    "severityEn": "High",
+    "categoryEn": "Cooling",
+    "symptomsEn": [
+      "Reduced cooling or heating",
+      "Code 9-4 displayed"
+    ],
+    "causesEn": [
+      "4-way valve malfunction",
+      "Refrigerant leak",
+      "Sensor malfunction"
+    ],
+    "partsEn": [
+      "4-way valve",
+      "Refrigerant circuit",
+      "Sensor"
+    ],
+    "checkStepsEn": [
+      "Disconnect power",
+      "Have a technician check for leaks and measure pressures",
+      "Do not add refrigerant without first locating and repairing leaks"
+    ],
+    "repairStepsEn": [
+      "Repair the leak or the valve, then test the circuit"
+    ],
+    "toolsEn": [
+      "Manifold gauge",
+      "Vacuum pump",
+      "Leak detector"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Sharp air-conditioner models covered by the official list"
+    },
+    "verificationNoteEn": "The final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e033",
+    "code": "ATL",
+    "brandId": "bosch",
+    "titleEn": "Ambient temperature limited",
+    "severityEn": "medium",
+    "categoryEn": "electrical",
+    "symptomsEn": [
+      "ATL displayed",
+      "Heating or cooling stops or is prevented"
+    ],
+    "causesEn": [
+      "Ambient temperature outside system limits",
+      "Inaccurate T4 sensor",
+      "Low-voltage wiring or thermostat settings"
+    ],
+    "partsEn": [
+      "T4 sensor",
+      "Thermostat",
+      "Control wiring"
+    ],
+    "checkStepsEn": [
+      "Measure/verify ambient temperature",
+      "Check T4 sensor reading",
+      "Have a technician inspect low-voltage wiring"
+    ],
+    "repairStepsEn": [
+      "Replace T4 sensor or correct thermostat/wiring configuration after measurements"
+    ],
+    "toolsEn": [
+      "Voltmeter",
+      "Screwdriver"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Bosch BOVA/BOVB/BOVC/BOVD per the official diagnostic page."
+    },
+    "verificationNoteEn": "The official Bosch page associates ATL with these models and requires a professional inspection."
+  },
+  {
+    "id": "e034",
+    "code": "MODEL-SPECIFIC",
+    "brandId": "mitsubishi-heavy",
+    "titleEn": "Model-specific indicator diagnosis",
+    "severityEn": "Medium",
+    "categoryEn": "Communication",
+    "symptomsEn": [
+      "Flashing of operation or timer indicator lamps",
+      "Unit stops"
+    ],
+    "causesEn": [
+      "Variation in flashing patterns between models",
+      "Possible power supply, sensor, or connection fault"
+    ],
+    "partsEn": [
+      "Per model service manual"
+    ],
+    "checkStepsEn": [
+      "Count the flashes",
+      "Record the model name",
+      "Compare with the official manual before any measurements"
+    ],
+    "repairStepsEn": [
+      "Refer repair to an authorized technician after identifying the code"
+    ],
+    "toolsEn": [
+      "Service manual",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "SRK63ZM-S/SRK71ZM-S/SRK80ZM-S in the verified manual"
+    },
+    "verificationNoteEn": "No unverified code has been generalized; the official MHI manual used here is restricted to the specified series."
+  },
+  {
+    "id": "e035",
+    "code": "MODEL-SPECIFIC",
+    "brandId": "york",
+    "titleEn": "Model-specific YORK fault diagnosis",
+    "severityEn": "High",
+    "categoryEn": "Electrical",
+    "symptomsEn": [
+      "Fault or shutdown message displayed by a YORK unit"
+    ],
+    "causesEn": [
+      "Differences in fault codes between commercial and residential units",
+      "Malfunction of a sensor, control board, or protective device"
+    ],
+    "partsEn": [
+      "As specified in the unit's service manual"
+    ],
+    "checkStepsEn": [
+      "Record the model and the fault code",
+      "Refer to the unit's Johnson Controls/YORK service manual",
+      "Disconnect or isolate power before inspection"
+    ],
+    "repairStepsEn": [
+      "Repair by a qualified HVAC technician"
+    ],
+    "toolsEn": [
+      "Service manual",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "YORK SunPremier commercial; not applicable to YHJF/YHJD residential models"
+    },
+    "verificationNoteEn": "YORK's official page is dynamic and displays different lists depending on the product; there is no single universal safe code applicable to all YORK units."
+  },
+  {
+    "id": "e036",
+    "code": "NO-CODE-COOLING",
+    "brandId": "trane",
+    "titleEn": "Poor or no cooling (no error code)",
+    "severityEn": "Medium",
+    "categoryEn": "Cooling",
+    "symptomsEn": [
+      "Unit operates but does not cool",
+      "Elevated humidity"
+    ],
+    "causesEn": [
+      "Dirty filter",
+      "Blocked/obstructed indoor coil or condenser",
+      "Low refrigerant charge or refrigerant leak",
+      "Incorrect thermostat setting"
+    ],
+    "partsEn": [
+      "Filter",
+      "Heat-exchange coils",
+      "Refrigerant circuit",
+      "Thermostat"
+    ],
+    "checkStepsEn": [
+      "Turn off the unit and the circuit breaker",
+      "Clean or replace the filter",
+      "Inspect for external obstructions (e.g., blocked outdoor unit)",
+      "Call a technician if a leak is suspected"
+    ],
+    "repairStepsEn": [
+      "Clean the filter",
+      "Repair refrigerant leak or refrigerant circuit by a qualified technician"
+    ],
+    "toolsEn": [
+      "Brush",
+      "Screwdriver"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Trane residential troubleshooting; diagnosis by symptom rather than by an error code"
+    },
+    "verificationNoteEn": "Trane does not publish a general code table on the referenced page; therefore the fault was recorded as a no-code diagnosis."
+  },
+  {
+    "id": "e037",
+    "code": "NO-CODE-DRAIN",
+    "brandId": "trane",
+    "titleEn": "Clogged drain line or water leak",
+    "severityEn": "Medium",
+    "categoryEn": "Drainage",
+    "symptomsEn": [
+      "Water leak",
+      "Drain safety shutoff activated",
+      "Musty or damp odor"
+    ],
+    "causesEn": [
+      "Clogged drain line",
+      "Dirty drain pan",
+      "Frozen evaporator coil"
+    ],
+    "partsEn": [
+      "Drain line",
+      "Drain pan",
+      "Condensate pump"
+    ],
+    "checkStepsEn": [
+      "Turn off the unit",
+      "Perform a safe visual inspection of the drain line",
+      "Do not open electrical circuits"
+    ],
+    "repairStepsEn": [
+      "Clean the drain or replace the pump by a technician if necessary"
+    ],
+    "toolsEn": [
+      "Brush",
+      "Drain cleaning pump"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Trane residential troubleshooting; diagnosis by symptom rather than code"
+    },
+    "verificationNoteEn": "Final meaning and description depend on the model number and its service manual."
+  },
+  {
+    "id": "e038",
+    "code": "MODEL-SPECIFIC",
+    "brandId": "fujitsu",
+    "titleEn": "Indicator-blink model-specific diagnosis",
+    "severityEn": "Medium",
+    "categoryEn": "Communication",
+    "symptomsEn": [
+      "Operation or timer indicator lamps flashing",
+      "Unit stops operating"
+    ],
+    "causesEn": [
+      "Different blink pattern between models",
+      "Power loss, sensor malfunction, or connection fault"
+    ],
+    "partsEn": [
+      "According to the model's manual"
+    ],
+    "checkStepsEn": [
+      "Count the number and rate of blinks",
+      "Record the model name",
+      "Compare with the official Failure Diagnosis page"
+    ],
+    "repairStepsEn": [
+      "Request authorized service after identifying the blink pattern"
+    ],
+    "toolsEn": [
+      "Model manual",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "GENERAL / Fujitsu split systems"
+    },
+    "verificationNoteEn": "Official source confirms that indicator lights and codes differ between models."
+  },
+  {
+    "id": "e039",
+    "code": "MODEL-SPECIFIC",
+    "brandId": "condor",
+    "titleEn": "Model-specific Condor diagnosis",
+    "severityEn": "Medium",
+    "categoryEn": "Communication",
+    "symptomsEn": [
+      "Blinking or shutdown of Condor air conditioner",
+      "Error code displayed on the screen"
+    ],
+    "causesEn": [
+      "Mismatch between series and unit type",
+      "Connection fault, sensor failure, or protection device trip"
+    ],
+    "partsEn": [
+      "Per model manual"
+    ],
+    "checkStepsEn": [
+      "Record the model number",
+      "Refer to the official Condor catalog",
+      "Isolate power by opening the circuit breaker before inspection"
+    ],
+    "repairStepsEn": [
+      "Refer diagnosis and repair to a qualified technician"
+    ],
+    "toolsEn": [
+      "Product manual",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "Varies by market and model"
+      ],
+      "notes": "Dependent on Condor HVAC catalog/model"
+    },
+    "verificationNoteEn": "The verified official Condor source provides HVAC catalogs and does not publish a general code table on its web page."
+  },
+  {
+    "id": "e040",
+    "code": "MODEL-SPECIFIC",
+    "brandId": "beko",
+    "titleEn": "Model-specific Beko diagnosis",
+    "severityEn": "medium",
+    "categoryEn": "sensors",
+    "symptomsEn": [
+      "Indicator flashing or a fault code displayed",
+      "System shutdown or reduced/weak performance"
+    ],
+    "causesEn": [
+      "Fault codes differ by model and market",
+      "Sensor malfunction or a possible connection/wiring issue"
+    ],
+    "partsEn": [
+      "As specified in the model's manual"
+    ],
+    "checkStepsEn": [
+      "Record the exact model and the displayed code",
+      "Refer to the official Beko manual for that model",
+      "Disconnect power before performing any inspection"
+    ],
+    "repairStepsEn": [
+      "Repair by an authorized service center after confirming the procedure in the model manual"
+    ],
+    "toolsEn": [
+      "User manual",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Beko air conditioner model-specific"
+    },
+    "verificationNoteEn": "Code E1 has not been established as a universal code for all Beko air conditioners; the generalization has been removed."
+  },
+  {
+    "id": "e041",
+    "code": "MODEL-SPECIFIC",
+    "brandId": "chigo",
+    "titleEn": "Model-specific Chigo diagnosis",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Display of a code or flashing",
+      "Loss of cooling or reduced cooling performance"
+    ],
+    "causesEn": [
+      "Code differences between series",
+      "Sensor fault or possible connection issue"
+    ],
+    "partsEn": [
+      "Per the model's service manual"
+    ],
+    "checkStepsEn": [
+      "Record the unit model and the displayed code",
+      "Compare with the service manual for that series"
+    ],
+    "repairStepsEn": [
+      "Refer repair to a qualified technician if the code persists"
+    ],
+    "toolsEn": [
+      "Service manual",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "Varies by market and model"
+      ],
+      "notes": "Chigo model-specific"
+    },
+    "verificationNoteEn": "E1 has not been established as a general code by an authoritative official source; the generalization has been removed."
+  },
+  {
+    "id": "e042",
+    "code": "MODEL-SPECIFIC",
+    "brandId": "hisense",
+    "titleEn": "Hisense model-specific diagnosis",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Display of E1 or another error code",
+      "Unit shutdown or incorrect sensor reading"
+    ],
+    "causesEn": [
+      "Error codes vary by series and market",
+      "Possible sensor or PCB malfunction"
+    ],
+    "partsEn": [
+      "Per the model manual"
+    ],
+    "checkStepsEn": [
+      "Record the model number and displayed code",
+      "Consult official Hisense support",
+      "Disconnect power before inspection"
+    ],
+    "repairStepsEn": [
+      "Request authorized service after cross-referencing the model manual"
+    ],
+    "toolsEn": [
+      "Product manual",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "Model-specific",
+      "series": [],
+      "markets": [
+        "Varies by market and model"
+      ],
+      "notes": "Hisense model-specific"
+    },
+    "verificationNoteEn": "E1 is not confirmed as a universal code across all Hisense models; generalization removed."
+  },
+  {
+    "id": "e043",
+    "code": "MODEL-SPECIFIC",
+    "brandId": "carrier",
+    "titleEn": "Model-specific Carrier diagnosis",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Display of E1 or a protection/trip code",
+      "Cooling stops or reduced cooling capacity"
+    ],
+    "causesEn": [
+      "Error codes differ by series/model",
+      "Possible sensor fault, refrigerant pressure issue, or electrical connection fault"
+    ],
+    "partsEn": [
+      "Per the model/service manual"
+    ],
+    "checkStepsEn": [
+      "Record the model number and the displayed code",
+      "Verify against the official Carrier service manual",
+      "Turn off/disconnect the circuit breaker before inspection"
+    ],
+    "repairStepsEn": [
+      "Refer diagnostic measurements and refrigerant-circuit work to a qualified technician"
+    ],
+    "toolsEn": [
+      "Service manual",
+      "Multimeter",
+      "Manifold gauge set"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "Varies by market and model"
+      ],
+      "notes": "Carrier model-specific"
+    },
+    "verificationNoteEn": "Replace the unverified generic record with a placeholder generic-code entry that is conservatively linked to the specific model."
+  },
+  {
+    "id": "e044",
+    "code": "MODEL-SPECIFIC",
+    "brandId": "mitsubishi-electric",
+    "titleEn": "Model-specific Mitsubishi Electric diagnosis",
+    "severityEn": "Medium",
+    "categoryEn": "Communication",
+    "symptomsEn": [
+      "E6 or protection code displayed",
+      "Indicator LED flashing"
+    ],
+    "causesEn": [
+      "Error codes vary by series",
+      "Possible connection fault, control board failure, or sensor fault"
+    ],
+    "partsEn": [
+      "Per the specific model's parts list/service manual"
+    ],
+    "checkStepsEn": [
+      "Record the series name and error code",
+      "Use the official Error Code Lookup tool",
+      "Turn off the circuit breaker before inspection"
+    ],
+    "repairStepsEn": [
+      "Repair by a technician after matching/confirming the code"
+    ],
+    "toolsEn": [
+      "Service manual",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "Varies by market and model"
+      ],
+      "notes": "Mitsubishi Electric model-specific"
+    },
+    "verificationNoteEn": "Manufacturer's official site provides a lookup tool; E6 or E0 must not be generalized across all series."
+  },
+  {
+    "id": "e045",
+    "code": "MODEL-SPECIFIC",
+    "brandId": "toshiba",
+    "titleEn": "Model-specific diagnosis",
+    "severityEn": "Medium",
+    "categoryEn": "Communication",
+    "symptomsEn": [
+      "E04 or another error code displayed",
+      "Unit stopped operating"
+    ],
+    "causesEn": [
+      "Error code meanings vary by RAS/VRF series",
+      "Possible communication fault or sensor malfunction"
+    ],
+    "partsEn": [
+      "According to the model's service manual"
+    ],
+    "checkStepsEn": [
+      "Record the model number and the displayed code",
+      "Consult the official service manual for the series",
+      "Disconnect the power supply before inspection"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or defective component after diagnosis"
+    ],
+    "toolsEn": [
+      "Service manual",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Toshiba model-specific"
+    },
+    "verificationNoteEn": "The official E04 link returned 404 during verification, so a general code could not be confirmed."
+  },
+  {
+    "id": "e046",
+    "code": "MODEL-SPECIFIC",
+    "brandId": "hitachi",
+    "titleEn": "Model-specific Hitachi diagnosis",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Display of E1 or another error code",
+      "Loss of cooling or reduced cooling performance"
+    ],
+    "causesEn": [
+      "Error codes differ depending on series and market",
+      "Possible sensor malfunction or connection/wiring issue"
+    ],
+    "partsEn": [
+      "As specified in the model manual"
+    ],
+    "checkStepsEn": [
+      "Record the unit model and the error code",
+      "Verify against the official Hitachi manual",
+      "Disconnect the power supply before inspection"
+    ],
+    "repairStepsEn": [
+      "Arrange authorized service after verification against the manual"
+    ],
+    "toolsEn": [
+      "Product/service manual",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "model-specific",
+      "series": [],
+      "markets": [
+        "varies by market and model"
+      ],
+      "notes": "Hitachi model-specific"
+    },
+    "verificationNoteEn": "E1/E3 are not confirmed as universal codes across all Hitachi air conditioners."
+  },
+  {
+    "id": "e047",
+    "code": "E102",
+    "brandId": "samsung",
+    "titleEn": "Indoor-outdoor communication failure",
+    "severityEn": "High",
+    "categoryEn": "Communication",
+    "symptomsEn": [
+      "Unit does not operate",
+      "Error code E102 displayed"
+    ],
+    "causesEn": [
+      "Disconnected communication line",
+      "Control PCB malfunction",
+      "Poor or loose connections"
+    ],
+    "partsEn": [
+      "Communication cable",
+      "Control PCB",
+      "Connectors"
+    ],
+    "checkStepsEn": [
+      "Turn off the circuit breaker",
+      "Verify the error code against the model-specific manual",
+      "Inspect wiring by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the communication cable",
+      "Diagnose and, if necessary, repair or replace the control PCB"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Samsung Turkey listing; model-dependent"
+      ],
+      "notes": "The code is published on the Samsung Turkey support page; it must be verified against the unit's model number."
+    },
+    "verificationNoteEn": "Samsung's official page confirms that codes vary by air‑conditioner model; do not generalize beyond the model-specific manual."
+  },
+  {
+    "id": "e048",
+    "code": "E202",
+    "brandId": "samsung",
+    "titleEn": "Indoor-outdoor communication failure",
+    "severityEn": "High",
+    "categoryEn": "Communication",
+    "symptomsEn": [
+      "Unit will not operate",
+      "E202 displayed"
+    ],
+    "causesEn": [
+      "Broken or disconnected communication line",
+      "Control PCB malfunction",
+      "Poor connection/wiring"
+    ],
+    "partsEn": [
+      "Communication cable",
+      "PCB (control board)",
+      "Connectors"
+    ],
+    "checkStepsEn": [
+      "Turn off the circuit breaker (power)",
+      "Verify the code against the model's service manual",
+      "Inspect wiring and connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the communication cable",
+      "Diagnose the PCB"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Samsung Turkey listing; model-dependent"
+      ],
+      "notes": "The code is published on the Samsung Turkey support page; it must be matched to the unit model number."
+    },
+    "verificationNoteEn": "Samsung's official page confirms that error codes vary by air conditioner model; do not generalize beyond the service manual."
+  },
+  {
+    "id": "e049",
+    "code": "E154",
+    "brandId": "samsung",
+    "titleEn": "Indoor fan motor speed error",
+    "severityEn": "High",
+    "categoryEn": "Fan",
+    "symptomsEn": [
+      "Stopped or reduced airflow",
+      "E154 code displayed"
+    ],
+    "causesEn": [
+      "Faulty fan motor",
+      "Mechanical obstruction",
+      "PCB malfunction"
+    ],
+    "partsEn": [
+      "Fan motor",
+      "PCB",
+      "Connectors"
+    ],
+    "checkStepsEn": [
+      "Isolate the circuit breaker",
+      "Check fan rotation without energizing the circuitry",
+      "Measure signal(s) by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Remove obstruction or replace fan motor/PCB after proper diagnosis"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Listed on Samsung Turkey; model-dependent"
+      ],
+      "notes": "The code is published on the Samsung Turkey support page; it must be verified against the unit's model number."
+    },
+    "verificationNoteEn": "Samsung's official page confirms that codes vary by air conditioner model; do not generalize beyond the documented scope."
+  },
+  {
+    "id": "e050",
+    "code": "E162",
+    "brandId": "samsung",
+    "titleEn": "EEPROM error",
+    "severityEn": "High",
+    "categoryEn": "PCB",
+    "symptomsEn": [
+      "Unit stops operating",
+      "E162 error code displayed"
+    ],
+    "causesEn": [
+      "Memory (EEPROM) data error",
+      "Control PCB malfunction",
+      "Unstable power supply"
+    ],
+    "partsEn": [
+      "PCB",
+      "EEPROM"
+    ],
+    "checkStepsEn": [
+      "Disconnect main power and power-cycle once",
+      "Verify the error code against the technical manual/support listing"
+    ],
+    "repairStepsEn": [
+      "Reprogram or replace the PCB by a qualified technician"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notes": "The code is published on the Samsung Turkey support page; it must be verified against the model number."
+    },
+    "verificationNoteEn": "Samsung's official page states that codes vary by air-conditioner model; do not generalize beyond the manual's scope."
+  },
+  {
+    "id": "e051",
+    "code": "E186",
+    "brandId": "samsung",
+    "titleEn": "MPI feedback error",
+    "severityEn": "High",
+    "categoryEn": "Electrical",
+    "symptomsEn": [
+      "Unit shuts down",
+      "E186 error code displayed"
+    ],
+    "causesEn": [
+      "MPI signal fault",
+      "PCB or connection fault"
+    ],
+    "partsEn": [
+      "PCB",
+      "Wiring"
+    ],
+    "checkStepsEn": [
+      "Turn off the circuit breaker (disconnect power)",
+      "Have a qualified technician diagnose the MPI signal"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the PCB after measurements/tests"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notes": "The code is published on Samsung Turkey support page; it must be matched to the model number."
+    },
+    "verificationNoteEn": "Samsung's official page confirms that codes vary by air‑conditioner model; do not generalize beyond the applicable model manual."
+  },
+  {
+    "id": "e052",
+    "code": "E203",
+    "brandId": "samsung",
+    "titleEn": "Outdoor PCB to inverter MICOM communication error",
+    "severityEn": "High",
+    "categoryEn": "Communication",
+    "symptomsEn": [
+      "Compressor stopped",
+      "E203 error displayed"
+    ],
+    "causesEn": [
+      "Outdoor PCB malfunction",
+      "Inverter unit (MICOM) malfunction",
+      "Communication interruption/disconnection"
+    ],
+    "partsEn": [
+      "Outdoor PCB",
+      "Inverter unit (MICOM)",
+      "Communication cable"
+    ],
+    "checkStepsEn": [
+      "Turn off circuit breaker to isolate power",
+      "Do not open the power unit (safety)",
+      "Diagnostic check by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the PCB/inverter unit after verification/testing"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notes": "The code is published on the Samsung Turkey support page; verify it against the model number."
+    },
+    "verificationNoteEn": "Samsung's official page confirms that error codes vary by model; do not generalize beyond the specified model scope."
+  },
+  {
+    "id": "e053",
+    "code": "E221",
+    "brandId": "samsung",
+    "titleEn": "Outdoor temperature sensor error",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Unit stops or reduced performance",
+      "E221 displayed"
+    ],
+    "causesEn": [
+      "Sensor failure",
+      "Broken or disconnected wiring",
+      "PCB fault"
+    ],
+    "partsEn": [
+      "Outdoor temperature sensor",
+      "Cable",
+      "PCB"
+    ],
+    "checkStepsEn": [
+      "Turn off the circuit breaker",
+      "Inspect the connector and sensor according to the service manual"
+    ],
+    "repairStepsEn": [
+      "Replace the sensor or repair the cable"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notes": "The code is published on the Samsung Turkey support page; must be verified against the unit model number."
+    },
+    "verificationNoteEn": "Samsung's official page confirms that error codes vary by air conditioner model; do not generalize beyond the service manual."
+  },
+  {
+    "id": "e054",
+    "code": "E237",
+    "brandId": "samsung",
+    "titleEn": "Outdoor temperature sensor error",
+    "severityEn": "Medium",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Unit stops or exhibits reduced performance",
+      "E237 is displayed"
+    ],
+    "causesEn": [
+      "Sensor failure",
+      "Broken or disconnected wiring",
+      "PCB malfunction"
+    ],
+    "partsEn": [
+      "Outdoor sensor",
+      "Cable",
+      "PCB"
+    ],
+    "checkStepsEn": [
+      "Switch off the circuit breaker",
+      "Inspect the connector and sensor according to the service manual"
+    ],
+    "repairStepsEn": [
+      "Replace the sensor or repair the cable"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notes": "Code is published on Samsung Turkey support page; must be matched to the model number."
+    },
+    "verificationNoteEn": "Samsung's official page confirms that codes vary by air‑conditioner model; do not generalize beyond the service manual."
+  },
+  {
+    "id": "e055",
+    "code": "E251",
+    "brandId": "samsung",
+    "titleEn": "Discharge temperature sensor error",
+    "severityEn": "High",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Compressor stops",
+      "E251 error displayed"
+    ],
+    "causesEn": [
+      "Faulty discharge temperature sensor",
+      "Open or broken wiring to sensor",
+      "Circuit overheating"
+    ],
+    "partsEn": [
+      "Discharge temperature sensor",
+      "Cable / wiring",
+      "PCB"
+    ],
+    "checkStepsEn": [
+      "Turn off the circuit breaker",
+      "Have a qualified technician measure/check the sensor",
+      "Inspect the refrigeration circuit"
+    ],
+    "repairStepsEn": [
+      "Replace the sensor and rectify the confirmed root cause"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notes": "The code is posted on Samsung Turkey support page; it must be verified against the model number."
+    },
+    "verificationNoteEn": "Samsung's official page states that codes vary by air conditioner model; do not generalize beyond the manual's scope."
+  },
+  {
+    "id": "e056",
+    "code": "E416",
+    "brandId": "samsung",
+    "titleEn": "Discharge gas overheat error",
+    "severityEn": "Critical",
+    "categoryEn": "Compressor",
+    "symptomsEn": [
+      "Compressor stops",
+      "E416 displayed",
+      "Elevated temperature"
+    ],
+    "causesEn": [
+      "Low refrigerant charge",
+      "Poor heat transfer (heat exchange)",
+      "Malfunctioning sensor or compressor"
+    ],
+    "partsEn": [
+      "Refrigeration circuit",
+      "Discharge sensor",
+      "Compressor"
+    ],
+    "checkStepsEn": [
+      "Turn off the unit",
+      "Measure pressures and temperatures by a technician",
+      "Check for leaks"
+    ],
+    "repairStepsEn": [
+      "Repair the leak or the confirmed cause, then test the system"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notes": "This code is published on the Samsung Turkey support page; it must be matched to the specific model number."
+    },
+    "verificationNoteEn": "Samsung's official page states that codes vary by air conditioner model; do not generalize beyond the manual's scope."
+  },
+  {
+    "id": "e057",
+    "code": "E458",
+    "brandId": "samsung",
+    "titleEn": "Outdoor fan error",
+    "severityEn": "High",
+    "categoryEn": "Fan",
+    "symptomsEn": [
+      "Outdoor fan has stopped",
+      "E458 displayed"
+    ],
+    "causesEn": [
+      "Motor fault",
+      "Mechanical obstruction",
+      "PCB malfunction"
+    ],
+    "partsEn": [
+      "Fan motor",
+      "PCB",
+      "Connectors"
+    ],
+    "checkStepsEn": [
+      "Turn off the circuit breaker",
+      "Inspect for obstructions and check electrical connections",
+      "Have a qualified technician measure/inspect the motor"
+    ],
+    "repairStepsEn": [
+      "Remove any obstruction or replace the fan motor/PCB"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notes": "Code is published on the Samsung Turkey support page; must be matched to the model number."
+    },
+    "verificationNoteEn": "Samsung's official page confirms that codes vary by air conditioner model; do not generalize beyond the documented scope."
+  },
+  {
+    "id": "e058",
+    "code": "E461",
+    "brandId": "samsung",
+    "titleEn": "Compressor start error",
+    "severityEn": "Critical",
+    "categoryEn": "Compressor",
+    "symptomsEn": [
+      "No cooling",
+      "E461 displayed",
+      "Repeated start attempts"
+    ],
+    "causesEn": [
+      "Compressor malfunction",
+      "Inverter unit",
+      "Compressor power supply or wiring"
+    ],
+    "partsEn": [
+      "Compressor",
+      "Inverter module",
+      "PCB"
+    ],
+    "checkStepsEn": [
+      "Turn off the circuit breaker",
+      "Avoid repeated restart attempts",
+      "Have a technician measure compressor electrical parameters and power"
+    ],
+    "repairStepsEn": [
+      "Repair the power feed or replace the component after diagnosis"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Listed on Samsung Turkey; model-dependent"
+      ],
+      "notes": "Code published on the Samsung Turkey support page; must be matched to the model number."
+    },
+    "verificationNoteEn": "Samsung's official page confirms that codes vary by air conditioner model; do not generalize beyond the manual's scope."
+  },
+  {
+    "id": "e059",
+    "code": "E462",
+    "brandId": "samsung",
+    "titleEn": "I‑trip or PFC overcurrent error",
+    "severityEn": "Critical",
+    "categoryEn": "Inverter",
+    "symptomsEn": [
+      "Compressor stops",
+      "E462 fault code displayed"
+    ],
+    "causesEn": [
+      "Overcurrent condition",
+      "PFC circuit fault",
+      "Power module (power unit) fault"
+    ],
+    "partsEn": [
+      "PFC unit",
+      "Inverter PCB",
+      "Compressor"
+    ],
+    "checkStepsEn": [
+      "Switch off the circuit breaker",
+      "Do not open the power module",
+      "Measure current by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Test, then repair or replace the power module"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notes": "Code published on Samsung Turkey support page; must be matched to the specific model number."
+    },
+    "verificationNoteEn": "Samsung's official page confirms that codes vary by air conditioner model; do not generalize beyond the applicable guide."
+  },
+  {
+    "id": "e060",
+    "code": "E464",
+    "brandId": "samsung",
+    "titleEn": "IPM overcurrent protection",
+    "severityEn": "critical",
+    "categoryEn": "inverter",
+    "symptomsEn": [
+      "Compressor stopped",
+      "E464 fault code displayed"
+    ],
+    "causesEn": [
+      "Unit overcurrent",
+      "IPM (Intelligent Power Module) damage/failure",
+      "Compressor malfunction"
+    ],
+    "partsEn": [
+      "IPM (Intelligent Power Module)",
+      "Inverter PCB",
+      "Compressor"
+    ],
+    "checkStepsEn": [
+      "Turn off the circuit breaker",
+      "Do not touch the power circuit components",
+      "Have a qualified technician perform diagnosis"
+    ],
+    "repairStepsEn": [
+      "Replace the power module (IPM) or the compressor after confirming the root cause"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Samsung Turkey listing; model-dependent"
+      ],
+      "notes": "The code is published on the Samsung Turkey support page; it must be verified against the unit's model number."
+    },
+    "verificationNoteEn": "Samsung's official page states that fault codes vary by air‑conditioner model; do not generalize beyond the service documentation for the specific model."
+  },
+  {
+    "id": "e061",
+    "code": "E465",
+    "brandId": "samsung",
+    "titleEn": "Compressor voltage limit error",
+    "severityEn": "critical",
+    "categoryEn": "electrical",
+    "symptomsEn": [
+      "Compressor stoppage",
+      "E465 displayed"
+    ],
+    "causesEn": [
+      "Improper voltage",
+      "Inverter malfunction",
+      "Unstable power supply"
+    ],
+    "partsEn": [
+      "Inverter module",
+      "PCB",
+      "Compressor"
+    ],
+    "checkStepsEn": [
+      "Open/isolate the circuit breaker (cut power)",
+      "Measure the supply voltage by a qualified technician",
+      "Review the voltage log/records"
+    ],
+    "repairStepsEn": [
+      "Correct the incoming power supply or repair/replace the power/inverter module"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notes": "The code is published on Samsung Turkey's support page; it must be matched to the model number."
+    },
+    "verificationNoteEn": "Samsung's official page states that codes vary by air conditioner model; do not generalize beyond the manual's scope."
+  },
+  {
+    "id": "e062",
+    "code": "E467",
+    "brandId": "samsung",
+    "titleEn": "Compressor rotation error",
+    "severityEn": "critical",
+    "categoryEn": "compressor",
+    "symptomsEn": [
+      "No cooling",
+      "E467 displayed"
+    ],
+    "causesEn": [
+      "Incorrect wiring or phase sequence",
+      "Compressor fault",
+      "Inverter fault"
+    ],
+    "partsEn": [
+      "Compressor",
+      "Compressor cables",
+      "Inverter"
+    ],
+    "checkStepsEn": [
+      "Turn off the circuit breaker",
+      "Verify wiring phase/sequence by a qualified technician",
+      "Measure compressor windings"
+    ],
+    "repairStepsEn": [
+      "Correct the wiring or replace the component after proper diagnosis"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notes": "The code is published on Samsung Turkey support page; it must be matched with the model number."
+    },
+    "verificationNoteEn": "Samsung's official page confirms that codes vary by air conditioner model; do not generalize beyond the guide."
+  },
+  {
+    "id": "e063",
+    "code": "E468",
+    "brandId": "samsung",
+    "titleEn": "Current sensor error",
+    "severityEn": "High",
+    "categoryEn": "Electrical",
+    "symptomsEn": [
+      "Unit stops operating",
+      "E468 error code displayed"
+    ],
+    "causesEn": [
+      "Current sensor failure",
+      "Broken or disconnected wire",
+      "PCB malfunction"
+    ],
+    "partsEn": [
+      "Current sensor",
+      "Cable",
+      "PCB"
+    ],
+    "checkStepsEn": [
+      "Disconnect the circuit breaker",
+      "Measure the current sensor by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Replace the current sensor or the PCB after confirming the fault"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Listed on Samsung Turkey support page; model-dependent"
+      ],
+      "notes": "The code is published on the Samsung Turkey support page; must be matched to the model number."
+    },
+    "verificationNoteEn": "Samsung's official page confirms that codes vary by air conditioner model; do not generalize beyond the scope of the published guidance."
+  },
+  {
+    "id": "e064",
+    "code": "E469",
+    "brandId": "samsung",
+    "titleEn": "DC communication voltage sensor error",
+    "severityEn": "High",
+    "categoryEn": "Electrical",
+    "symptomsEn": [
+      "Inverter stops",
+      "E469 fault code displayed"
+    ],
+    "causesEn": [
+      "Voltage sensor fault",
+      "Unstable power supply",
+      "PCB fault"
+    ],
+    "partsEn": [
+      "Voltage sensor",
+      "PCB",
+      "Wiring"
+    ],
+    "checkStepsEn": [
+      "Turn off the circuit breaker",
+      "Have a technician diagnose the power circuit"
+    ],
+    "repairStepsEn": [
+      "Repair or replace the component after measurement"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notes": "The code is published on the Samsung Turkey support page; it must be verified against the specific model number."
+    },
+    "verificationNoteEn": "Samsung's official page confirms that codes vary by air conditioner model; do not generalize beyond the documented scope."
+  },
+  {
+    "id": "e065",
+    "code": "E471",
+    "brandId": "samsung",
+    "titleEn": "OTP (Over-Temperature Protection) error",
+    "severityEn": "High",
+    "categoryEn": "Inverter",
+    "symptomsEn": [
+      "System shutdown",
+      "E471 displayed"
+    ],
+    "causesEn": [
+      "Overheating or activation of the power-module over-temperature protection",
+      "IPM or PCB malfunction"
+    ],
+    "partsEn": [
+      "IPM",
+      "PCB",
+      "Temperature sensors"
+    ],
+    "checkStepsEn": [
+      "Turn off the circuit breaker",
+      "Allow the unit to cool down before further inspection",
+      "Have a qualified technician diagnose the cause"
+    ],
+    "repairStepsEn": [
+      "Eliminate the cause of overheating or replace the power module/unit"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notes": "The code is published on the Samsung Turkey support page; must be matched to the model number."
+    },
+    "verificationNoteEn": "Samsung's official page confirms that fault codes vary by air‑conditioning model; do not generalize beyond the applicable documentation."
+  },
+  {
+    "id": "e066",
+    "code": "E472",
+    "brandId": "samsung",
+    "titleEn": "AC voltage signal error",
+    "severityEn": "high",
+    "categoryEn": "electrical",
+    "symptomsEn": [
+      "Unit stops operating",
+      "E472 error displayed"
+    ],
+    "causesEn": [
+      "Supply voltage fluctuation",
+      "Fault in the voltage sensing circuit",
+      "PCB fault"
+    ],
+    "partsEn": [
+      "PCB",
+      "Voltage sensing circuit",
+      "Wiring"
+    ],
+    "checkStepsEn": [
+      "Turn off the circuit breaker",
+      "Have the power supply inspected by a qualified electrician"
+    ],
+    "repairStepsEn": [
+      "Correct the power supply or repair the control PCB"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notes": "The code is published on the Samsung Turkey support page; it must be matched to the model number."
+    },
+    "verificationNoteEn": "Samsung's official page confirms that codes vary by air-conditioner model; do not generalize beyond the documented model scope."
+  },
+  {
+    "id": "e067",
+    "code": "E554",
+    "brandId": "samsung",
+    "titleEn": "Refrigerant Leak Detected",
+    "severityEn": "High",
+    "categoryEn": "Cooling",
+    "symptomsEn": [
+      "Reduced cooling",
+      "E554 displayed",
+      "Intermittent shutdown"
+    ],
+    "causesEn": [
+      "Leak in the refrigerant circuit",
+      "Sensor malfunction or refrigeration circuit fault"
+    ],
+    "partsEn": [
+      "Refrigeration circuit",
+      "Sensors",
+      "Pipe/line connections"
+    ],
+    "checkStepsEn": [
+      "Turn off the unit",
+      "Perform leak detection by a qualified technician",
+      "Do not recharge refrigerant without proper leak repair and diagnosis"
+    ],
+    "repairStepsEn": [
+      "Repair the leak and evacuate/charge the circuit according to specifications"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Listed on Samsung Turkey support page; model-dependent"
+      ],
+      "notes": "The code is published on the Samsung Turkey support page; must be verified against the unit model number."
+    },
+    "verificationNoteEn": "Samsung's official support page indicates codes vary by air conditioner model; do not generalize beyond the model-specific documentation."
+  },
+  {
+    "id": "e068",
+    "code": "E556",
+    "brandId": "samsung",
+    "titleEn": "Capacity mismatch error",
+    "severityEn": "high",
+    "categoryEn": "electrical",
+    "symptomsEn": [
+      "Unit stops",
+      "E556 displayed"
+    ],
+    "causesEn": [
+      "Mismatched indoor/outdoor units",
+      "Incorrect settings or incompatible control board",
+      "Installation error"
+    ],
+    "partsEn": [
+      "PCB",
+      "Indoor/Outdoor unit",
+      "Model data"
+    ],
+    "checkStepsEn": [
+      "Record all model numbers",
+      "Verify capacity and settings match",
+      "Have a technician inspect the installation and connections"
+    ],
+    "repairStepsEn": [
+      "Correct the settings or replace the mismatched component"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Turkey listing; model-dependent"
+      ],
+      "notes": "The code is published on the Samsung Turkey support page; it must be checked against the exact model number."
+    },
+    "verificationNoteEn": "Samsung's official page confirms that codes vary by air conditioner model; do not generalize beyond the applicable guide."
+  },
+  {
+    "id": "e069",
+    "code": "CH05",
+    "brandId": "lg",
+    "titleEn": "Indoor-outdoor communication error",
+    "severityEn": "High",
+    "categoryEn": "Communication",
+    "symptomsEn": [
+      "Unit does not operate",
+      "Indicator/LED flashing",
+      "CH05 error code displayed"
+    ],
+    "causesEn": [
+      "Open or cut communication line",
+      "Faulty PCB",
+      "Poor or loose connection/wiring"
+    ],
+    "partsEn": [
+      "Communication cable",
+      "Indoor and outdoor PCBs",
+      "Connectors/terminals"
+    ],
+    "checkStepsEn": [
+      "Power-cycle by turning off the circuit breaker for five minutes",
+      "Inspect communication wiring and connections per the model manual",
+      "Call a qualified technician if the code persists"
+    ],
+    "repairStepsEn": [
+      "Repair faulty connections or replace the communication cable or PCB after proper diagnosis"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Algeria/global listing; model-dependent"
+      ],
+      "notes": "Code is published in LG general manual; match the unit image and model number against the device manual."
+    },
+    "verificationNoteEn": "LG official manual requires a power cycle followed by a technical inspection if the code persists, and states that content may vary by product."
+  },
+  {
+    "id": "e070",
+    "code": "CH61",
+    "brandId": "lg",
+    "titleEn": "Thermal protection error",
+    "severityEn": "High",
+    "categoryEn": "Condenser",
+    "symptomsEn": [
+      "Shutdown or reduced performance",
+      "CH61 code displayed"
+    ],
+    "causesEn": [
+      "Outdoor unit overheating during cooling",
+      "Indoor unit overheating during heating",
+      "Poor heat exchange"
+    ],
+    "partsEn": [
+      "Heat exchanger",
+      "Fan",
+      "Temperature sensors"
+    ],
+    "checkStepsEn": [
+      "Turn off the unit",
+      "Clean the filter and external obstructions",
+      "Have a technician measure temperatures and pressures"
+    ],
+    "repairStepsEn": [
+      "Improve airflow and repair the confirmed cause"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Algeria / global listing; model-dependent"
+      ],
+      "notes": "The code is published in LG's general manual; match the model image/number with the unit's manual."
+    },
+    "verificationNoteEn": "LG's official manual requires a power cycle and then a technical inspection if the code persists, and notes that content may vary by product."
+  },
+  {
+    "id": "e071",
+    "code": "CH66",
+    "brandId": "lg",
+    "titleEn": "Communication line or piping connection error",
+    "severityEn": "High",
+    "categoryEn": "Communication",
+    "symptomsEn": [
+      "Unit has stopped operating",
+      "CH66 error code displayed",
+      "Error code appears after installation or relocation"
+    ],
+    "causesEn": [
+      "Incorrect communication wiring/connection",
+      "Incorrect piping connection",
+      "PCB fault"
+    ],
+    "partsEn": [
+      "Communication cable",
+      "Refrigerant piping",
+      "PCB"
+    ],
+    "checkStepsEn": [
+      "Switch off the circuit breaker",
+      "Verify connections against the installation diagram",
+      "Do not open the refrigerant circuit; only a qualified technician should do this"
+    ],
+    "repairStepsEn": [
+      "Correct wiring and/or piping, perform a leak test, and commission/start the unit"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Algeria/global listing; model-dependent"
+      ],
+      "notes": "This code is listed in LG's general service manual; verify the unit's model image/number against the unit's specific documentation."
+    },
+    "verificationNoteEn": "LG's official manual advises a power cycle, and if the code persists a technical inspection; it also notes that instructions may vary by product."
+  },
+  {
+    "id": "e072",
+    "code": "CH10",
+    "brandId": "lg",
+    "titleEn": "Indoor unit fan error",
+    "severityEn": "High",
+    "categoryEn": "Fan",
+    "symptomsEn": [
+      "Reduced airflow",
+      "Fan stopped/not rotating",
+      "CH10 code displayed"
+    ],
+    "causesEn": [
+      "Fan motor failure",
+      "Mechanical obstruction",
+      "PCB malfunction"
+    ],
+    "partsEn": [
+      "Fan motor",
+      "PCB",
+      "Connectors"
+    ],
+    "checkStepsEn": [
+      "Turn off the circuit breaker (isolate power)",
+      "Visually inspect for external obstructions",
+      "Measure motor (by a qualified technician)"
+    ],
+    "repairStepsEn": [
+      "Remove obstruction or replace fan motor/PCB after proper diagnosis"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Algeria/global listing; model-dependent"
+      ],
+      "notes": "The code is listed in LG's general manual; verify the model image/number against the unit's manual."
+    },
+    "verificationNoteEn": "LG's official manual requires a power cycle, then a technical inspection if the code persists; content may vary by product."
+  },
+  {
+    "id": "e073",
+    "code": "CH67",
+    "brandId": "lg",
+    "titleEn": "Outdoor unit fan error",
+    "severityEn": "High",
+    "categoryEn": "Fan",
+    "symptomsEn": [
+      "Outdoor fan not running",
+      "Unit overheating",
+      "CH67 error code displayed"
+    ],
+    "causesEn": [
+      "Fan motor failure",
+      "Mechanical obstruction",
+      "PCB fault"
+    ],
+    "partsEn": [
+      "Outdoor fan motor",
+      "PCB",
+      "Connectors"
+    ],
+    "checkStepsEn": [
+      "Turn off the circuit breaker",
+      "Inspect for mechanical obstruction and check electrical connections",
+      "Measure/inspect the motor by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Remove obstruction or replace motor/PCB after diagnosis"
+    ],
+    "toolsEn": [
+      "Screwdriver",
+      "Multimeter"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split",
+      "series": [],
+      "markets": [
+        "Algeria/global listing; model-dependent"
+      ],
+      "notes": "Code published in LG general manual; verify the model image/number against the unit's manual."
+    },
+    "verificationNoteEn": "LG official manual requires a power cycle and then a technical inspection if the code persists, and indicates content may vary by product."
+  },
+  {
+    "id": "e074",
+    "code": "E3",
+    "brandId": "midea",
+    "titleEn": "Combined water outlet temperature sensor error",
+    "severityEn": "High",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Unit stops operation",
+      "E3 displayed"
+    ],
+    "causesEn": [
+      "Sensor malfunction or abnormal sensor signal/reading",
+      "Open circuit / disconnection in wiring or connectors",
+      "Main control board failure"
+    ],
+    "partsEn": [
+      "Water outlet temperature sensor",
+      "Main control board",
+      "Connectors / wiring harness"
+    ],
+    "checkStepsEn": [
+      "Power off the unit and isolate mains supply if a protection trip or electrical fault is present",
+      "Verify the error code against the model number and the service manual",
+      "Inspect and test the sensor and its connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the faulty part after confirming the fault with measurements",
+      "Retest the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic instruments as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain (manual); 30 kW and 60 kW units noted"
+      ],
+      "notes": "This official table applies to Midea Full DC R32 commercial units; it does not apply to Midea residential air conditioners or other series."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source for the specified model scope and should not be generalized to all devices of the brand."
+  },
+  {
+    "id": "e075",
+    "code": "E4",
+    "brandId": "midea",
+    "titleEn": "Water outlet temperature sensor error",
+    "severityEn": "High",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Unit stops",
+      "E4 displayed"
+    ],
+    "causesEn": [
+      "Sensor or pressure fault",
+      "Wiring disconnection/interruption",
+      "Main board failure"
+    ],
+    "partsEn": [
+      "Water outlet temperature sensor",
+      "Main PCB (main board)",
+      "Connectors"
+    ],
+    "checkStepsEn": [
+      "Stop the unit and disconnect power if a protection trip or electrical fault is present",
+      "Match the code with the model number and the service manual",
+      "Inspect the sensor and connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the part after confirming the fault by measurement",
+      "Retest the unit according to manufacturer specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic instruments as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notes": "This official table applies to Midea Full DC R32 commercial units; it does not apply to Midea residential air conditioners or other series."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the specified model scope and should not be generalized to all devices of the brand."
+  },
+  {
+    "id": "e076",
+    "code": "1E5",
+    "brandId": "midea",
+    "titleEn": "Air-side heat exchanger refrigerant outlet sensor T3A error",
+    "severityEn": "High",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Unit shutdown",
+      "1E5 displayed"
+    ],
+    "causesEn": [
+      "Sensor fault or pressure fault",
+      "Open circuit / disconnected wiring",
+      "Main control board failure"
+    ],
+    "partsEn": [
+      "T3A sensor",
+      "Main control board",
+      "Connectors / wiring"
+    ],
+    "checkStepsEn": [
+      "Shut down the unit and disconnect power when a protective trip or electrical fault is present.",
+      "Verify the error code against the unit model number and the service manual.",
+      "Inspect the sensor and wiring/connections by a qualified technician."
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the component after confirming the fault by measurement.",
+      "Retest the unit according to the manufacturer's specifications."
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic/measurement instruments as needed"
+    ],
+    "modelScopeEn": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notes": "This official table applies to Midea Full DC R32 commercial units; it is not applicable to Midea residential air conditioners or other series."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the stated model scope and should not be generalized to all products of the brand."
+  },
+  {
+    "id": "e077",
+    "code": "E7",
+    "brandId": "midea",
+    "titleEn": "Outdoor ambient temperature sensor error",
+    "severityEn": "high",
+    "categoryEn": "sensors",
+    "symptomsEn": [
+      "Unit shuts down",
+      "E7 displayed"
+    ],
+    "causesEn": [
+      "Sensor fault or pressure-related issue",
+      "Disconnected wiring",
+      "Main control board damage"
+    ],
+    "partsEn": [
+      "Outdoor temperature sensor",
+      "Main control board",
+      "Connectors"
+    ],
+    "checkStepsEn": [
+      "Turn off the unit and disconnect power when a protection trip or electrical fault is present",
+      "Match the error code with the model number and the service manual",
+      "Inspect the sensor and its connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the part after confirming the fault by measurement",
+      "Retest the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC measurement instruments as needed"
+    ],
+    "modelScopeEn": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notes": "This official table applies to Midea Full DC R32 commercial units; it is not generalizable to Midea residential air conditioners or other series."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the stated model scope; it should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e078",
+    "code": "2Eb",
+    "brandId": "midea",
+    "titleEn": "Water-side heat exchanger anti-freeze sensor Taf2 error",
+    "severityEn": "Critical",
+    "categoryEn": "Freezing",
+    "symptomsEn": [
+      "Unit shutdown",
+      "Error code 2Eb displayed"
+    ],
+    "causesEn": [
+      "Fault in the sensor or a pressure-related fault",
+      "Loss of connection (open circuit)",
+      "Damage/failure of the main control board"
+    ],
+    "partsEn": [
+      "Taf2 sensor",
+      "Main control board (PCB)",
+      "Connectors / wiring"
+    ],
+    "checkStepsEn": [
+      "Stop the unit and disconnect the power supply if a protection or electrical fault is present",
+      "Verify the fault code against the unit model number and the service manual",
+      "Inspect the sensor and connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the component after confirming the fault with measurements",
+      "Re-test the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic instruments (as required)"
+    ],
+    "modelScopeEn": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notes": "This official table applies to Midea Full DC R32 commercial units; it should not be generalized to Midea residential air conditioners or other series."
+    },
+    "verificationNoteEn": "Meaning confirmed in the official source within the specified model scope; should not be generalized to all devices of the brand."
+  },
+  {
+    "id": "e079",
+    "code": "1Ed",
+    "brandId": "midea",
+    "titleEn": "System A discharge pipe temperature sensor error",
+    "severityEn": "Critical",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Unit shutdown",
+      "1Ed displayed"
+    ],
+    "causesEn": [
+      "Sensor malfunction or pressure issue",
+      "Wiring disconnection / open circuit",
+      "Main control board failure"
+    ],
+    "partsEn": [
+      "System A discharge pipe sensor",
+      "Main control board",
+      "Connectors"
+    ],
+    "checkStepsEn": [
+      "Turn off the unit and disconnect power when a protective trip or electrical fault is present",
+      "Match the error code with the model number and the service manual",
+      "Inspect the sensor and its connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the component after confirming the fault by measurement",
+      "Re-test the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic/measurement tools as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notes": "This official table applies to Midea Full DC R32 commercial units; it should not be generalized to Midea residential air conditioners or other series."
+    },
+    "verificationNoteEn": "Meaning confirmed in the official source within the specified model scope; it should not be generalized to all devices of the brand."
+  },
+  {
+    "id": "e080",
+    "code": "2Ed",
+    "brandId": "midea",
+    "titleEn": "System B discharge pipe temperature sensor error",
+    "severityEn": "critical",
+    "categoryEn": "sensors",
+    "symptomsEn": [
+      "Unit shutdown",
+      "2Ed displayed"
+    ],
+    "causesEn": [
+      "Sensor malfunction or pressure-related fault",
+      "Open circuit / disconnected wiring",
+      "Main control board failure"
+    ],
+    "partsEn": [
+      "Discharge pipe temperature sensor (System B)",
+      "Main control board",
+      "Connectors"
+    ],
+    "checkStepsEn": [
+      "Power down the unit and disconnect the power supply if a protective trip or electrical fault is present",
+      "Verify the fault code against the model number and the service manual",
+      "Inspect the sensor and its connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the wiring or replace the component after confirming the fault by measurement",
+      "Retest the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic / measurement instruments (as required)"
+    ],
+    "modelScopeEn": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notes": "This official table applies to Midea Full DC R32 commercial units; it does not apply to Midea residential air conditioners or other series."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source for the specified model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e081",
+    "code": "EF",
+    "brandId": "midea",
+    "titleEn": "Water inlet temperature sensor error",
+    "severityEn": "High",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Unit stops operating",
+      "EF displayed"
+    ],
+    "causesEn": [
+      "Sensor malfunction or pressure issue",
+      "Open or disconnected wiring",
+      "Main control board failure"
+    ],
+    "partsEn": [
+      "Water inlet temperature sensor",
+      "Main control board",
+      "Connectors / wiring"
+    ],
+    "checkStepsEn": [
+      "Shut down the unit and disconnect power if a protective trip or electrical fault is present",
+      "Verify the code against the model number and the service manual",
+      "Inspect the sensor and its connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the part after confirming the fault by measurement",
+      "Retest the unit according to manufacturer specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic instruments as needed"
+    ],
+    "modelScopeEn": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notes": "This official table applies to Midea Full DC R32 commercial units; it does not apply to Midea residential air conditioners or other series."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source for the specified model scope and should not be generalized to all equipment of the brand."
+  },
+  {
+    "id": "e082",
+    "code": "EP",
+    "brandId": "midea",
+    "titleEn": "Discharge Pipe Temperature Sensor Failure Alarm",
+    "severityEn": "Critical",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Unit stops",
+      "'EP' fault code displayed"
+    ],
+    "causesEn": [
+      "Sensor malfunction or pressure-related fault",
+      "Open circuit / disconnected wiring",
+      "Damage to main PCB"
+    ],
+    "partsEn": [
+      "Discharge pipe temperature sensor",
+      "Main PCB",
+      "Connectors"
+    ],
+    "checkStepsEn": [
+      "Power off the unit and disconnect the power supply when a protection trip or electrical fault is present",
+      "Verify the fault code against the model number and the service manual",
+      "Inspect the sensor and its wiring/connectors by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the wiring or replace the component after confirming the fault by measurement",
+      "Retest the unit according to manufacturer specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic/measurement instruments as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notes": "This official table applies to Midea Full DC R32 commercial units; it should not be generalized to Midea residential air conditioners or other series."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source for the specified model scope and should not be generalized to all products of the brand."
+  },
+  {
+    "id": "e083",
+    "code": "EU",
+    "brandId": "midea",
+    "titleEn": "Air‑side heat‑exchanger total outlet sensor Tz/7 error",
+    "severityEn": "High",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Unit shutdown",
+      "EU fault code displayed"
+    ],
+    "causesEn": [
+      "Sensor fault or pressure issue",
+      "Open/disconnected wiring or connector",
+      "Main PCB failure"
+    ],
+    "partsEn": [
+      "Sensor Tz/7",
+      "Main PCB",
+      "Connectors/wiring"
+    ],
+    "checkStepsEn": [
+      "Power off the unit and isolate mains supply if a protection trip or electrical fault is present",
+      "Verify the fault code against the unit model number and the service manual",
+      "Inspect and test the sensor and its connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair faulty wiring or connectors, or replace the defective part after confirming the fault with measurements",
+      "Retest the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC measurement instruments/gauges as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain (service manual) — noted for 30 kW and 60 kW units"
+      ],
+      "notes": "This official table applies to Midea Full DC R32 commercial units; it does not apply to Midea residential air conditioners or other series."
+    },
+    "verificationNoteEn": "Meaning verified in the official source for the specified model scope; should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e084",
+    "code": "1F9",
+    "brandId": "midea",
+    "titleEn": "Inverter module temperature sensor Tfin1 error",
+    "severityEn": "Critical",
+    "categoryEn": "Inverter",
+    "symptomsEn": [
+      "Unit stops operating",
+      "Error code 1F9 displayed"
+    ],
+    "causesEn": [
+      "Sensor malfunction or pressure issue",
+      "Open circuit / loss of connection",
+      "Main board failure"
+    ],
+    "partsEn": [
+      "Tfin1 temperature sensor",
+      "Inverter module",
+      "Main board (PCB)"
+    ],
+    "checkStepsEn": [
+      "Power off and disconnect the supply when a protection trip or electrical fault is present",
+      "Verify the error code against the model number and the service manual",
+      "Inspect the sensor and its wiring/connectors by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the wiring or replace the component after confirming the fault with measurements",
+      "Retest the unit according to manufacturer specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic/test equipment as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notes": "This official table applies to Midea Full DC R32 commercial units; it must not be generalized to Midea residential air conditioners or other series."
+    },
+    "verificationNoteEn": "Meaning confirmed in the official source within the specified model scope; should not be generalized to all equipment of the brand."
+  },
+  {
+    "id": "e085",
+    "code": "2F9",
+    "brandId": "midea",
+    "titleEn": "Inverter module temperature sensor Tfin2 error",
+    "severityEn": "Critical",
+    "categoryEn": "Inverter",
+    "symptomsEn": [
+      "Unit stops operating",
+      "Error code 2F9 displayed"
+    ],
+    "causesEn": [
+      "Sensor fault or pressure issue",
+      "Wiring disconnection / open circuit",
+      "Main control board failure"
+    ],
+    "partsEn": [
+      "Tfin2 temperature sensor",
+      "Inverter module",
+      "Main PCB (main control board)"
+    ],
+    "checkStepsEn": [
+      "Power down the unit and isolate the mains supply if a protection trip or electrical fault is present",
+      "Verify the error code against the model number and the service manual",
+      "Inspect the sensor and wiring connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the wiring or replace the faulty part after confirming the fault with measurements",
+      "Re-test the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC measurement instruments as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notes": "This official table applies to Midea Full DC R32 commercial units; it does not apply to Midea residential air conditioners or other series."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source for the specified model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e086",
+    "code": "Fb",
+    "brandId": "midea",
+    "titleEn": "Pressure sensor error",
+    "severityEn": "Critical",
+    "categoryEn": "Cooling",
+    "symptomsEn": [
+      "Unit shuts down",
+      "Fault code \"Fb\" displayed"
+    ],
+    "causesEn": [
+      "Pressure sensor (transducer) failure",
+      "Open or interrupted wiring/connection",
+      "Main PCB (control board) failure"
+    ],
+    "partsEn": [
+      "Pressure sensor (transducer)",
+      "Main PCB (control board)",
+      "Connectors / wiring"
+    ],
+    "checkStepsEn": [
+      "If a protective trip or electrical fault is present, power down the unit and isolate the electrical supply before any work",
+      "Verify the fault code against the unit model number and the service manual for the specified model",
+      "Inspect and test the pressure sensor and its connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair wiring or replace the defective component after confirming the fault with appropriate measurements",
+      "Re-test and verify unit operation according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic/test instruments as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain (service manual); 30 kW and 60 kW units noted"
+      ],
+      "notes": "This official table applies to Midea Full DC R32 commercial units; it must not be generalized to Midea residential air conditioners or to other series."
+    },
+    "verificationNoteEn": "Meaning confirmed in the official source for the specified model scope; should not be generalized to all devices of the brand."
+  },
+  {
+    "id": "e087",
+    "code": "Fd",
+    "brandId": "midea",
+    "titleEn": "Air suction temperature sensor error",
+    "severityEn": "high",
+    "categoryEn": "sensors",
+    "symptomsEn": [
+      "Unit stops",
+      "Fd displayed"
+    ],
+    "causesEn": [
+      "Sensor malfunction or pressure issue",
+      "Open circuit / loss of connection",
+      "Main board failure"
+    ],
+    "partsEn": [
+      "Suction air temperature sensor",
+      "Main board",
+      "Connectors"
+    ],
+    "checkStepsEn": [
+      "Turn the unit off and disconnect power when there is a protection trip or electrical fault",
+      "Verify the code against the model number and the service manual",
+      "Inspect/test the sensor and its connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the part after confirming the fault by measurement",
+      "Retest the unit according to manufacturer specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic/measurement instruments as needed"
+    ],
+    "modelScopeEn": {
+      "unitType": "commercial air-cooled chiller / Full DC R32",
+      "series": [
+        "Full DC R32"
+      ],
+      "markets": [
+        "Spain manual; 30 kW and 60 kW units noted"
+      ],
+      "notes": "This official table applies to Midea Full DC R32 commercial units; it is not applicable to Midea residential air conditioners or other series."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the stated model scope and should not be generalized to all devices of the brand."
+  },
+  {
+    "id": "e088",
+    "code": "E4",
+    "brandId": "haier",
+    "titleEn": "Indoor EEPROM failure",
+    "severityEn": "High",
+    "categoryEn": "PCB",
+    "symptomsEn": [
+      "Unit stops operating",
+      "Error code E4 displayed"
+    ],
+    "causesEn": [
+      "Corrupted EEPROM data",
+      "PCB malfunction",
+      "Unstable power supply"
+    ],
+    "partsEn": [
+      "Indoor PCB",
+      "EEPROM",
+      "Power supply"
+    ],
+    "checkStepsEn": [
+      "Power off the unit and disconnect the mains if a protection trip or electrical fault is present",
+      "Verify the error code against the model number and the service manual",
+      "Inspect sensors and wiring/connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the faulty component after confirming the fault via measurements",
+      "Retest the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC measuring/diagnostic equipment as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Haier Malaysia support page; model-dependent"
+      ],
+      "notes": "Table published on Haier Malaysia support for air conditioners; match the model number before adopting this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source for the specified model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e089",
+    "code": "E9",
+    "brandId": "haier",
+    "titleEn": "Indoor unit overload protection in heating mode",
+    "severityEn": "High",
+    "categoryEn": "Heating",
+    "symptomsEn": [
+      "Heating stops",
+      "E9 error code displayed"
+    ],
+    "causesEn": [
+      "Poor airflow",
+      "Elevated thermal load",
+      "Sensor or fan malfunction"
+    ],
+    "partsEn": [
+      "Fan",
+      "Sensors",
+      "Heat exchanger"
+    ],
+    "checkStepsEn": [
+      "Shut down the unit and isolate power if protection has activated or an electrical fault is present",
+      "Verify the error code against the model number and the service manual",
+      "Inspect sensors and wiring/connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the component after confirming the fault with appropriate measurements",
+      "Re-test the unit according to manufacturer specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic/measurement instruments as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notes": "Table published on Haier Malaysia support page for air conditioners; the model number must be matched before adopting this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source for the specified model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e090",
+    "code": "E14",
+    "brandId": "haier",
+    "titleEn": "Indoor fan motor malfunction",
+    "severityEn": "High",
+    "categoryEn": "Fan",
+    "symptomsEn": [
+      "Fan stopped",
+      "Reduced airflow",
+      "E14 code displayed"
+    ],
+    "causesEn": [
+      "Fan motor failure",
+      "Mechanical obstruction",
+      "PCB fault"
+    ],
+    "partsEn": [
+      "Fan motor",
+      "PCB",
+      "Connectors"
+    ],
+    "checkStepsEn": [
+      "Power off and disconnect the unit if a protection trip or electrical fault is present",
+      "Match the code with the model number and the service manual",
+      "Inspect the sensor or connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the component after confirming the fault using measurements",
+      "Retest the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC measuring instruments as needed"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notes": "Published on Haier Malaysia air conditioner support; verify the model number before applying this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the stated model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e091",
+    "code": "F1",
+    "brandId": "haier",
+    "titleEn": "IPM protection",
+    "severityEn": "Critical",
+    "categoryEn": "Inverter",
+    "symptomsEn": [
+      "Compressor stops",
+      "F1 fault code displayed"
+    ],
+    "causesEn": [
+      "Elevated IPM current or temperature",
+      "Power module (IPM) failure",
+      "Compressor fault"
+    ],
+    "partsEn": [
+      "IPM",
+      "Inverter unit",
+      "Compressor"
+    ],
+    "checkStepsEn": [
+      "Power off the unit and disconnect mains power when a protection trip or electrical fault is present",
+      "Match the fault code with the unit model number and the service manual",
+      "Inspect sensors and electrical connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair wiring or replace the component after confirming the fault with measurements",
+      "Retest the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic instruments as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notes": "Table published on Haier Malaysia air‑conditioner support; verify the model number before applying this interpretation."
+    },
+    "verificationNoteEn": "Meaning confirmed in the official source for the specified model scope; it should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e092",
+    "code": "F2",
+    "brandId": "haier",
+    "titleEn": "Instantaneous compressor over-current protection",
+    "severityEn": "critical",
+    "categoryEn": "compressor",
+    "symptomsEn": [
+      "Compressor stops",
+      "F2 displayed"
+    ],
+    "causesEn": [
+      "High starting current",
+      "Compressor fault",
+      "Inverter fault"
+    ],
+    "partsEn": [
+      "Compressor",
+      "Inverter unit",
+      "Cables"
+    ],
+    "checkStepsEn": [
+      "Power off the unit and disconnect the power supply if a protection trip or electrical fault is present.",
+      "Verify the error code against the model number and the service manual.",
+      "Inspect the sensor(s) or electrical connections by a qualified technician."
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the component after confirming the fault with measurements.",
+      "Retest the unit according to the manufacturer's specifications."
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic tools as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notes": "Table published on Haier Malaysia support for air conditioners; the model number must be matched before adopting this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the mentioned model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e093",
+    "code": "F3",
+    "brandId": "haier",
+    "titleEn": "Power module to main PCB communication error",
+    "severityEn": "critical",
+    "categoryEn": "communication",
+    "symptomsEn": [
+      "Unit stops operating",
+      "F3 error displayed"
+    ],
+    "causesEn": [
+      "Loss of communication",
+      "Power module malfunction",
+      "PCB fault"
+    ],
+    "partsEn": [
+      "Communication cable",
+      "Power module",
+      "PCB"
+    ],
+    "checkStepsEn": [
+      "Power off the unit and disconnect mains if a protection trip or electrical fault is present",
+      "Verify the error code against the model number and the service manual",
+      "Inspect sensors and connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the part after confirming the fault with measurements",
+      "Retest the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic/measurement instruments as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notes": "Table published on Haier Malaysia support for air conditioners; match the model number before adopting this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source for the stated model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e094",
+    "code": "F4",
+    "brandId": "haier",
+    "titleEn": "Compressor discharge temperature protection",
+    "severityEn": "Critical",
+    "categoryEn": "Compressor",
+    "symptomsEn": [
+      "Compressor stops",
+      "F4 fault code displayed",
+      "Reduced cooling capacity"
+    ],
+    "causesEn": [
+      "High compressor discharge temperature",
+      "Insufficient refrigerant charge",
+      "Poor heat exchange"
+    ],
+    "partsEn": [
+      "Discharge temperature sensor",
+      "Refrigerant circuit",
+      "Compressor"
+    ],
+    "checkStepsEn": [
+      "Shut down the unit and isolate power when a protection trip or electrical fault is present",
+      "Verify the code against the model number and the service manual",
+      "Inspect the sensor and its connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the component after confirming the fault with measurements",
+      "Retest the unit per manufacturer specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC measurement instruments as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Haier Malaysia support page; model-dependent"
+      ],
+      "notes": "Table published on Haier Malaysia support for air conditioners; the model number must be matched before adopting this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the specified model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e095",
+    "code": "F6",
+    "brandId": "haier",
+    "titleEn": "Outdoor ambient temperature sensor failure",
+    "severityEn": "High",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Unit stops or exhibits reduced performance",
+      "F6 fault code displayed"
+    ],
+    "causesEn": [
+      "Damaged/faulty sensor",
+      "Broken or disconnected wiring",
+      "Poor contact / loose connection",
+      "Control board (PCB) malfunction"
+    ],
+    "partsEn": [
+      "Outdoor ambient temperature sensor",
+      "Cable / wiring harness",
+      "PCB (printed circuit board)"
+    ],
+    "checkStepsEn": [
+      "Power down the unit and disconnect mains supply if a protective trip or electrical fault is present",
+      "Verify the fault code against the unit model number and the service manual",
+      "Inspect the sensor and its connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the wiring or replace the defective component after confirming the fault with diagnostic measurements",
+      "Retest the unit to ensure proper operation according to manufacturer specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic/test equipment as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Haier Malaysia support page; model-dependent"
+      ],
+      "notes": "Table published on Haier Malaysia support for air conditioners; the model number must be matched before adopting this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source for the specified model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e096",
+    "code": "F7",
+    "brandId": "haier",
+    "titleEn": "Suction temperature sensor failure",
+    "severityEn": "High",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Unit stops operation",
+      "F7 displayed"
+    ],
+    "causesEn": [
+      "Suction temperature sensor failure",
+      "Wiring break",
+      "Poor contact",
+      "Control PCB malfunction"
+    ],
+    "partsEn": [
+      "Suction temperature sensor",
+      "Cable",
+      "Control PCB"
+    ],
+    "checkStepsEn": [
+      "Turn off the unit and disconnect power if a protection trip or electrical fault is present",
+      "Match the error code with the model number and the service manual",
+      "Inspect the sensor and its connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the component after confirming the fault by measurement",
+      "Retest the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC measurement tools as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Haier Malaysia support page; model-dependent"
+      ],
+      "notes": "The table is published on Haier Malaysia support for air conditioners; confirm the model number before applying this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the specified model scope; it should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e097",
+    "code": "F8",
+    "brandId": "haier",
+    "titleEn": "DC fan motor malfunction",
+    "severityEn": "High",
+    "categoryEn": "Fan",
+    "symptomsEn": [
+      "Fan has stopped",
+      "F8 code displayed"
+    ],
+    "causesEn": [
+      "Motor failure",
+      "Mechanical obstruction",
+      "PCB fault"
+    ],
+    "partsEn": [
+      "Fan motor",
+      "PCB",
+      "Connectors"
+    ],
+    "checkStepsEn": [
+      "Turn off the unit and disconnect power if a protection trip or electrical fault is present",
+      "Verify the error code against the unit's model number and the service manual",
+      "Inspect the sensor or electrical connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the component after confirming the fault with measurements",
+      "Retest the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic instruments as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Haier Malaysia support page; model-dependent"
+      ],
+      "notes": "Table published on Haier Malaysia air conditioner support; verify the model number before applying this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source for the stated model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e098",
+    "code": "F9",
+    "brandId": "haier",
+    "titleEn": "Electronic module reset",
+    "severityEn": "High",
+    "categoryEn": "Inverter",
+    "symptomsEn": [
+      "Unit stopped operating",
+      "F9 displayed"
+    ],
+    "causesEn": [
+      "Inverter module protection activated",
+      "Unstable power supply",
+      "Power module fault"
+    ],
+    "partsEn": [
+      "Inverter module",
+      "PCB",
+      "Power supply"
+    ],
+    "checkStepsEn": [
+      "Turn off the unit and disconnect the power supply if protection has been triggered or an electrical/electronic fault is suspected",
+      "Match the fault code to the exact model number and the service manual",
+      "Inspect the sensor(s) and electrical connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair wiring or replace the faulty component after confirming the fault with appropriate measurements",
+      "Retest the unit per manufacturer specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic/measurement instruments as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notes": "The table is published on Haier Malaysia support for air conditioners; match the model number before applying this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source for the stated model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e099",
+    "code": "F11",
+    "brandId": "haier",
+    "titleEn": "Loss of synchronism detection",
+    "severityEn": "critical",
+    "categoryEn": "compressor",
+    "symptomsEn": [
+      "Compressor stopped",
+      "F11 code displayed"
+    ],
+    "causesEn": [
+      "Inverter malfunction",
+      "Incorrect compressor wiring/connection",
+      "Compressor fault"
+    ],
+    "partsEn": [
+      "Compressor",
+      "Inverter (drive)",
+      "Compressor cabling/wiring"
+    ],
+    "checkStepsEn": [
+      "Power off the unit and isolate the supply when a protection trip or electrical fault is present",
+      "Verify the code against the model number and the service manual",
+      "Inspect the sensor and wiring/connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the wiring or replace the faulty component after confirming the fault by measurement",
+      "Retest the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC test instruments as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notes": "Table published on Haier Malaysia air‑conditioner support; match the model number before adopting this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the stated model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e100",
+    "code": "F12",
+    "brandId": "haier",
+    "titleEn": "EEPROM failure",
+    "severityEn": "High",
+    "categoryEn": "PCB",
+    "symptomsEn": [
+      "Unit stops operating",
+      "F12 error code displayed"
+    ],
+    "causesEn": [
+      "EEPROM data error",
+      "PCB malfunction",
+      "Unstable power supply"
+    ],
+    "partsEn": [
+      "EEPROM",
+      "PCB",
+      "Power supply"
+    ],
+    "checkStepsEn": [
+      "Power off the unit and disconnect mains if a protective trip or electrical fault is present",
+      "Verify the error code against the model number and the service manual",
+      "Inspect sensors and wiring/connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair wiring or replace the component after confirming the fault with measurements",
+      "Retest the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC measuring equipment as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "Residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notes": "The table is published on Haier Malaysia's support page for air conditioners; verify the model number before adopting this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the stated model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e101",
+    "code": "F13",
+    "brandId": "haier",
+    "titleEn": "Lack of refrigerant",
+    "severityEn": "High",
+    "categoryEn": "Cooling",
+    "symptomsEn": [
+      "Reduced cooling",
+      "F13 displayed",
+      "Extended run time"
+    ],
+    "causesEn": [
+      "Refrigerant leak",
+      "Insufficient refrigerant charge",
+      "Refrigeration circuit fault"
+    ],
+    "partsEn": [
+      "Refrigeration circuit",
+      "Refrigerant piping",
+      "Valves"
+    ],
+    "checkStepsEn": [
+      "Turn off the unit and isolate power when a protection or electrical fault is present",
+      "Verify the code against the model number and the service manual",
+      "Inspect the sensor and electrical connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the component after confirming the fault by measurement",
+      "Retest the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic instruments as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notes": "Table published on Haier Malaysia support for air conditioners; the model number must be matched before adopting this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the specified model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e102",
+    "code": "F14",
+    "brandId": "haier",
+    "titleEn": "4-way reversing valve failure",
+    "severityEn": "High",
+    "categoryEn": "Heating",
+    "symptomsEn": [
+      "Reduced heating or cooling performance",
+      "F14 error displayed"
+    ],
+    "causesEn": [
+      "4-way valve malfunction",
+      "Solenoid/coil electrical fault",
+      "Blockage or incorrect installation"
+    ],
+    "partsEn": [
+      "4-way (reversing) valve",
+      "Solenoid coil",
+      "Refrigeration circuit"
+    ],
+    "checkStepsEn": [
+      "Turn off the unit and disconnect power if protection has tripped or an electrical fault is present.",
+      "Match the error code with the model number and the service manual.",
+      "Inspect the sensor or electrical connections by a qualified technician."
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the component after confirming the fault by measurement.",
+      "Retest the unit according to the manufacturer's specifications."
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic instruments (as needed)"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Haier Malaysia support page; model-dependent"
+      ],
+      "notes": "Table published on Haier Malaysia air conditioner support; the model number must be matched before adopting this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the stated model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e103",
+    "code": "F19",
+    "brandId": "haier",
+    "titleEn": "Power over/under voltage protection",
+    "severityEn": "Critical",
+    "categoryEn": "Electrical",
+    "symptomsEn": [
+      "Unit stops",
+      "F19 displayed",
+      "Frequent shutdowns"
+    ],
+    "causesEn": [
+      "Voltage out of range",
+      "Unstable power supply",
+      "Fault in the measurement circuit"
+    ],
+    "partsEn": [
+      "Power supply",
+      "PCB",
+      "Power module"
+    ],
+    "checkStepsEn": [
+      "Turn the unit off and disconnect power when a protection or electrical fault is present",
+      "Verify the code against the model number and the service manual",
+      "Inspect the sensor or connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the part after confirming the fault by measurement",
+      "Retest the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC measuring instruments as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "Residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notes": "Table published on Haier Malaysia support for air conditioners; the model number must be matched before adopting this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the stated model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e104",
+    "code": "F20",
+    "brandId": "haier",
+    "titleEn": "High pressure protection",
+    "severityEn": "Critical",
+    "categoryEn": "Compressor",
+    "symptomsEn": [
+      "Compressor stops",
+      "F20 displayed",
+      "High system pressure"
+    ],
+    "causesEn": [
+      "Condenser blockage or fouling",
+      "Excess refrigerant charge",
+      "Reduced or failed outdoor fan"
+    ],
+    "partsEn": [
+      "Condenser",
+      "Outdoor unit fan",
+      "Pressure switch"
+    ],
+    "checkStepsEn": [
+      "Power off the unit and disconnect the supply if protection or an electrical fault is present",
+      "Verify the code against the model number and the service manual",
+      "Inspect the sensor or connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the component after confirming the fault with measurements",
+      "Retest the unit according to manufacturer specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC measurement tools as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Haier Malaysia support page; model-dependent"
+      ],
+      "notes": "Table published on the Haier Malaysia support page for air conditioners; match the model number before applying this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the specified model scope and should not be generalized to all products of the brand."
+  },
+  {
+    "id": "e105",
+    "code": "F21",
+    "brandId": "haier",
+    "titleEn": "Outdoor coil temperature sensor",
+    "severityEn": "High",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Unit shutdown or reduced performance",
+      "F21 error displayed"
+    ],
+    "causesEn": [
+      "Sensor failure",
+      "Broken or disconnected wiring",
+      "Poor contact / loose connection",
+      "Control board (PCB) malfunction"
+    ],
+    "partsEn": [
+      "Outdoor coil temperature sensor",
+      "Cable",
+      "Control PCB"
+    ],
+    "checkStepsEn": [
+      "Turn off the unit and disconnect power if a protection trip or electrical fault is present.",
+      "Verify the error code against the model number and the service manual.",
+      "Inspect the sensor and its connections by a qualified technician."
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the component after confirming the fault with measurements.",
+      "Retest the unit according to the manufacturer's specifications."
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic instruments (as required)"
+    ],
+    "modelScopeEn": {
+      "unitType": "Residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notes": "Table published on Haier Malaysia air conditioner support; the model number must be matched before adopting this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source for the stated model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e106",
+    "code": "F22",
+    "brandId": "haier",
+    "titleEn": "Outdoor AC over-current protection",
+    "severityEn": "critical",
+    "categoryEn": "electrical",
+    "symptomsEn": [
+      "Outdoor unit stops operating",
+      "F22 displayed"
+    ],
+    "causesEn": [
+      "Overcurrent",
+      "Power module malfunction",
+      "Abnormal load"
+    ],
+    "partsEn": [
+      "Power module",
+      "PCB (printed circuit board)",
+      "Compressor"
+    ],
+    "checkStepsEn": [
+      "Turn off the unit and disconnect the power supply if a protective trip or electrical fault is present",
+      "Compare the displayed code with the model number and the service manual",
+      "Inspect sensors and electrical connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the component after confirming the fault by measurement",
+      "Retest the unit according to manufacturer specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic instruments as needed"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notes": "Published on Haier Malaysia air-conditioning support; verify the model number before adopting this meaning."
+    },
+    "verificationNoteEn": "Meaning is verified in the official source within the specified model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e107",
+    "code": "F23",
+    "brandId": "haier",
+    "titleEn": "Compressor U/V/W phase over-current protection",
+    "severityEn": "Critical",
+    "categoryEn": "Compressor",
+    "symptomsEn": [
+      "Compressor stopped",
+      "F23 displayed"
+    ],
+    "causesEn": [
+      "High current on a phase",
+      "Compressor winding fault",
+      "Inverter fault"
+    ],
+    "partsEn": [
+      "Compressor",
+      "Inverter",
+      "Cables"
+    ],
+    "checkStepsEn": [
+      "Power off the unit and disconnect the mains supply when a protection trip or electrical fault is present.",
+      "Verify the fault code against the unit model number and the service manual.",
+      "Inspect the current sensor and electrical connections by a qualified technician."
+    ],
+    "repairStepsEn": [
+      "Repair wiring or replace the faulty component after confirming the fault by measurement.",
+      "Retest the unit according to the manufacturer's specifications."
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC measurement instruments as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Haier Malaysia support page; model-dependent"
+      ],
+      "notes": "The table is published on Haier Malaysia support for air conditioners; the unit model number must be matched before adopting this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the stated model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e108",
+    "code": "F24",
+    "brandId": "haier",
+    "titleEn": "CT current measurement fault protection",
+    "severityEn": "critical",
+    "categoryEn": "electrical",
+    "symptomsEn": [
+      "Unit stops operation",
+      "F24 displayed"
+    ],
+    "causesEn": [
+      "CT sensor malfunction",
+      "Open/disconnected wiring",
+      "PCB malfunction"
+    ],
+    "partsEn": [
+      "CT sensor (current transformer)",
+      "PCB",
+      "Connectors/wiring"
+    ],
+    "checkStepsEn": [
+      "Power off the unit and disconnect the mains when a protection trip or electrical fault is present",
+      "Match the error code to the specific model number and the service manual",
+      "Inspect the CT sensor and its connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the wiring or replace the component after confirming the fault with measurements",
+      "Retest the unit according to manufacturer specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic/measurement tools as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notes": "Published on Haier Malaysia support page for air conditioners; match the model number before applying this meaning."
+    },
+    "verificationNoteEn": "Meaning confirmed in the official source within the specified model scope; it should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e109",
+    "code": "F25",
+    "brandId": "haier",
+    "titleEn": "Compressor discharge sensor abnormality",
+    "severityEn": "Critical",
+    "categoryEn": "Sensors",
+    "symptomsEn": [
+      "Compressor stopped",
+      "F25 error code displayed"
+    ],
+    "causesEn": [
+      "Sensor failure",
+      "Broken or disconnected wire",
+      "Poor electrical contact",
+      "Control board malfunction"
+    ],
+    "partsEn": [
+      "Discharge sensor",
+      "Cable",
+      "PCB"
+    ],
+    "checkStepsEn": [
+      "Turn off the unit and disconnect mains power if an electrical protection has operated or an electrical fault is present",
+      "Verify the code against the model number and the service manual",
+      "Inspect the sensor and its connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the wiring or replace the component after confirming the fault by measurement",
+      "Retest the unit according to manufacturer specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic/measurement instruments as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notes": "Table published on Haier Malaysia support for air conditioners; match the model number before adopting this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the stated model scope and should not be generalized to all products of the brand."
+  },
+  {
+    "id": "e110",
+    "code": "F27",
+    "brandId": "haier",
+    "titleEn": "Compressor current sampling circuit fault",
+    "severityEn": "Critical",
+    "categoryEn": "Electrical",
+    "symptomsEn": [
+      "Compressor stops",
+      "F27 fault code displayed"
+    ],
+    "causesEn": [
+      "Sampling/measurement circuit fault",
+      "Current sensor fault",
+      "PCB fault"
+    ],
+    "partsEn": [
+      "Sampling circuit",
+      "Current sensor",
+      "PCB"
+    ],
+    "checkStepsEn": [
+      "Shut down the unit and disconnect power if a protective trip or electrical fault is present.",
+      "Verify the fault code against the model number and the service manual.",
+      "Inspect the sensor and its connections by a qualified technician."
+    ],
+    "repairStepsEn": [
+      "Repair wiring or replace the component after confirming the fault with measurements.",
+      "Retest the unit according to the manufacturer's specifications."
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC measurement/diagnostic tools as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notes": "Table published on Haier Malaysia air‑conditioner support; the model number must be matched before applying this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the specified model scope; it should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e111",
+    "code": "F28",
+    "brandId": "haier",
+    "titleEn": "Compressor position detection circuit fault",
+    "severityEn": "Critical",
+    "categoryEn": "Compressor",
+    "symptomsEn": [
+      "Compressor failed to start",
+      "F28 fault code displayed"
+    ],
+    "causesEn": [
+      "Position sensor fault",
+      "Inverter (drive) fault",
+      "Compressor fault"
+    ],
+    "partsEn": [
+      "Position detection circuit",
+      "Inverter (variable frequency drive)",
+      "Compressor"
+    ],
+    "checkStepsEn": [
+      "Shut down the unit and isolate power if a protection trip or electrical fault is present",
+      "Verify the fault code against the model number and the service manual",
+      "Inspect the position sensor and its connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the component after confirming the fault with measurements",
+      "Retest the unit according to manufacturer specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic tools as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Haier Malaysia support page; model-dependent"
+      ],
+      "notes": "Table published on Haier Malaysia air‑conditioner support; confirm the model number before applying this interpretation."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source for the specified model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e112",
+    "code": "F35",
+    "brandId": "haier",
+    "titleEn": "Compressor driver board failure",
+    "severityEn": "Critical",
+    "categoryEn": "Inverter",
+    "symptomsEn": [
+      "Compressor stops operating",
+      "F35 error code displayed"
+    ],
+    "causesEn": [
+      "Faulty compressor driver board",
+      "Power unit (inverter) malfunction",
+      "Unstable power supply"
+    ],
+    "partsEn": [
+      "Compressor driver board",
+      "Inverter unit",
+      "Compressor"
+    ],
+    "checkStepsEn": [
+      "Shut down the unit and disconnect power if a protection trip or electrical fault is present",
+      "Verify the code against the exact model number and the service manual",
+      "Inspect sensors and electrical connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the wiring or replace the component after confirming the fault with proper measurements",
+      "Re-test the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC measurement instruments as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notes": "Table published on Haier Malaysia's support page for air conditioners; match the model number before applying this interpretation."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the specified model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e113",
+    "code": "F43",
+    "brandId": "haier",
+    "titleEn": "Model matching abnormality",
+    "severityEn": "High",
+    "categoryEn": "Electrical",
+    "symptomsEn": [
+      "Unit does not start",
+      "F43 error code displayed"
+    ],
+    "causesEn": [
+      "Mismatch between indoor and outdoor units",
+      "Incorrect configuration/settings",
+      "Replacement control board (PCB) not compatible"
+    ],
+    "partsEn": [
+      "Model identification data",
+      "PCB (control board)",
+      "Indoor or outdoor unit"
+    ],
+    "checkStepsEn": [
+      "If a protective trip or electrical fault is present, stop the unit and disconnect mains power",
+      "Verify the error code against the model number and the service manual",
+      "Inspect sensors and wiring/connections; tests and inspections should be performed by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair wiring/connectors or replace the component after confirming the fault with measurements",
+      "Retest the unit according to the manufacturer's specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic/measuring tools as required"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notes": "The table is published on Haier Malaysia's support site for air conditioners; verify the model number before applying this interpretation."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the stated model scope and should not be generalized to all units of the brand."
+  },
+  {
+    "id": "e114",
+    "code": "FE",
+    "brandId": "haier",
+    "titleEn": "Fixed-frequency AC refrigerant leak detection malfunction",
+    "severityEn": "High",
+    "categoryEn": "Cooling",
+    "symptomsEn": [
+      "Reduced cooling performance",
+      "FE error code displayed",
+      "Intermittent shutdown"
+    ],
+    "causesEn": [
+      "Refrigerant leak",
+      "Fault in the detection circuit",
+      "Unreliable sensor"
+    ],
+    "partsEn": [
+      "Refrigerant circuit",
+      "Sensor",
+      "Connections"
+    ],
+    "checkStepsEn": [
+      "Switch off the unit and disconnect power if a protective trip or electrical fault is present",
+      "Verify the code against the model number and the service manual",
+      "Inspect the sensor and connections by a qualified technician"
+    ],
+    "repairStepsEn": [
+      "Repair the connection or replace the component after confirming the fault through measurement",
+      "Retest the unit per manufacturer specifications"
+    ],
+    "toolsEn": [
+      "Multimeter",
+      "Screwdriver",
+      "HVAC diagnostic instruments as needed"
+    ],
+    "modelScopeEn": {
+      "unitType": "residential split air conditioner",
+      "series": [],
+      "markets": [
+        "Malaysia support page; model-dependent"
+      ],
+      "notes": "The table is published on Haier Malaysia support for air conditioners; the model number must be matched before adopting this meaning."
+    },
+    "verificationNoteEn": "The meaning is confirmed in the official source within the stated model scope and should not be generalized to all units of the brand."
+  }
+]

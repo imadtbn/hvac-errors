@@ -1,417 +1,2379 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://imadtbn.github.io/hvac-errors/index.html</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/?lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/?lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/brands.html</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://imadtbn.github.io/hvac-errors/articles.html</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/?lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/?lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/search.html</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/errors.html?lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/errors.html?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/errors.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/errors.html?lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/errors.html?lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/errors.html?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/errors.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/errors.html?lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/brands.html?lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/brands.html?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/brands.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/brands.html?lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/brands.html?lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/brands.html?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/brands.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/brands.html?lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/articles.html?lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/articles.html?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/articles.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/articles.html?lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/articles.html?lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/articles.html?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/articles.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/articles.html?lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/about.html?lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/about.html?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/about.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/about.html?lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/about.html?lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/about.html?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/about.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/about.html?lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/contact.html?lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/contact.html?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/contact.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/contact.html?lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/contact.html?lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/contact.html?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/contact.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/contact.html?lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/faq.html?lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/faq.html?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/faq.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/faq.html?lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/faq.html?lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/faq.html?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/faq.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/faq.html?lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/privacy.html?lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/privacy.html?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/privacy.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/privacy.html?lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/privacy.html?lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/privacy.html?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/privacy.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/privacy.html?lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/disclaimer.html?lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/disclaimer.html?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/disclaimer.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/disclaimer.html?lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/disclaimer.html?lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/disclaimer.html?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/disclaimer.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/disclaimer.html?lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/search.html?lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/search.html?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/search.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/search.html?lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/search.html?lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/search.html?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/search.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/search.html?lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/article.html?id=a001&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/article.html?id=a001&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/article.html?id=a001&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/article.html?id=a001&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/about.html</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/article.html?id=a001&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/article.html?id=a001&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/article.html?id=a001&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/article.html?id=a001&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/contact.html</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/article.html?id=a002&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/article.html?id=a002&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/article.html?id=a002&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/article.html?id=a002&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/faq.html</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/article.html?id=a002&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/article.html?id=a002&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/article.html?id=a002&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/article.html?id=a002&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/privacy.html</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://imadtbn.github.io/hvac-errors/disclaimer.html</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e001</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/article.html?id=a003&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/article.html?id=a003&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/article.html?id=a003&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/article.html?id=a003&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e002</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/article.html?id=a003&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/article.html?id=a003&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/article.html?id=a003&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/article.html?id=a003&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e003</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/article.html?id=a004&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/article.html?id=a004&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/article.html?id=a004&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/article.html?id=a004&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e004</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/article.html?id=a004&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/article.html?id=a004&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/article.html?id=a004&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/article.html?id=a004&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e005</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/article.html?id=a005&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/article.html?id=a005&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/article.html?id=a005&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/article.html?id=a005&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e006</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/article.html?id=a005&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/article.html?id=a005&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/article.html?id=a005&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/article.html?id=a005&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e007</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/article.html?id=a006&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/article.html?id=a006&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/article.html?id=a006&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/article.html?id=a006&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e008</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/article.html?id=a006&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/article.html?id=a006&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/article.html?id=a006&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/article.html?id=a006&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e009</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/article.html?id=a007&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/article.html?id=a007&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/article.html?id=a007&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/article.html?id=a007&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e010</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/article.html?id=a007&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/article.html?id=a007&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/article.html?id=a007&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/article.html?id=a007&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e011</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/article.html?id=a008&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/article.html?id=a008&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/article.html?id=a008&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/article.html?id=a008&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e012</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/article.html?id=a008&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/article.html?id=a008&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/article.html?id=a008&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/article.html?id=a008&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e013</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e001&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e001&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e001&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e001&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e014</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e001&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e001&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e001&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e001&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e015</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e002&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e002&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e002&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e002&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e016</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e002&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e002&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e002&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e002&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e017</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e003&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e003&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e003&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e003&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e018</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e003&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e003&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e003&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e003&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e019</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e004&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e004&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e004&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e004&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e020</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e004&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e004&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e004&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e004&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e021</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e005&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e005&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e005&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e005&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e022</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e005&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e005&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e005&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e005&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e023</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e006&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e006&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e006&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e006&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e024</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e006&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e006&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e006&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e006&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e025</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e007&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e007&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e007&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e007&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e026</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e007&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e007&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e007&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e007&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e027</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e008&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e008&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e008&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e008&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e028</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e008&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e008&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e008&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e008&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e029</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e009&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e009&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e009&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e009&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e030</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e009&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e009&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e009&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e009&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=lg</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e010&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e010&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e010&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e010&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=samsung</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e010&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e010&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e010&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e010&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=midea</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e011&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e011&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e011&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e011&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=haier</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e011&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e011&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e011&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e011&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=beko</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e012&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e012&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e012&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e012&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=condor</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e012&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e012&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e012&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e012&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=carrier</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e013&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e013&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e013&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e013&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=gree</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e013&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e013&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e013&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e013&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=daikin</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e014&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e014&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e014&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e014&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=mitsubishi-electric</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e014&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e014&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e014&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e014&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=mitsubishi-heavy</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e015&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e015&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e015&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e015&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=panasonic</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e015&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e015&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e015&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e015&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=toshiba</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e016&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e016&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e016&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e016&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=hitachi</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e016&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e016&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e016&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e016&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=hisense</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e017&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e017&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e017&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e017&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=fujitsu</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e017&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e017&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e017&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e017&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=sharp</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e018&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e018&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e018&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e018&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=york</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e018&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e018&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e018&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e018&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=trane</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e019&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e019&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e019&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e019&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=tcl</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e019&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e019&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e019&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e019&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=bosch</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e020&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e020&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e020&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e020&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=chigo</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e020&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e020&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e020&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e020&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?brand=aux</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e021&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e021&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e021&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e021&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?category=communication</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e021&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e021&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e021&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e021&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?category=compressor</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e022&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e022&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e022&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e022&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?category=electrical</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e022&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e022&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e022&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e022&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?category=inverter</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e023&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e023&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e023&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e023&amp;lang=ar" />
   </url>
   <url>
-    <loc>https://imadtbn.github.io/hvac-errors/errors.html?category=sensors</loc>
-    <lastmod>2026-08-14</lastmod>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e023&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e023&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e023&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e023&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e024&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e024&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e024&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e024&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e024&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e024&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e024&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e024&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e025&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e025&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e025&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e025&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e025&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e025&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e025&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e025&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e026&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e026&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e026&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e026&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e026&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e026&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e026&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e026&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e027&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e027&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e027&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e027&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e027&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e027&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e027&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e027&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e028&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e028&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e028&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e028&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e028&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e028&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e028&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e028&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e029&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e029&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e029&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e029&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e029&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e029&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e029&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e029&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e030&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e030&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e030&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e030&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e030&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e030&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e030&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e030&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e031&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e031&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e031&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e031&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e031&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e031&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e031&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e031&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e032&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e032&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e032&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e032&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e032&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e032&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e032&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e032&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e033&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e033&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e033&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e033&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e033&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e033&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e033&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e033&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e034&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e034&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e034&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e034&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e034&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e034&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e034&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e034&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e035&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e035&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e035&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e035&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e035&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e035&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e035&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e035&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e036&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e036&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e036&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e036&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e036&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e036&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e036&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e036&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e037&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e037&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e037&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e037&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e037&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e037&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e037&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e037&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e038&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e038&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e038&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e038&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e038&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e038&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e038&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e038&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e039&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e039&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e039&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e039&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e039&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e039&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e039&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e039&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e040&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e040&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e040&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e040&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e040&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e040&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e040&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e040&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e041&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e041&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e041&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e041&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e041&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e041&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e041&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e041&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e042&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e042&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e042&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e042&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e042&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e042&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e042&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e042&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e043&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e043&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e043&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e043&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e043&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e043&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e043&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e043&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e044&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e044&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e044&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e044&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e044&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e044&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e044&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e044&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e045&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e045&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e045&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e045&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e045&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e045&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e045&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e045&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e046&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e046&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e046&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e046&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e046&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e046&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e046&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e046&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e047&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e047&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e047&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e047&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e047&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e047&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e047&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e047&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e048&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e048&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e048&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e048&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e048&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e048&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e048&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e048&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e049&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e049&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e049&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e049&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e049&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e049&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e049&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e049&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e050&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e050&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e050&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e050&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e050&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e050&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e050&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e050&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e051&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e051&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e051&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e051&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e051&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e051&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e051&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e051&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e052&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e052&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e052&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e052&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e052&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e052&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e052&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e052&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e053&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e053&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e053&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e053&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e053&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e053&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e053&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e053&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e054&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e054&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e054&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e054&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e054&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e054&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e054&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e054&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e055&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e055&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e055&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e055&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e055&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e055&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e055&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e055&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e056&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e056&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e056&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e056&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e056&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e056&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e056&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e056&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e057&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e057&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e057&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e057&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e057&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e057&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e057&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e057&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e058&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e058&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e058&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e058&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e058&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e058&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e058&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e058&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e059&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e059&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e059&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e059&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e059&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e059&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e059&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e059&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e060&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e060&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e060&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e060&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e060&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e060&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e060&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e060&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e061&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e061&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e061&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e061&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e061&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e061&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e061&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e061&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e062&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e062&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e062&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e062&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e062&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e062&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e062&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e062&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e063&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e063&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e063&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e063&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e063&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e063&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e063&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e063&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e064&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e064&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e064&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e064&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e064&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e064&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e064&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e064&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e065&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e065&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e065&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e065&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e065&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e065&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e065&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e065&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e066&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e066&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e066&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e066&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e066&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e066&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e066&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e066&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e067&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e067&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e067&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e067&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e067&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e067&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e067&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e067&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e068&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e068&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e068&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e068&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e068&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e068&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e068&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e068&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e069&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e069&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e069&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e069&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e069&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e069&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e069&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e069&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e070&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e070&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e070&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e070&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e070&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e070&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e070&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e070&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e071&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e071&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e071&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e071&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e071&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e071&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e071&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e071&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e072&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e072&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e072&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e072&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e072&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e072&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e072&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e072&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e073&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e073&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e073&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e073&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e073&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e073&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e073&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e073&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e074&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e074&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e074&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e074&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e074&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e074&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e074&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e074&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e075&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e075&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e075&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e075&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e075&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e075&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e075&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e075&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e076&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e076&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e076&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e076&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e076&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e076&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e076&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e076&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e077&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e077&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e077&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e077&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e077&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e077&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e077&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e077&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e078&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e078&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e078&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e078&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e078&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e078&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e078&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e078&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e079&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e079&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e079&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e079&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e079&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e079&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e079&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e079&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e080&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e080&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e080&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e080&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e080&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e080&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e080&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e080&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e081&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e081&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e081&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e081&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e081&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e081&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e081&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e081&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e082&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e082&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e082&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e082&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e082&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e082&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e082&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e082&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e083&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e083&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e083&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e083&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e083&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e083&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e083&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e083&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e084&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e084&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e084&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e084&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e084&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e084&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e084&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e084&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e085&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e085&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e085&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e085&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e085&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e085&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e085&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e085&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e086&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e086&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e086&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e086&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e086&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e086&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e086&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e086&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e087&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e087&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e087&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e087&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e087&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e087&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e087&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e087&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e088&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e088&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e088&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e088&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e088&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e088&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e088&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e088&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e089&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e089&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e089&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e089&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e089&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e089&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e089&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e089&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e090&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e090&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e090&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e090&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e090&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e090&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e090&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e090&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e091&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e091&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e091&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e091&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e091&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e091&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e091&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e091&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e092&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e092&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e092&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e092&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e092&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e092&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e092&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e092&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e093&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e093&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e093&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e093&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e093&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e093&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e093&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e093&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e094&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e094&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e094&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e094&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e094&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e094&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e094&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e094&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e095&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e095&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e095&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e095&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e095&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e095&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e095&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e095&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e096&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e096&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e096&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e096&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e096&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e096&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e096&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e096&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e097&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e097&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e097&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e097&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e097&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e097&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e097&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e097&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e098&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e098&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e098&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e098&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e098&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e098&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e098&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e098&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e099&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e099&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e099&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e099&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e099&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e099&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e099&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e099&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e100&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e100&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e100&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e100&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e100&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e100&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e100&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e100&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e101&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e101&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e101&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e101&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e101&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e101&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e101&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e101&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e102&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e102&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e102&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e102&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e102&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e102&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e102&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e102&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e103&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e103&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e103&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e103&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e103&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e103&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e103&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e103&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e104&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e104&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e104&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e104&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e104&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e104&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e104&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e104&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e105&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e105&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e105&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e105&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e105&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e105&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e105&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e105&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e106&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e106&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e106&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e106&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e106&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e106&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e106&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e106&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e107&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e107&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e107&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e107&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e107&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e107&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e107&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e107&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e108&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e108&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e108&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e108&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e108&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e108&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e108&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e108&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e109&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e109&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e109&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e109&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e109&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e109&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e109&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e109&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e110&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e110&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e110&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e110&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e110&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e110&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e110&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e110&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e111&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e111&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e111&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e111&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e111&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e111&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e111&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e111&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e112&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e112&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e112&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e112&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e112&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e112&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e112&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e112&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e113&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e113&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e113&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e113&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e113&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e113&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e113&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e113&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e114&amp;lang=ar</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e114&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e114&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e114&amp;lang=ar" />
+  </url>
+  <url>
+    <loc>https://imadtbn.github.io/hvac-errors/error.html?id=e114&amp;lang=en</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://imadtbn.github.io/hvac-errors/error.html?id=e114&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://imadtbn.github.io/hvac-errors/error.html?id=e114&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imadtbn.github.io/hvac-errors/error.html?id=e114&amp;lang=ar" />
   </url>
 </urlset>
