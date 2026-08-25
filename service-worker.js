@@ -24,7 +24,6 @@ const STATIC_ASSETS = [
   './disclaimer.html',
   './css/style.css',
   './js/main.js',
-  './js/ads.js',
   './js/pwa.js',
   './data/brands.json',
   './data/errors.json',
