@@ -92,3 +92,16 @@ body.lang-en .logo, body.lang-en .header-actions { direction: ltr; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+
+/* Optional ads stay out of the layout until a real AdSense client and slot are configured. */
+.ad-slot {
+  display: none;
+  max-width: 728px;
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+.ad-slot.is-active {
+  display: block;
+  min-height: 90px;
+}

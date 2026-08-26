@@ -5,7 +5,7 @@
    Network-first للأعطل الديناميكية
    ============================================ */
 
-const CACHE_NAME = 'hvac-guide-v3';
+const CACHE_NAME = 'hvac-guide-v4-tags';
 
 // ملفات ثابتة نثبّتها مسبقاً (نستخدم مسارات نسبية لضمان العمل تحت /hvac-errors/)
 const STATIC_ASSETS = [
@@ -23,8 +23,12 @@ const STATIC_ASSETS = [
   './privacy.html',
   './disclaimer.html',
   './css/style.css',
+  './css/site-upgrade.css',
   './js/main.js',
   './js/pwa.js',
+  './js/site-upgrade.js',
+  './js/analytics-events.js',
+  './js/site-tags.js',
   './data/brands.json',
   './data/errors.json',
   './icons/favicon.ico',
