@@ -2,7 +2,13 @@
 (function () {
   'use strict';
   function track(name, params) {
-    if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    const eventParams = params || {};
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', name, eventParams);
+      return;
+    }
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: name, ...eventParams });
   }
   document.addEventListener('click', function (event) {
     const link = event.target.closest('a');

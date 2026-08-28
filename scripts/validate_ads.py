@@ -5,7 +5,7 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 errors = []
 html_files = sorted(path for path in ROOT.glob("*.html") if not path.name.startswith("google"))
-loader_ref = 'js/site-tags.js?v=20260826'
+loader_ref = 'js/site-tags.js?v=20260828-gtm'
 legacy_publisher = 'ca-pub-' + '5656416032906373'
 
 for path in html_files:
@@ -45,7 +45,7 @@ if legacy_publisher in site_tags or ('ads/' + 'js') in site_tags:
     errors.append("js/site-tags.js: legacy publisher or manager reference remains")
 
 sw = (ROOT / "service-worker.js").read_text(encoding="utf-8")
-if "hvac-guide-v4-tags" not in sw or "'./js/site-tags.js'" not in sw:
+if "hvac-guide-v5-gtm" not in sw or "'./js/site-tags.js'" not in sw:
     errors.append("service-worker.js: central loader cache entry/version is missing")
 
 if errors:

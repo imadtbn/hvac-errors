@@ -8,8 +8,8 @@
   'use strict';
 
   const CONFIG = Object.freeze({
-    ga4Id: 'G-K0RNZQ2W00',
-    gtmId: 'xxxxxxxx', // ضع هنا معرف حاوية Google Tag Manager مثل GTM-XXXXXXX
+    ga4Id: 'G-K0RNZQ2W00', // يُضبط Google tag الخاص به داخل حاوية GTM أدناه
+    gtmId: 'GTM-TGKVQNZR', // معرف حاوية Google Tag Manager المقدم للموقع
     adsenseClient: 'xxxxxxxx', // ضع هنا معرف ناشر AdSense مثل ca-pub-XXXXXXXXXXXXXXXX
     clarityId: 'xxxxxxxx' // ضع هنا معرف مشروع Microsoft Clarity
   });
@@ -58,18 +58,6 @@
       loadScript(`https://www.googletagmanager.com/gtm.js?id=${encodeURIComponent(CONFIG.gtmId)}`, 'gtm');
     }
     return true;
-  }
-
-  function loadGA4Direct() {
-    if (!configured(CONFIG.ga4Id, /^G-[A-Z0-9]+$/i) || hasScript(/googletagmanager\.com\/gtag\/js/)) return;
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
-    if (!state.ga4Initialized) {
-      window.gtag('js', new Date());
-      window.gtag('config', CONFIG.ga4Id, { anonymize_ip: true });
-      state.ga4Initialized = true;
-    }
-    loadScript(`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(CONFIG.ga4Id)}`, 'ga4');
   }
 
   function loadClarityDirect() {
@@ -133,8 +121,7 @@
   function start() {
     if (state.started) return;
     state.started = true;
-    const gtmActive = loadGTM();
-    if (!gtmActive) loadGA4Direct();
+    loadGTM();
     loadClarityDirect();
     if (document.querySelector('ins.adsbygoogle')) {
       if (document.readyState === 'complete') scheduleAds();
