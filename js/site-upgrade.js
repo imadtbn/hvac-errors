@@ -203,6 +203,9 @@
     document.documentElement.dir = state.lang === 'en' ? 'ltr' : 'rtl';
     document.documentElement.dataset.language = state.lang;
     document.body.classList.toggle('lang-en', state.lang === 'en');
+    const mobileNav = document.getElementById('mobileNav');
+    if (mobileNav) mobileNav.setAttribute('aria-label', state.lang === 'en' ? 'Mobile navigation' : 'قائمة التنقل للهاتف');
+    window.hvacSyncMobileMenu?.();
     const toggle = document.getElementById('languageToggle');
     if (toggle) { toggle.textContent = state.lang === 'en' ? 'ع' : 'EN'; toggle.title = state.lang === 'en' ? 'Switch to Arabic' : 'Switch to English'; toggle.setAttribute('aria-label', toggle.title); }
     translateStaticText();
