@@ -80,6 +80,87 @@
     fallback.hreflang = 'x-default'; fallback.href = languageUrl('ar');
   }
 
+
+  // Keep desktop and mobile navigation in sync across all site pages.
+  function enhanceSiteNavigation() {
+    const desktop = document.querySelector('.header .nav');
+    const mobile = document.getElementById('mobileNav');
+    const btn = document.getElementById('mobileMenuBtn');
+    const overlay = document.getElementById('mobileOverlay');
+    if (!mobile || !btn) return;
+
+    if (desktop && !desktop.hasAttribute('aria-label')) desktop.setAttribute('aria-label', 'التنقل الرئيسي');
+    mobile.setAttribute('aria-label', 'قائمة التنقل للهاتف');
+
+    const links = [...(desktop?.querySelectorAll('a[href]') || [])].map(a => ({
+      href: a.getAttribute('href'), label: a.textContent.trim()
+    }));
+    [['faq.html', 'الأسئلة الشائعة'], ['privacy.html', 'سياسة الخصوصية']].forEach(([href, label]) => {
+      if (!links.some(a => a.href === href)) links.push({ href, label });
+    });
+    const existing = new Map([...mobile.querySelectorAll('a[href]')].map(a => [a.getAttribute('href'), a]));
+    links.forEach(({ href, label }) => {
+      let link = existing.get(href);
+      if (!link) {
+        link = document.createElement('a');
+        link.setAttribute('href', href);
+        link.textContent = label;
+      }
+      mobile.appendChild(link);
+    });
+
+    const current = location.pathname.split('/').pop() || 'index.html';
+    const activePage = ({ 'error.html': 'errors.html', 'article.html': 'articles.html', 'search.html': 'errors.html' })[current] || current;
+    document.querySelectorAll('.header .nav a[href], .mobile-nav a[href]').forEach(link => {
+      const isCurrent = link.getAttribute('href') === activePage;
+      link.classList.toggle('active', isCurrent);
+      if (isCurrent) link.setAttribute('aria-current', 'page');
+      else link.removeAttribute('aria-current');
+    });
+
+    btn.setAttribute('type', 'button');
+    btn.setAttribute('aria-controls', 'mobileNav');
+    const close = document.createElement('button');
+    close.className = 'mobile-nav-close';
+    close.type = 'button';
+    close.textContent = '×';
+    mobile.prepend(close);
+
+    const sync = () => {
+      const open = mobile.classList.contains('open');
+      btn.setAttribute('aria-expanded', String(open));
+      btn.setAttribute('aria-label', state.lang === 'en' ? (open ? 'Close menu' : 'Open menu') : (open ? 'إغلاق القائمة' : 'فتح القائمة'));
+      close.setAttribute('aria-label', state.lang === 'en' ? 'Close menu' : 'إغلاق القائمة');
+      mobile.inert = !open;
+    };
+    const closeMenu = () => {
+      mobile.classList.remove('open');
+      overlay?.classList.remove('open');
+      btn.textContent = '☰';
+      sync();
+      btn.focus();
+    };
+    close.addEventListener('click', closeMenu);
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && mobile.classList.contains('open')) closeMenu();
+    });
+    btn.addEventListener('click', sync);
+    overlay?.addEventListener('click', sync);
+    mobile.addEventListener('click', event => {
+      if (event.target.closest('a')) sync();
+    });
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 1180 && mobile.classList.contains('open')) closeMenu();
+    });
+    window.hvacSyncMobileMenu = sync;
+
+    document.querySelectorAll('.footer-contact a').forEach(link => {
+      const node = [...link.childNodes].find(child => child.nodeType === Node.TEXT_NODE);
+      if (node) node.nodeValue = node.nodeValue.replace(/^\s*(?:📞|✉️|💬)\s*/u, '');
+    });
+    sync();
+  }
+
   function addLanguageToggle() {
     const actions = document.querySelector('.header-actions');
     if (!actions || document.getElementById('languageToggle')) return;
@@ -297,7 +378,8 @@
   function renderDynamic() { renderHome(); renderArticleList(); renderBrandList(); renderArticleDetail(); renderErrorList(); renderErrorDetail(); renderSearchPage(); updateListingSchema(); }
 
   function init() {
-    addLanguageToggle(); installAlternateLinks(); translateShell();
+    enhanceSiteNavigation(); addLanguageToggle(); installAlternateLinks(); translateShell();
+    window.hvacSyncMobileMenu?.();
     document.addEventListener('dataLoaded', e => { state.brands = e.detail.brands || []; state.errors = e.detail.errors || []; loadLocalizedData(e.detail); setTimeout(wrapPagination, 80); });
     setTimeout(renderDynamic, 500);
     document.addEventListener('click', e => { if (e.target.closest('.filter-chip')) setTimeout(renderDynamic, 30); });
